@@ -8,6 +8,10 @@ dist
 .vscode
 .idea
 
+# Accidental shell command files
+eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)".pub
+
 # macOS
 .DS_Store
 **/.DS_Store
