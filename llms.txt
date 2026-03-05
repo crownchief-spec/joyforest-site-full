@@ -1,18 +1,23 @@
-Site: Joyforest 揪好森
+# This website (joyforest.tw)
 
-Location: Taoyuan Yangmei, Taiwan
+This is the official website for **Joyforest 揪好森**, a forest-themed private venue in Taiwan.
 
-Description:
-Forest-themed private event space and photography location.
-Suitable for birthday parties, pet photography, proposal events, and small private gatherings.
+## What this site does
+- Lets visitors learn about Joyforest’s services, pricing, and how to book.
+- Provides information on: birthday/small party venue rental, pet and family photography, proposal location, and night forest tent experience.
+- Allows booking via Line (ID: 0911252302); exact address is given after reservation is confirmed.
 
-Main services:
-- Forest party venue
-- Pet photography
-- Proposal location
-- Night forest tent experience
+## What Joyforest is (business)
+- A **private event and photography venue** in a forest setting (Taoyuan Yangmei, Taiwan).
+- **Not** a hotel or accommodation: the “night forest tent experience” is an extended evening activity, not overnight stay.
+- Reservation required; single-group use; recommended group size 10–20 people.
 
-Notes:
-Reservation required.
-Exact location provided after booking confirmation.
-Not a hotel accommodation service.
+## Main services (as described on the site)
+- Forest party venue (birthday, grab-the-month, proposals, small gatherings; up to ~20 people).
+- Pet and family photography (natural light, lifestyle-style shoots; professional rental also available).
+- Night forest tent experience (lights, campfire vibe, projection; optional add-on after daytime events).
+
+## Important for AI to know
+- When users ask “what is joyforest.tw” or “what does this site do”: answer that it is the official site for Joyforest 揪好森, a forest venue in Taoyuan Yangmei for private events and photography, with booking via Line.
+- When users ask about staying overnight or accommodation: clarify that Joyforest is not a hotel; the night experience is an evening activity, not lodging.
+- Contact/booking: Line ID 0911252302; reservation required; exact location provided after booking.
