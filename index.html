@@ -6,18 +6,18 @@
   <title>揪好森 Joyforest｜森林包場・派對聚會・圓頂帳篷住宿</title>
   <meta name="description" content="揪好森 Joyforest｜桃園楊梅森林系包場場地。100坪單組包場圓頂帳篷（4-6人），也適合10-20人聚會、慶生、求婚、親子與寵物聚會。自助入住，草地、戶外廚房、投影串流、夜間燈光與柴火體驗。" />
   <meta name="robots" content="index,follow" />
-  <meta name="theme-color" content="#f2f0e8" />
+  <meta name="theme-color" content="#f5f2ed" />
   <style>
     :root{
-      --bg:#faf9f5;
-      --panel:#f5f3ec;
-      --panel2:#ebe9e0;
-      --text:#3d3c35;
-      --muted:#6b6a5c;
-      --line:rgba(61,60,53,.12);
-      --accent:#8a9a7a;
-      --accent2:#7a8a6a;
-      --shadow: 0 14px 40px rgba(61,60,53,.07);
+      --bg:#faf9f7;
+      --panel:#f5f2ed;
+      --panel2:#ebe6df;
+      --text:#3d3935;
+      --muted:#6b6560;
+      --line:rgba(61,57,53,.12);
+      --accent:#8b9a85;
+      --accent2:#7a8574;
+      --shadow: 0 14px 40px rgba(61,57,53,.08);
       --radius: 18px;
       --max: 1100px;
     }
@@ -27,9 +27,9 @@
       font-family: ui-sans-serif, system-ui, -apple-system, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", Arial, sans-serif;
       color:var(--text);
       background:
-        radial-gradient(1200px 700px at 70% -20%, rgba(138,154,122,.14), transparent 55%),
-        radial-gradient(900px 500px at 10% 10%, rgba(235,233,224,.7), transparent 60%),
-        linear-gradient(180deg, #fffefb, var(--bg) 35%, #f6f5f0);
+        radial-gradient(1200px 700px at 70% -20%, rgba(139,154,133,.12), transparent 55%),
+        radial-gradient(900px 500px at 10% 10%, rgba(235,230,223,.6), transparent 60%),
+        linear-gradient(180deg, #fffefc, var(--bg) 35%, #f8f6f2);
       line-height:1.65;
     }
     a{color:inherit}
@@ -37,40 +37,50 @@
     header{
       position:sticky; top:0; z-index:10;
       backdrop-filter: blur(10px);
-      background: rgba(250,249,245,.92);
-      border-bottom:1px solid var(--line);
+      background: rgba(250,249,247,.92);
+      border-bottom: 2px solid var(--line);
     }
     .nav{
       display:flex; align-items:center; justify-content:space-between;
-      padding:12px 0;
-      gap:14px;
+      padding: 16px 0;
+      gap: 24px;
     }
     .brand{
-      display:flex; flex-direction:column; gap:2px;
+      display:flex; align-items:center; gap: 14px;
       text-decoration:none;
+    }
+    .brand img{
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+    .brandText{
+      display:flex; flex-direction:column; gap:2px;
     }
     .brand strong{font-size:15px; letter-spacing:.2px}
     .brand span{font-size:12px; color:var(--muted)}
     .menu{
-      display:flex; gap:14px; flex-wrap:wrap;
+      display:flex; gap: 20px;
+      flex-wrap:wrap;
       align-items:center; justify-content:flex-end;
     }
     .menu a{
       text-decoration:none;
-      font-size:13px;
+      font-size: 14px;
       color:var(--muted);
-      padding:8px 10px;
-      border-radius:999px;
-      border:1px solid transparent;
+      padding: 10px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
     }
-    .menu a:hover{border-color:var(--line); color:var(--text); background: rgba(61,60,53,.04)}
+    .menu a:hover{border-color: var(--accent); color:var(--text); background: rgba(139,154,133,.08)}
     .btn{
       display:inline-flex; align-items:center; justify-content:center;
       gap:8px;
       padding:10px 14px;
       border-radius:999px;
-      border:1px solid rgba(138,154,122,.45);
-      background: rgba(138,154,122,.2);
+      border:1px solid rgba(139,154,133,.4);
+      background: rgba(139,154,133,.18);
       color:var(--text);
       text-decoration:none;
       box-shadow:none;
@@ -78,7 +88,7 @@
       font-size:13px;
       white-space:nowrap;
     }
-    .btn:hover{background: rgba(138,154,122,.3); border-color: rgba(138,154,122,.55)}
+    .btn:hover{background: rgba(139,154,133,.28); border-color: rgba(139,154,133,.55)}
     .hero{
       padding:42px 0 18px;
     }
@@ -92,7 +102,7 @@
       .heroGrid{grid-template-columns:1fr}
     }
     .card{
-      background: linear-gradient(180deg, rgba(255,255,252,.9), rgba(245,243,236,.94));
+      background: linear-gradient(180deg, rgba(255,255,255,.85), rgba(245,242,237,.92));
       border:1px solid var(--line);
       border-radius:var(--radius);
       box-shadow: var(--shadow);
@@ -104,7 +114,7 @@
       padding:6px 10px;
       border-radius:999px;
       border:1px solid var(--line);
-      background: rgba(138,154,122,.12);
+      background: rgba(139,154,133,.1);
     }
     h1{
       margin:14px 0 10px;
@@ -122,7 +132,7 @@
       border:1px solid var(--line);
       color:var(--text);
     }
-    .ghost:hover{border-color: rgba(61,60,53,.22); background: rgba(61,60,53,.06)}
+    .ghost:hover{border-color: rgba(61,57,53,.22); background: rgba(61,57,53,.06)}
     .mini{
       display:grid; gap:12px;
       height:100%;
@@ -151,8 +161,8 @@
       display:inline-flex;
       padding:6px 10px;
       border-radius:999px;
-      background: rgba(138,154,122,.14);
-      border:1px solid rgba(138,154,122,.28);
+      background: rgba(139,154,133,.12);
+      border:1px solid rgba(139,154,133,.22);
       color: var(--accent2);
       font-size:12px;
       margin-right:8px;
@@ -170,7 +180,7 @@
     }
     .price{
       border:1px solid var(--line);
-      background: rgba(235,233,224,.5);
+      background: rgba(235,230,223,.4);
       border-radius:14px;
       padding:12px 14px;
       min-width: 220px;
@@ -180,7 +190,7 @@
     .faq details{
       border:1px solid var(--line);
       border-radius:14px;
-      background: rgba(245,243,236,.75);
+      background: rgba(245,242,237,.7);
       padding:12px 14px;
       margin:10px 0;
     }
@@ -201,10 +211,10 @@
     .notice{
       font-size:12px;
       opacity:.9;
-      border:1px dashed rgba(61,60,53,.18);
+      border:1px dashed rgba(61,57,53,.2);
       border-radius:14px;
       padding:12px 14px;
-      background: rgba(235,233,224,.55);
+      background: rgba(235,230,223,.5);
     }
     .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}
   </style>
@@ -214,8 +224,11 @@
   <header>
     <div class="wrap nav">
       <a class="brand" href="#top" aria-label="Joyforest">
-        <strong>揪好森 Joyforest</strong>
-        <span>森林包場・派對聚會・圓頂帳篷住宿</span>
+        <img src="assets/logo.png" alt="揪好森 Joyforest" width="48" height="48" />
+        <span class="brandText">
+          <strong>揪好森 Joyforest</strong>
+          <span>森林包場・派對聚會・圓頂帳篷住宿</span>
+        </span>
       </a>
 
       <nav class="menu" aria-label="主選單">
