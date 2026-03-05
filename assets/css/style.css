@@ -25,6 +25,9 @@ p{margin:0 0 12px}
 
 .card{background:rgba(255,255,255,.92); border:1px solid var(--line); border-radius:var(--r); box-shadow:var(--shadow); padding:18px}
 .card ul{margin:0; padding-left:18px}
+.card-links{display:flex; flex-wrap:wrap; gap:8px; margin-top:14px}
+.card-link{display:inline-block; padding:6px 12px; border-radius:999px; font-size:12px; font-weight:600; text-decoration:none; background:rgba(184,137,91,.12); border:1px solid rgba(184,137,91,.28); color:var(--wood-dark); transition:background .2s, border-color .2s}
+.card-link:hover{background:rgba(184,137,91,.22); border-color:var(--wood)}
 .badge{display:inline-flex; align-items:center; gap:8px; padding:8px 10px; border-radius:999px;
   background:rgba(184,137,91,.16); border:1px solid rgba(184,137,91,.25); color:var(--wood-dark); font-weight:700; font-size:12px}
 
@@ -72,7 +75,7 @@ p{margin:0 0 12px}
 
 .hero{position:relative; min-height:70vh; display:grid; align-items:center; overflow:hidden; background:#111; z-index:0}
 .hero .media{position:absolute; inset:0; z-index:-1}
-.hero video{width:100%; height:100%; object-fit:cover; transform:scale(1.02)}
+.hero video,.hero .media img{width:100%; height:100%; object-fit:cover; transform:scale(1.02)}
 .hero .overlay{position:absolute; inset:0;
   background:radial-gradient(80% 60% at 50% 35%, rgba(0,0,0,.10) 0%, rgba(0,0,0,.55) 70%, rgba(0,0,0,.75) 100%),
             linear-gradient(180deg, rgba(0,0,0,.25) 0%, rgba(0,0,0,.70) 100%)}
@@ -112,7 +115,13 @@ p{margin:0 0 12px}
   .menu.open .dropdown .dropdown-panel{display:block}
 }
 
-.footer-grid{display:grid; grid-template-columns:2fr 1fr 1fr; gap:16px; padding:26px 0}
+.footer-grid{display:grid; grid-template-columns:2fr 1fr 1.5fr; gap:24px; padding:26px 0}
 .footer-grid a{text-decoration:none; color:var(--muted)}
 .footer-grid a:hover{color:var(--wood-dark)}
+.footer-sitemap h3{margin-bottom:10px}
+.sitemap-list{list-style:none; margin:0; padding:0; font-size:14px}
+.sitemap-list li{margin:0 0 6px}
+.sitemap-list li a{display:inline-block; padding:2px 0}
+.sitemap-list .sitemap-group{margin-top:12px; margin-bottom:4px; font-weight:700; color:var(--wood-dark); font-size:13px}
+.sitemap-list .sitemap-group:first-child{margin-top:0}
 @media(max-width:980px){.footer-grid{grid-template-columns:1fr}}

@@ -42,9 +42,9 @@
     const v = document.querySelector(".hero video");
     if(!v) return;
     v.addEventListener("error", ()=>{ v.style.display="none"; });
-    const isSmall = window.matchMedia("(max-width: 520px)").matches;
+    // 僅在「省流量」模式下不自動播放，手機也讓影片動起來
     const saveData = navigator.connection && navigator.connection.saveData;
-    if(isSmall || saveData){
+    if(saveData){
       try{ v.pause(); v.removeAttribute("autoplay"); }catch(_){}
     }
   }
