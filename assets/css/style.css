@@ -89,7 +89,7 @@ p{margin:0 0 12px}
 .site-footer{background:rgba(246,241,231,.9); backdrop-filter:blur(10px)}
 .nav{display:flex; align-items:center; justify-content:space-between; padding:14px 0}
 .brand{display:flex; align-items:center; gap:10px; text-decoration:none; font-weight:900}
-.brand img{width:36px;height:36px;object-fit:contain}
+.brand img{width:61px;height:61px;object-fit:contain}
 .menu{display:flex; gap:16px; align-items:center}
 .menu a{color:var(--text); text-decoration:none; font-weight:700; font-size:14px}
 .menu a:hover{color:var(--wood-dark)}
