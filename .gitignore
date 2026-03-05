@@ -2,3 +2,8 @@
 assets/.DS_Store
 assets/images/.DS_Store
 assets/video/.DS_Store
+node_modules
+.env
+dist
+.vscode
+.idea
