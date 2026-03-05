@@ -3,468 +3,446 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>揪好森 Joyforest｜森林包場・派對聚會・圓頂帳篷住宿</title>
-  <meta name="description" content="揪好森 Joyforest｜桃園楊梅森林系包場場地。100坪單組包場圓頂帳篷（4-6人），也適合10-20人聚會、慶生、求婚、親子與寵物聚會。自助入住，草地、戶外廚房、投影串流、夜間燈光與柴火體驗。" />
+  <title>Joyforest 森林系活動包場・攝影棚｜桃園楊梅單組預約</title>
+  <meta name="description" content="Joyforest 揪好森｜桃園楊梅森林系活動包場與攝影棚。適合生日派對、抓周儀式、求婚、小型聚會與親子寵物寫真，夜間森林帳篷體驗採夜間延時使用（非旅宿服務），單組預約、不被打擾。" />
   <meta name="robots" content="index,follow" />
-  <meta name="theme-color" content="#f5f2ed" />
-  <style>
-    :root{
-      --bg:#faf9f7;
-      --panel:#f5f2ed;
-      --panel2:#ebe6df;
-      --text:#3d3935;
-      --muted:#6b6560;
-      --line:rgba(61,57,53,.12);
-      --accent:#8b9a85;
-      --accent2:#7a8574;
-      --shadow: 0 14px 40px rgba(61,57,53,.08);
-      --radius: 18px;
-      --max: 1100px;
-    }
-    *{box-sizing:border-box}
-    body{
-      margin:0;
-      font-family: ui-sans-serif, system-ui, -apple-system, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", Arial, sans-serif;
-      color:var(--text);
-      background:
-        radial-gradient(1200px 700px at 70% -20%, rgba(139,154,133,.12), transparent 55%),
-        radial-gradient(900px 500px at 10% 10%, rgba(235,230,223,.6), transparent 60%),
-        linear-gradient(180deg, #fffefc, var(--bg) 35%, #f8f6f2);
-      line-height:1.65;
-    }
-    a{color:inherit}
-    .wrap{max-width:var(--max); margin:0 auto; padding:0 18px}
-    header{
-      position:sticky; top:0; z-index:10;
-      backdrop-filter: blur(10px);
-      background: rgba(250,249,247,.92);
-      border-bottom:1px solid var(--line);
-    }
-    .nav{
-      display:flex; align-items:center; justify-content:space-between;
-      padding:12px 0;
-      gap:14px;
-    }
-    .brand{
-      display:flex; flex-direction:column; gap:2px;
-      text-decoration:none;
-    }
-    .brand strong{font-size:15px; letter-spacing:.2px}
-    .brand span{font-size:12px; color:var(--muted)}
-    .menu{
-      display:flex; gap:14px; flex-wrap:wrap;
-      align-items:center; justify-content:flex-end;
-    }
-    .menu a{
-      text-decoration:none;
-      font-size:13px;
-      color:var(--muted);
-      padding:8px 10px;
-      border-radius:999px;
-      border:1px solid transparent;
-    }
-    .menu a:hover{border-color:var(--line); color:var(--text); background: rgba(61,57,53,.04)}
-    .btn{
-      display:inline-flex; align-items:center; justify-content:center;
-      gap:8px;
-      padding:10px 14px;
-      border-radius:999px;
-      border:1px solid rgba(139,154,133,.4);
-      background: rgba(139,154,133,.18);
-      color:var(--text);
-      text-decoration:none;
-      box-shadow:none;
-      font-weight:600;
-      font-size:13px;
-      white-space:nowrap;
-    }
-    .btn:hover{background: rgba(139,154,133,.28); border-color: rgba(139,154,133,.55)}
-    .hero{
-      padding:42px 0 18px;
-    }
-    .heroGrid{
-      display:grid;
-      grid-template-columns: 1.25fr .75fr;
-      gap:18px;
-      align-items:stretch;
-    }
-    @media (max-width: 900px){
-      .heroGrid{grid-template-columns:1fr}
-    }
-    .card{
-      background: linear-gradient(180deg, rgba(255,255,255,.85), rgba(245,242,237,.92));
-      border:1px solid var(--line);
-      border-radius:var(--radius);
-      box-shadow: var(--shadow);
-      padding:22px;
-    }
-    .kicker{
-      display:inline-flex; align-items:center; gap:10px;
-      font-size:12px; color:var(--muted);
-      padding:6px 10px;
-      border-radius:999px;
-      border:1px solid var(--line);
-      background: rgba(139,154,133,.1);
-    }
-    h1{
-      margin:14px 0 10px;
-      font-size:34px;
-      line-height:1.2;
-      letter-spacing:.2px;
-    }
-    @media (max-width: 520px){
-      h1{font-size:28px}
-    }
-    .lead{color:var(--muted); font-size:15px; margin:0 0 16px}
-    .ctaRow{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px}
-    .ghost{
-      background: transparent;
-      border:1px solid var(--line);
-      color:var(--text);
-    }
-    .ghost:hover{border-color: rgba(61,57,53,.22); background: rgba(61,57,53,.06)}
-    .mini{
-      display:grid; gap:12px;
-      height:100%;
-    }
-    .mini .tile{
-      border:1px solid var(--line);
-      border-radius:14px;
-      padding:14px;
-      background: rgba(255,255,255,.6);
-    }
-    .tile b{display:block; margin-bottom:6px}
-    .tile p{margin:0; color:var(--muted); font-size:13px}
-    .section{padding:18px 0}
-    .section h2{
-      margin:0 0 10px;
-      font-size:18px;
-      letter-spacing:.2px;
-    }
-    .grid3{
-      display:grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap:14px;
-    }
-    @media (max-width: 900px){.grid3{grid-template-columns:1fr}}
-    .pill{
-      display:inline-flex;
-      padding:6px 10px;
-      border-radius:999px;
-      background: rgba(139,154,133,.12);
-      border:1px solid rgba(139,154,133,.22);
-      color: var(--accent2);
-      font-size:12px;
-      margin-right:8px;
-      margin-bottom:8px;
-    }
-    .list{
-      margin:10px 0 0;
-      padding-left:18px;
-      color:var(--muted);
-      font-size:14px;
-    }
-    .list li{margin:6px 0}
-    .priceRow{
-      display:flex; gap:10px; flex-wrap:wrap; margin-top:10px
-    }
-    .price{
-      border:1px solid var(--line);
-      background: rgba(235,230,223,.4);
-      border-radius:14px;
-      padding:12px 14px;
-      min-width: 220px;
-    }
-    .price small{color:var(--muted)}
-    .price strong{display:block; font-size:18px; margin-top:4px}
-    .faq details{
-      border:1px solid var(--line);
-      border-radius:14px;
-      background: rgba(245,242,237,.7);
-      padding:12px 14px;
-      margin:10px 0;
-    }
-    .faq summary{cursor:pointer; font-weight:700}
-    .faq p{margin:10px 0 0; color:var(--muted); font-size:14px}
-    footer{
-      padding:26px 0 40px;
-      color:var(--muted);
-      border-top:1px solid var(--line);
-      margin-top:22px;
-    }
-    .footerGrid{
-      display:grid;
-      grid-template-columns: 1fr 1fr;
-      gap:14px;
-    }
-    @media (max-width: 900px){.footerGrid{grid-template-columns:1fr}}
-    .notice{
-      font-size:12px;
-      opacity:.9;
-      border:1px dashed rgba(61,57,53,.2);
-      border-radius:14px;
-      padding:12px 14px;
-      background: rgba(235,230,223,.5);
-    }
-    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}
-  </style>
+  <meta name="theme-color" content="#f7f3ec" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23c89a68'/%3E%3Cpath d='M32 10 20 34h8l-4 12 12-18h-8z' fill='%23fdfaf6'/%3E%3C/svg%3E" />
+  <script src="assets/js/main.js" defer></script>
 </head>
-
 <body>
-  <img src="/assets/images/hero/IMG_7652.JPG" alt="Joyforest 森林場地">
-  <img src="/assets/images/hero/loxgo.png" alt="Joyforest 森林場地">
-  <header>
-    <div class="wrap nav">
-      <a class="brand" href="#top" aria-label="Joyforest">
-        <strong>揪好森 Joyforest</strong>
-        <span>森林包場・派對聚會・圓頂帳篷住宿</span>
+  <header class="site-header">
+    <div class="wrap nav-inner">
+      <a href="/index.html" class="brand" aria-label="Joyforest 森林系活動包場與攝影棚">
+        <span class="brand-mark">J</span>
+        <span class="brand-text">
+          <span class="brand-title">Joyforest</span>
+          <span class="brand-subtitle">森林系活動包場・攝影棚（預約制）</span>
+        </span>
       </a>
-
-      <nav class="menu" aria-label="主選單">
-        <a href="#glamping">住宿帳篷</a>
-        <a href="#party">森林派對</a>
-        <a href="#features">空間亮點</a>
-        <a href="#faq">FAQ</a>
-        <a class="btn" href="#contact">立即詢問</a>
+      <button class="nav-toggle" type="button" aria-label="切換主選單" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-main" aria-label="主選單">
+        <a href="/index.html" class="nav-link is-active">首頁</a>
+        <div class="nav-group">
+          <button class="nav-link nav-group-toggle" type="button">
+            派對活動
+            <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16">
+              <path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="nav-dropdown">
+            <a href="/pages/birthday-party.html">生日與小型派對包場<span>好友聚會、慶生、小型活動</span></a>
+            <a href="/pages/pet-party.html">寵物聚會<span>毛孩家庭專屬森林空間</span></a>
+            <a href="/pages/baby-grab.html">抓周派對<span>一歲儀式＋家庭留影</span></a>
+            <a href="/pages/proposal.html">求婚場地<span>安靜不被打擾的時刻</span></a>
+            <a href="/pages/forest-wedding.html">森林戶外婚禮<span>小型儀式與見證</span></a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <button class="nav-link nav-group-toggle" type="button">
+            攝影棚
+            <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16">
+              <path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="nav-dropdown">
+            <a href="/pages/photo-location.html">森林攝影場地出租<span>同業與品牌拍攝空間</span></a>
+            <a href="/pages/family-photography.html">親子攝影<span>自然光下的家庭寫真</span></a>
+            <a href="/pages/pet-photography.html">寵物攝影<span>毛孩專屬森林棚</span></a>
+          </div>
+        </div>
+        <a href="/pages/forest-night-experience.html" class="nav-link">夜間森林體驗</a>
+        <div class="nav-group">
+          <button class="nav-link nav-group-toggle" type="button">
+            場地資訊
+            <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16">
+              <path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="nav-dropdown">
+            <a href="/pages/about.html">關於我們<span>品牌故事與場地理念</span></a>
+            <a href="/pages/location.html">交通方式<span>桃園楊梅周邊資訊</span></a>
+            <a href="/pages/rules.html">使用規則<span>自主包場與安全提醒</span></a>
+            <a href="/pages/faq.html">常見問題<span>預約前先了解</span></a>
+          </div>
+        </div>
+        <a href="/pages/book.html" class="nav-link nav-cta">
+          <span class="btn btn-sm">預約與檔期詢問</span>
+        </a>
       </nav>
     </div>
   </header>
 
   <main id="top">
-    <!-- HERO -->
     <section class="hero">
-      <div class="wrap heroGrid">
-        <div class="card">
-          <div class="kicker">🌲 單組包場｜約 100 坪森林草地｜桃園楊梅</div>
-          <h1>把森林借給你們一晚：<br/>住宿、聚會、派對都只屬於你們</h1>
-          <p class="lead">
-            揪好森是一處森林系包場場域：可選擇「圓頂帳篷住宿（4–6人）」或「森林聚會包場（10–20人）」。
-            不用與陌生人共享空間，自助入住、自由安排、盡情相聚。
-          </p>
-
-          <div class="ctaRow">
-            <a class="btn" href="#contact">📩 私訊/填表詢問</a>
-            <a class="btn ghost" href="#party">🎉 看派對方案</a>
-            <a class="btn ghost" href="#glamping">⛺ 看住宿方案</a>
-          </div>
-
-          <div style="margin-top:14px">
-            <span class="pill">自助入住</span>
-            <span class="pill">草地活動空間</span>
-            <span class="pill">投影＋串流</span>
-            <span class="pill">夜間燈光</span>
-            <span class="pill">柴火體驗</span>
-          </div>
-        </div>
-
-        <aside class="mini">
-          <div class="tile">
-            <b>⛺ 圓頂帳篷住宿</b>
-            <p>4–6 人｜兩張雙人床｜17:00 入住 / 10:00 退房</p>
-          </div>
-          <div class="tile">
-            <b>🎉 森林聚會包場</b>
-            <p>10–20 人｜慶生/抓周/求婚/寵物聚會｜彈性時段</p>
-          </div>
-          <div class="tile">
-            <b>🍳 戶外廚房＋草地</b>
-            <p>可自備食材料理、聚餐聊天、佈置拍照與放鬆</p>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <!-- GLAMPING -->
-    <section id="glamping" class="section">
       <div class="wrap">
-        <h2>住宿方案｜圓頂帳篷（4–6人）</h2>
-        <div class="grid3">
-          <div class="card">
-            <div class="kicker">🛏 房內配置</div>
-            <ul class="list">
-              <li>兩張雙人床（可加床墊）</li>
-              <li>投影設備＋可串流（依現場設備）</li>
-              <li>夜間燈光氛圍、森林系空間</li>
-            </ul>
-          </div>
-          <div class="card">
-            <div class="kicker">🌿 戶外與公共</div>
-            <ul class="list">
-              <li>約 100 坪單組包場草地活動空間</li>
-              <li>戶外廚房：可自炊、聚餐、聊天</li>
-              <li>柴火體驗（依現場規範使用）</li>
-            </ul>
-          </div>
-          <div class="card">
-            <div class="kicker">🕒 入住時間</div>
-            <ul class="list">
-              <li>入住：17:00</li>
-              <li>退房：10:00</li>
-              <li>本場域採自助入住，無餐點與管家服務</li>
-            </ul>
-
-            <div class="priceRow" aria-label="參考價格">
-              <div class="price">
-                <small>平日</small>
-                <strong>NT$ 4,800</strong>
-              </div>
-              <div class="price">
-                <small>假日</small>
-                <strong>NT$ 7,800</strong>
+        <div class="grid-2">
+          <div class="hero-media">
+            <!-- 若影片檔案不可用，可改為下方靜態圖：
+            <img src="assets/images/hero/forest-hero-01.jpg" alt="Joyforest 森林系活動包場空拍" loading="lazy">
+            -->
+            <video class="hero-video" autoplay muted loop playsinline poster="assets/images/hero/forest-hero-01.jpg">
+              <source src="assets/video/hero/hero-forest-aerial.mp4" type="video/mp4" />
+            </video>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+              <div class="hero-tagline">TAOYUAN YANGMEI · FOREST VENUE</div>
+              <h1 class="hero-title">Joyforest 森林系活動包場・攝影棚</h1>
+              <p class="hero-subtitle">
+                生日派對、抓周派對、求婚、小型聚會、親子與寵物寫真，安靜的森林草地只接待一組預約。
+              </p>
+              <p class="hero-services">
+                10–20 人森林聚會、森林系自然光攝影棚、夜間森林帳篷體驗（夜間延時使用，非旅宿服務）。
+              </p>
+              <div class="hero-cta-row">
+                <a class="btn" href="/pages/book.html">立即預約 Joyforest</a>
+                <a class="btn btn-ghost" href="#services">看服務總覽</a>
               </div>
             </div>
-
-            <p style="margin:10px 0 0; color:var(--muted); font-size:12px">
-              * 價格與入住規則以實際預訂回覆為準（可做活動或住宿檔期調整）。
-            </p>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PARTY -->
-    <section id="party" class="section">
-      <div class="wrap">
-        <h2>森林聚會｜派對包場（10–20人）</h2>
-        <div class="grid3">
-          <div class="card">
-            <div class="kicker">🎈 適合活動</div>
-            <ul class="list">
-              <li>生日慶生、抓周、朋友聚會</li>
-              <li>求婚/紀念日、親子活動</li>
-              <li>寵物聚會、森林拍照與佈置</li>
-            </ul>
-          </div>
-          <div class="card">
-            <div class="kicker">🧩 使用方式</div>
-            <ul class="list">
-              <li>單組包場：空間只屬於你們</li>
-              <li>可自備餐食、飲料、佈置道具</li>
-              <li>提供草地＋戶外廚房＋氛圍燈光</li>
-            </ul>
-          </div>
-          <div class="card">
-            <div class="kicker">💰 參考價格</div>
-            <div class="priceRow">
-              <div class="price">
-                <small>平日包場</small>
-                <strong>NT$ 4,800</strong>
-              </div>
-              <div class="price">
-                <small>假日包場</small>
-                <strong>NT$ 7,800</strong>
-              </div>
-            </div>
-            <p style="margin:10px 0 0; color:var(--muted); font-size:14px">
-              想做「分時段」也可以（例如早/午/晚三段），你要我再幫你把時段版直接寫進頁面也行。
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FEATURES -->
-    <section id="features" class="section">
-      <div class="wrap">
-        <h2>空間亮點｜為了「好相聚」而設計</h2>
-        <div class="card">
           <div>
-            <span class="pill">100坪單組包場</span>
-            <span class="pill">森林系氛圍</span>
-            <span class="pill">草地活動</span>
-            <span class="pill">戶外廚房</span>
-            <span class="pill">投影串流</span>
-            <span class="pill">夜間燈光</span>
-            <span class="pill">柴火體驗</span>
-          </div>
-          <ul class="list">
-            <li>你們可以把帳篷當作「休息與過夜」，把草地當作「活動主舞台」。</li>
-            <li>沒有過度打擾，適合想要自由安排流程、自己佈置、自己掌控節奏的人。</li>
-            <li>也很適合你用攝影專業做「森林主題派對＋拍照體驗」的延伸方案。</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ -->
-    <section id="faq" class="section">
-      <div class="wrap">
-        <h2>FAQ｜常見問題</h2>
-        <div class="faq">
-          <details>
-            <summary>這裡是多人共用嗎？會遇到別組客人嗎？</summary>
-            <p>不會。揪好森採單組包場制：從帳篷到草地空間都只給你們一組使用。</p>
-          </details>
-          <details>
-            <summary>有提供餐點或管家服務嗎？</summary>
-            <p>目前以自助為主：無餐點、無管家。你們可自備食材並使用戶外廚房。</p>
-          </details>
-          <details>
-            <summary>可以辦慶生、抓周、求婚、寵物聚會嗎？</summary>
-            <p>可以。這類活動很適合森林草地＋包場空間；也可自帶佈置道具與流程安排。</p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section">
-      <div class="wrap">
-        <div class="card">
-          <h2>立即詢問｜檔期與方案</h2>
-          <p class="lead" style="margin-bottom:10px">
-            先做測試版：你把這裡的聯絡方式換成你的（LINE/IG/表單/電話），就能上線跑流量了。
-          </p>
-
-          <div class="grid3">
-            <div class="tile">
-              <b>📌 建議你放的資訊</b>
-              <p class="mono">LINE: @yourline</p>
-              <p class="mono">IG: @joyforest____</p>
-              <p class="mono">Phone: 09xx-xxx-xxx</p>
-            </div>
-            <div class="tile">
-              <b>📝 你也可以放表單</b>
-              <p>把下方按鈕連到 Google Form / Typeform / Notion form 都可以。</p>
-              <p style="margin-top:10px">
-                <a class="btn" href="#" onclick="alert('把這個連結換成你的表單網址'); return false;">開啟預約表單</a>
+            <div class="card">
+              <div class="kicker-badge">🌲 桃園楊梅・單組包場（預約制）</div>
+              <p class="muted" style="margin-top:10px">
+                Joyforest 是一座藏在城市邊緣的森林系活動空間，用溫暖木色、自然光與草地，為每一場重要時刻留下一個安靜的背景。
+              </p>
+              <div class="chip-row">
+                <span class="chip">抓周與成長儀式</span>
+                <span class="chip">好友生日與小型派對</span>
+                <span class="chip">寵物家庭聚會</span>
+                <span class="chip">品牌／形象視覺拍攝</span>
+                <span class="chip">夜間森林帳篷體驗（非旅宿）</span>
+              </div>
+              <p class="hero-secondary">
+                <strong>預約制使用｜</strong>
+                單組包場、不與他人共用動線。所有方案皆可加購影像拍攝，讓「當天的氛圍」成為長久的紀念。
               </p>
             </div>
-            <div class="tile">
-              <b>🧠 我建議的詢問格式</b>
-              <p>日期 / 人數 / 住宿或派對 / 是否需要佈置或投影 / 需求簡述</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="wrap">
+        <div class="section-header">
+          <div class="section-kicker">SERVICES</div>
+          <h2 class="section-title">Joyforest 服務總覽</h2>
+          <p class="section-subtitle">
+            從小型派對、親子寵物寫真，到森林攝影棚與夜間森林帳篷體驗，我們以單組預約的方式，保留一整片安靜的森林給你。
+          </p>
+        </div>
+        <div class="grid-4">
+          <article class="service-card">
+            <div>
+              <div class="kicker-badge">🎉 派對活動</div>
+              <h3>生日與小型派對包場</h3>
+              <p>
+                草地＋圓頂帳篷室內＋戶外廚房與燈光，適合 10–20 人家庭慶生、朋友聚會、抓周儀式與求婚。
+              </p>
+            </div>
+            <div class="service-footer">
+              <div class="service-meta">
+                <div class="price-tag">NT$ 6,800 起<span>｜4 小時純場地</span></div>
+                <div class="muted" style="font-size:12px">加購活動拍攝 NT$ 4,800 起</div>
+              </div>
+              <a class="btn btn-outline btn-sm" href="/pages/birthday-party.html">查看派對方案</a>
+            </div>
+          </article>
+          <article class="service-card">
+            <div>
+              <div class="kicker-badge">📷 森林攝影棚</div>
+              <h3>親子與寵物寫真</h3>
+              <p>
+                森林系自然光攝影棚，結合專業打光、寵物友善道具與溫暖木質背景，適合親子家庭與毛孩寫真。
+              </p>
+            </div>
+            <div class="service-footer">
+              <div class="service-meta">
+                <div class="price-tag">NT$ 3,800 起<span>｜半小時拍攝</span></div>
+                <div class="muted" style="font-size:12px">至少 50 張、基本調色，照片全給</div>
+              </div>
+              <a class="btn btn-outline btn-sm" href="/pages/family-photography.html">看攝影服務</a>
+            </div>
+          </article>
+          <article class="service-card">
+            <div>
+              <div class="kicker-badge">🎬 給同業與品牌</div>
+              <h3>森林攝影場地出租</h3>
+              <p>
+                提供攝影師、品牌與製作公司使用的森林棚租方案，平面與動態拍攝皆可，備有電力與休息區。
+              </p>
+            </div>
+            <div class="service-footer">
+              <div class="service-meta">
+                <div class="price-tag">3 小時 NT$ 2,800<span>（方案優惠價）</span></div>
+                <div class="muted" style="font-size:12px">可延長時數，超時 NT$ 1,000 / 小時</div>
+              </div>
+              <a class="btn btn-outline btn-sm" href="/pages/photo-location.html">看棚租方案</a>
+            </div>
+          </article>
+          <article class="service-card">
+            <div>
+              <div class="kicker-badge">🌙 夜間森林</div>
+              <h3>夜間森林帳篷體驗</h3>
+              <p>
+                在燈光與柴火氛圍中，與少數家人好友延長相聚時間，享受溫暖木系帳篷與草地的靜謐夜晚。
+              </p>
+            </div>
+            <div class="service-footer">
+              <div class="service-meta">
+                <div class="price-tag">NT$ 4,800 起<span>｜夜間延時使用</span></div>
+                <div class="muted" style="font-size:12px">夜間延時使用，非旅宿服務</div>
+              </div>
+              <a class="btn btn-outline btn-sm" href="/pages/forest-night-experience.html">了解夜間體驗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="gallery-title">
+      <div class="wrap">
+        <div class="section-header">
+          <div class="section-kicker">GALLERY</div>
+          <h2 id="gallery-title" class="section-title">Joyforest 一日・小小紀錄</h2>
+          <p class="section-subtitle">
+            從白天的綠意草地到夜間的微光與柴火，這裡是一塊可以自由佈置、拍照、聊天與發呆的森林背景。
+          </p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-grid-large gallery-img">
+            <img src="assets/images/party/joyforest-family-party-01.jpg" loading="lazy" alt="Joyforest 森林家庭派對包場空間" />
+            <div class="gallery-tag">森林草地 × 家庭派對</div>
+          </div>
+          <div class="gallery-grid-small">
+            <div class="gallery-img">
+              <img src="assets/images/night/forest-night-tent-lights.png" loading="lazy" alt="Joyforest 夜間森林帳篷體驗與暖黃燈光" />
+              <div class="gallery-tag">夜間森林帳篷體驗</div>
+            </div>
+            <div class="gallery-img">
+              <img src="assets/images/pets/pet-birthday-party-01.jpg" loading="lazy" alt="Joyforest 寵物友善派對與毛孩家庭合照" />
+              <div class="gallery-tag">寵物友善森聚</div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="notice" style="margin-top:14px">
-            小提醒：如果你想要更「平台友善」的版本（例如 SEO 關鍵字更兇、或中英文分區），我可以直接把這頁改成可用於部署的版本（含 Open Graph、結構化資料 Schema.org）。
+    <section class="section" aria-labelledby="pricing-title">
+      <div class="wrap">
+        <div class="section-header">
+          <div class="section-kicker">PRICING</div>
+          <h2 id="pricing-title" class="section-title">精選方案與價目摘要</h2>
+          <p class="section-subtitle">
+            以下為常見組合與起始費用，實際依日期、人數與使用時段調整。所有方案皆採預約制，填寫預約頁即可收到詳細回覆。
+          </p>
+        </div>
+        <div class="grid-3">
+          <div class="card-soft stack-md">
+            <h3 style="margin:0 0 4px;font-size:16px;">森林聚會包場（20 人內）</h3>
+            <p class="muted" style="margin:0;font-size:14px;">
+              草地＋圓頂帳篷室內＋戶外廚房與投影，適合生日、小型聚會與家庭慶祝。
+            </p>
+            <div class="price-row">
+              <div class="price-card">
+                <small>平日 18:00–22:00</small>
+                <strong>NT$ 4,800 / 場</strong>
+              </div>
+              <div class="price-card">
+                <small>假日分時段 4 小時</small>
+                <strong>NT$ 7,800 / 場</strong>
+              </div>
+            </div>
+            <p class="price-note">
+              可依需求加時，超時與延長使用將於預約回覆中說明。
+            </p>
+          </div>
+          <div class="card-soft stack-md">
+            <h3 style="margin:0 0 4px;font-size:16px;">親子與寵物攝影</h3>
+            <p class="muted" style="margin:0;font-size:14px;">
+              森林系自然光攝影棚，搭配溫暖木色背景與寵物友善空間，適合家庭與毛孩合照。
+            </p>
+            <div class="price-row">
+              <div class="price-card">
+                <small>寵物攝影</small>
+                <strong>NT$ 3,800 起</strong>
+              </div>
+              <div class="price-card">
+                <small>親子寫真</small>
+                <strong>NT$ 4,800 起</strong>
+              </div>
+            </div>
+            <p class="price-note">
+              半小時起拍，至少 50 張、基本調色，照片全給。精修人物／毛孩 NT$ 380 / 張。
+            </p>
+          </div>
+          <div class="card-soft stack-md">
+            <h3 style="margin:0 0 4px;font-size:16px;">棚租與活動紀錄加購</h3>
+            <p class="muted" style="margin:0;font-size:14px;">
+              若你本身是攝影師或品牌，也可以只租用 Joyforest 作為森林場景，或加購活動紀錄服務。
+            </p>
+            <div class="price-row">
+              <div class="price-card">
+                <small>攝影棚場地出租（同業）</small>
+                <strong>3 小時 NT$ 2,800</strong>
+              </div>
+              <div class="price-card">
+                <small>活動紀錄加購</small>
+                <strong>NT$ 4,800 起</strong>
+              </div>
+            </div>
+            <p class="price-note">
+              活動拍照＋微電影短片組合 NT$ 8,800，商業與品牌拍攝依專案報價。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="transport-title">
+      <div class="wrap">
+        <div class="grid-2">
+          <div>
+            <div class="section-header">
+              <div class="section-kicker">ACCESS</div>
+              <h2 id="transport-title" class="section-title">交通方式與周邊機能</h2>
+              <p class="section-subtitle">
+                Joyforest 位於桃園楊梅一帶，兼顧「離城市不遠」與「安靜森林感」，詳細位置將在預約確認後提供。
+              </p>
+            </div>
+            <ul class="list">
+              <li>距離主要交流道、車站與高鐵約 10–20 分鐘車程，適合台北與桃園朋友約在中間點。</li>
+              <li>開車可抵達，周邊有停車空間可規劃；共乘或叫車也方便。</li>
+              <li>鄰近生活機能區域，可先在市區用餐／採買，再進森林空間慢慢相聚。</li>
+              <li>英文摘要：Joyforest is a private forest venue in Taoyuan Yangmei, easy to reach yet quietly hidden from the city.</li>
+            </ul>
+            <p class="note-alert" style="margin-top:10px;">
+              * 地址僅顯示「桃園楊梅」，完成預約後將提供詳細位置與停車說明。
+            </p>
+          </div>
+          <div>
+            <div class="card-soft stack-md">
+              <h3 style="margin:0 0 4px;font-size:16px;">簡單提醒</h3>
+              <p class="muted" style="margin:0;font-size:14px;">
+                Joyforest 為森林系活動包場空間，採單組預約制、不對外開放臨時參觀。若你想先了解動線與場景，可透過預約表單索取更多照片與影片。
+              </p>
+              <ul class="list">
+                <li>空間以活動與拍攝使用為主，夜間延時使用為非旅宿性質。</li>
+                <li>適合 10–20 人聚會、親子與寵物家庭、品牌小型活動。</li>
+              </ul>
+              <a class="btn btn-full btn-sm" href="/pages/location.html">看完整交通說明</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="qa-title">
+      <div class="wrap">
+        <div class="section-header">
+          <div class="section-kicker">FAQ</div>
+          <h2 id="qa-title" class="section-title">先快速了解幾件事</h2>
+          <p class="section-subtitle">
+            更多細節會在預約回覆中一併提供，這裡先整理幾個大家最常問的重點。
+          </p>
+        </div>
+        <div class="grid-2">
+          <div class="faq-list">
+            <details open>
+              <summary>Joyforest 是什麼樣的空間？會與別人共用嗎？</summary>
+              <p>
+                Joyforest 是以森林草地與圓頂帳篷為核心的活動包場與攝影棚空間，採單組預約，不與其他團體共用。
+                無論是抓周派對、好友生日或求婚，都能保留安靜且專屬的氛圍。
+              </p>
+            </details>
+            <details>
+              <summary>可以自己帶食物和飲品嗎？有提供餐點嗎？</summary>
+              <p>
+                歡迎自帶餐點、甜點與飲品，我們提供戶外廚房區域協助擺盤與簡易料理。目前 Joyforest
+                不提供餐飲服務，可搭配你習慣的外送或餐飲合作夥伴。
+              </p>
+            </details>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>寵物與小朋友友善嗎？有什麼建議人數？</summary>
+              <p>
+                場地非常適合親子與寵物家庭，一般建議聚會人數 10–20 人內較舒適。
+                毛孩可以在草地活動，但仍需由飼主自行照顧、留意安全與清潔。
+              </p>
+            </details>
+            <details>
+              <summary>夜間森林帳篷體驗是什麼？是旅宿嗎？</summary>
+              <p>
+                夜間森林帳篷體驗是指在活動後保留一段延長相聚的時光，於森林帳篷與草地區域放鬆。
+                這屬於夜間延時使用，定位為活動空間延長使用，<strong>非旅宿服務</strong>。
+              </p>
+            </details>
+          </div>
+        </div>
+        <div class="notice-box" style="margin-top:16px;">
+          想看更完整的問答整理，可以前往
+          <a href="/pages/faq.html" style="text-decoration:underline;">常見問題頁面</a>
+          ，包含雨天備案、音量與安全規範等細節。
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="wrap">
+        <div class="cta-card">
+          <div>
+            <h2>想在森林裡留下哪一段回憶？</h2>
+            <p>
+              告訴我們活動類型、預計人數與日期時段，Joyforest 會回覆最適合你的方案與費用建議。
+            </p>
+            <p class="cta-meta">
+              Line ID：<span class="mono">0911252302</span>（歡迎直接傳訊），或透過預約表單一次留下資訊。
+            </p>
+          </div>
+          <div class="stack-sm">
+            <a class="btn" href="/pages/book.html">前往預約與檔期詢問</a>
+            <span class="note-alert">所有 CTA 皆導向 /pages/book.html，完成預約後提供詳細位置與規劃。</span>
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="wrap footerGrid">
-      <div>
-        <strong>揪好森 Joyforest</strong>
-        <div style="margin-top:6px">森林包場・派對聚會・圓頂帳篷住宿</div>
-        <div style="margin-top:10px; font-size:12px; opacity:.9">
-          © <span id="y"></span> Joyforest. All rights reserved.
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <div><strong>Joyforest 揪好森</strong></div>
+        <div class="footer-meta">
+          森林系活動包場・攝影棚・夜間森林帳篷體驗（夜間延時使用，非旅宿服務）
+        </div>
+        <div class="footer-meta">
+          桃園楊梅（預約確認後提供詳細位置）｜Line ID：
+          <span class="mono">0911252302</span>
+        </div>
+        <div class="footer-meta">
+          © <span id="year"></span> Joyforest. All rights reserved.
         </div>
       </div>
-      <div class="notice">
-        <div><b>開發備註（給你自己看）</b></div>
-        <div style="margin-top:6px; font-size:12px">
-          1) 先用這個單頁測試上線 → 2) 再拆成次頁（住宿/派對/交通） → 3) 再加圖片與表單。<br/>
-          需要我幫你做成 Astro/Next 的架構（你在 Cursor 裡直接跑）也可以。
+      <div class="stack-md">
+        <div class="footer-note">
+          本網站僅提供活動包場與攝影相關服務資訊，夜間延時使用均屬活動空間性質，
+          <strong>非旅宿服務</strong>；實際方案與價格以 Joyforest 預約回覆為準。
+        </div>
+        <div class="tagline-en">
+          PRIVATE FOREST VENUE · SMALL GATHERINGS · FAMILY & PET FRIENDLY
         </div>
       </div>
     </div>
   </footer>
 
   <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
