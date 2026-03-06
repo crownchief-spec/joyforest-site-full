@@ -200,3 +200,32 @@ p{margin:0 0 12px}
 /* 預約頁主 CTA 按鈕（最醒目） */
 .btn-cta-hero{padding:16px 24px; font-size:17px; box-shadow:0 10px 32px rgba(184,137,91,.4)}
 .btn-cta-hero:hover{transform:translateY(-2px); box-shadow:0 12px 36px rgba(184,137,91,.45)}
+
+/* 首頁服務輪播（service-slider） */
+.service-slider-section{background:#efeee2; padding:48px 0 64px}
+.service-slider{width:min(100%, 760px); margin:0 auto; overflow:hidden}
+.service-track{display:flex; transition:transform .45s ease; will-change:transform}
+.service-slide{min-width:100%; box-sizing:border-box}
+.service-card{background:#e7d5b8; overflow:hidden}
+.service-copy{padding:42px 32px 28px}
+.service-copy h2{margin:0 0 18px; font-family:"Times New Roman","Noto Serif TC",serif; font-size:clamp(2.2rem, 5vw, 4rem); line-height:1.05; font-weight:500; color:#111}
+.service-copy p{margin:0; font-size:clamp(1.05rem, 2vw, 1.35rem); line-height:1.7; color:#111; letter-spacing:.01em}
+.service-image-wrap{width:100%; aspect-ratio:4/3; background:#ddd}
+.service-image-wrap img{width:100%; height:100%; display:block; object-fit:cover}
+.service-slider-controls{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:24px 12px 0}
+.slider-btn{width:92px; height:56px; border:2px solid #111; border-radius:999px; background:transparent; color:#111; display:inline-flex; align-items:center; justify-content:center; cursor:pointer; transition:all .2s ease}
+.slider-btn span{font-size:2rem; line-height:1}
+.slider-btn:hover{background:#111; color:#fff}
+.slider-counter{font-size:1.8rem; color:#111; display:flex; align-items:center; gap:14px; letter-spacing:.04em}
+.slider-counter .divider{opacity:.8}
+@media(max-width:768px){
+  .service-slider-section{padding:28px 0 44px}
+  .service-copy{padding:28px 20px 22px}
+  .service-copy h2{font-size:2.7rem; margin-bottom:14px}
+  .service-copy p{font-size:1.05rem; line-height:1.65}
+  .service-image-wrap{aspect-ratio:4/3.2}
+  .service-slider-controls{padding:18px 10px 0}
+  .slider-btn{width:76px; height:48px}
+  .slider-btn span{font-size:1.7rem}
+  .slider-counter{font-size:1.45rem; gap:10px}
+}
