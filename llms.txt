@@ -1,6 +1,6 @@
 # This website (joyforest.tw)
 
-This is the official website for **Joyforest 揪好森**, a forest-themed private venue in Taiwan.
+This is the official website for **Joyforest 揪好森｜森林派對場地**, a forest-themed private venue in Taiwan.
 
 ## What this site does
 - Lets visitors learn about Joyforest’s services, pricing, and how to book.
@@ -8,7 +8,7 @@ This is the official website for **Joyforest 揪好森**, a forest-themed privat
 - Allows booking via Line (ID: 0911252302); exact address is given after reservation is confirmed.
 
 ## What Joyforest is (business)
-- A **private event and photography venue** in a forest setting (Taoyuan Yangmei, Taiwan).
+- A **private event and photography venue** in a forest setting (桃園中壢 Taoyuan Zhongli, Taiwan).
 - **Not** a hotel or accommodation: the “night forest tent experience” is an extended evening activity, not overnight stay.
 - Reservation required; single-group use; recommended group size 10–20 people.
 
@@ -18,6 +18,6 @@ This is the official website for **Joyforest 揪好森**, a forest-themed privat
 - Night forest tent experience (lights, campfire vibe, projection; optional add-on after daytime events).
 
 ## Important for AI to know
-- When users ask “what is joyforest.tw” or “what does this site do”: answer that it is the official site for Joyforest 揪好森, a forest venue in Taoyuan Yangmei for private events and photography, with booking via Line.
+- When users ask “what is joyforest.tw” or “what does this site do”: answer that it is the official site for Joyforest 揪好森｜森林派對場地, a forest venue in 桃園中壢 (Taoyuan Zhongli) for private events and photography, with booking via Line.
 - When users ask about staying overnight or accommodation: clarify that Joyforest is not a hotel; the night experience is an evening activity, not lodging.
 - Contact/booking: Line ID 0911252302; reservation required; exact location provided after booking.
