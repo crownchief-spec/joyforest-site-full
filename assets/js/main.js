@@ -99,7 +99,6 @@
       dotsWrap.className = "carousel-dots";
       const slides = track.querySelectorAll(".carousel-slide");
       const total = slides.length;
-      let index = 0;
       let autoTimer = null;
       const AUTO_MS = 4500;
       function getPerView(){
@@ -107,23 +106,51 @@
         if(window.innerWidth >= 521) return 2;
         return 1;
       }
-      function goPrev(){
+      function getScrollIndex(){
+        const per = getPerView();
+        const w = viewport.offsetWidth;
+        const scrollLeft = viewport.scrollLeft;
+        const slideWidth = w / per;
+        return Math.min(total - per, Math.max(0, Math.round(scrollLeft / slideWidth)));
+      }
+      function updateDots(){
         const per = getPerView();
         const maxIndex = Math.max(0, total - per);
-        index = index <= 0 ? maxIndex : index - 1;
-        update();
+        const index = getScrollIndex();
+        dotsWrap.querySelectorAll(".carousel-dot").forEach((d,i)=>{ d.classList.toggle("active", i === index); });
+      }
+      function scrollToIndex(index){
+        const per = getPerView();
+        const w = viewport.offsetWidth;
+        const slideWidth = w / per;
+        viewport.scrollTo({ left: index * slideWidth, behavior: "smooth" });
+        updateDots();
         resetAuto();
       }
-      function goNext(){
+      function goPrev(){
+        const index = getScrollIndex();
         const per = getPerView();
         const maxIndex = Math.max(0, total - per);
-        index = index >= maxIndex ? 0 : index + 1;
-        update();
-        resetAuto();
+        if(index <= 0) scrollToIndex(maxIndex);
+        else scrollToIndex(index - 1);
+      }
+      function goNext(){
+        const index = getScrollIndex();
+        const per = getPerView();
+        const maxIndex = Math.max(0, total - per);
+        if(index >= maxIndex) scrollToIndex(0);
+        else scrollToIndex(index + 1);
       }
       function resetAuto(){
         if(autoTimer) clearInterval(autoTimer);
         autoTimer = setInterval(goNext, AUTO_MS);
+      }
+      function buildTrack(){
+        const per = getPerView();
+        track.style.width = (total * 100 / per) + "%";
+        track.querySelectorAll(".carousel-slide").forEach(slide=>{
+          slide.style.flex = "0 0 " + (100 * per / total) + "%";
+        });
       }
       function buildDots(){
         const per = getPerView();
@@ -132,46 +159,27 @@
         for(let i = 0; i <= maxIndex; i++){
           const dot = document.createElement("button");
           dot.type = "button";
-          dot.className = "carousel-dot" + (i === index ? " active" : "");
+          dot.className = "carousel-dot" + (i === 0 ? " active" : "");
           dot.setAttribute("aria-label", "第 " + (i+1) + " 張");
-          dot.addEventListener("click", ()=>{ index = i; update(); resetAuto(); });
+          dot.addEventListener("click", ()=>{ scrollToIndex(i); });
           dotsWrap.appendChild(dot);
         }
       }
-      function update(){
-        const per = getPerView();
-        const maxIndex = Math.max(0, total - per);
-        index = Math.max(0, Math.min(index, maxIndex));
-        track.style.width = (100 * total / per) + '%';
-        track.querySelectorAll(".carousel-slide").forEach(slide=>{
-          slide.style.flex = `0 0 ${100 * per / total}%`;
-        });
-        track.style.transform = `translateX(-${index * (100 / per)}%)`;
-        dotsWrap.querySelectorAll(".carousel-dot").forEach((d,i)=>{ d.classList.toggle("active", i === index); });
-      }
-      buildDots();
+      viewport.addEventListener("scroll", ()=>{ updateDots(); resetAuto(); }, { passive: true });
       prev.addEventListener("click", (e)=>{ e.preventDefault(); goPrev(); });
       next.addEventListener("click", (e)=>{ e.preventDefault(); goNext(); });
-      /* 手機觸控滑動：左滑下一張、右滑上一張 */
-      let touchStartX = 0;
-      viewport.addEventListener("touchstart", (e)=>{
-        if(e.touches.length === 1) touchStartX = e.touches[0].clientX;
-      }, { passive: true });
-      viewport.addEventListener("touchend", (e)=>{
-        if(e.changedTouches.length !== 1) return;
-        const dx = e.changedTouches[0].clientX - touchStartX;
-        if(dx > 45) goPrev();
-        else if(dx < -45) goNext();
-      }, { passive: true });
       window.addEventListener("resize", ()=>{
+        buildTrack();
         buildDots();
-        update();
+        updateDots();
       });
       nav.appendChild(prev);
       nav.appendChild(dotsWrap);
       nav.appendChild(next);
       gallery.appendChild(nav);
-      update();
+      buildTrack();
+      buildDots();
+      updateDots();
       resetAuto();
     });
   }
