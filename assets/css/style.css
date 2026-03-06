@@ -160,6 +160,18 @@ p{margin:0 0 12px}
 .seo-article h2{margin-top:32px; margin-bottom:14px; padding-bottom:8px; border-bottom:2px solid var(--line)}
 .seo-article h2:first-of-type{margin-top:0}
 
+/* 分享資訊 SEO 文章：改為一般段落呈現，不用底色圖框 */
+.seo-article .article-body .card{background:transparent; border:none; border-radius:0; box-shadow:none; padding:0; margin-bottom:1em}
+.seo-article .article-body .card:last-child{margin-bottom:0}
+.seo-article .article-body .grid-2{display:block}
+.seo-article .article-body .grid-2 .card{margin-bottom:1em}
+.seo-article .article-body .expert-callout{background:transparent; border:none; border-radius:0; padding:0; margin:1em 0}
+.seo-article .article-body .expert-callout .label{color:var(--muted); font-size:13px}
+.seo-article .article-body .comparison-table th,.seo-article .article-body .comparison-table td{border-color:var(--line)}
+.seo-article .article-body .comparison-table th{background:transparent; font-weight:700}
+.seo-article .article-body .comparison-table tr:nth-child(even){background:transparent}
+.seo-article .article-body .comparison-table tr:hover{background:transparent}
+
 /* ---------- 全站 CTA：浮動按鈕 + 手機底部 bar ---------- */
 .cta-global{pointer-events:none; position:fixed; inset:0; z-index:40}
 .cta-global > *{pointer-events:auto}
