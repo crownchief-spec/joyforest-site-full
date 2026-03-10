@@ -184,6 +184,70 @@
     });
   }
 
+  function initPhotoLightbox(){
+    const mosaic = document.getElementById("studio-photo-mosaic");
+    if(!mosaic) return;
+    const thumbs = Array.from(mosaic.querySelectorAll("img"));
+    if(!thumbs.length) return;
+
+    const backdrop = document.createElement("div");
+    backdrop.className = "lightbox-backdrop";
+    backdrop.innerHTML = `
+      <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-label="攝影棚照片預覽">
+        <div class="lightbox-main">
+          <div class="lightbox-img-wrap">
+            <img src="" alt="">
+          </div>
+          <button type="button" class="lightbox-btn lightbox-btn-prev" aria-label="上一張">‹</button>
+          <button type="button" class="lightbox-btn lightbox-btn-next" aria-label="下一張">›</button>
+          <button type="button" class="lightbox-close" aria-label="關閉">×</button>
+        </div>
+        <div class="lightbox-caption"></div>
+      </div>
+    `;
+    document.body.appendChild(backdrop);
+
+    const imgEl = backdrop.querySelector(".lightbox-img-wrap img");
+    const captionEl = backdrop.querySelector(".lightbox-caption");
+    const prevBtn = backdrop.querySelector(".lightbox-btn-prev");
+    const nextBtn = backdrop.querySelector(".lightbox-btn-next");
+    const closeBtn = backdrop.querySelector(".lightbox-close");
+    let currentIndex = 0;
+
+    function show(index){
+      if(index < 0) index = thumbs.length - 1;
+      if(index >= thumbs.length) index = 0;
+      currentIndex = index;
+      const t = thumbs[currentIndex];
+      imgEl.src = t.src;
+      imgEl.alt = t.alt || "";
+      captionEl.textContent = t.title || t.alt || "";
+      backdrop.classList.add("open");
+    }
+
+    function hide(){
+      backdrop.classList.remove("open");
+    }
+
+    thumbs.forEach((img, idx)=>{
+      const btn = img.closest(".photo-mosaic-item") || img;
+      btn.addEventListener("click", ()=>{ show(idx); });
+    });
+
+    prevBtn.addEventListener("click", ()=>{ show(currentIndex - 1); });
+    nextBtn.addEventListener("click", ()=>{ show(currentIndex + 1); });
+    closeBtn.addEventListener("click", hide);
+    backdrop.addEventListener("click", (e)=>{
+      if(e.target === backdrop) hide();
+    });
+    document.addEventListener("keydown", (e)=>{
+      if(!backdrop.classList.contains("open")) return;
+      if(e.key === "Escape") hide();
+      else if(e.key === "ArrowLeft") show(currentIndex - 1);
+      else if(e.key === "ArrowRight") show(currentIndex + 1);
+    });
+  }
+
   function initServiceSlider(){
     const slider = document.getElementById("serviceSlider");
     if(!slider) return;
@@ -231,6 +295,7 @@
       heroVideoFallback();
       initBookCopy();
       initCarousels();
+      initPhotoLightbox();
       initServiceSlider();
     }catch(err){
       console.warn(err);

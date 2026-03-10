@@ -201,6 +201,120 @@ p{margin:0 0 12px}
 .btn-cta-hero{padding:16px 24px; font-size:17px; box-shadow:0 10px 32px rgba(184,137,91,.4)}
 .btn-cta-hero:hover{transform:translateY(-2px); box-shadow:0 12px 36px rgba(184,137,91,.45)}
 
+/* 攝影棚頁：照片參考 mosaic + lightbox */
+.photo-mosaic{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(180px,1fr));
+  gap:10px;
+}
+.photo-mosaic-item{
+  position:relative;
+  border-radius:var(--r2);
+  border:1px solid var(--line);
+  overflow:hidden;
+  padding:0;
+  background:#eee;
+  cursor:pointer;
+}
+.photo-mosaic-item img{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  transition:transform .25s ease, filter .25s ease;
+}
+.photo-mosaic-item:hover img{
+  transform:scale(1.04);
+  filter:brightness(1.03);
+}
+@media(min-width:900px){
+  .photo-mosaic-item:nth-child(2),
+  .photo-mosaic-item:nth-child(3){
+    grid-column:span 2;
+  }
+}
+
+.lightbox-backdrop{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.8);
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  z-index:70;
+}
+.lightbox-backdrop.open{display:flex}
+.lightbox-dialog{
+  width:min(100%,960px);
+  max-height:100vh;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  color:#fff;
+}
+.lightbox-main{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.lightbox-img-wrap{
+  flex:1;
+  background:#000;
+  border-radius:var(--r2);
+  overflow:hidden;
+  max-height:80vh;
+}
+.lightbox-img-wrap img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  display:block;
+}
+.lightbox-btn{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  width:64px;
+  height:64px;
+  border-radius:50%;
+  border:none;
+  background:rgba(0,0,0,.55);
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  font-size:30px;
+}
+.lightbox-btn:hover{background:rgba(0,0,0,.8)}
+.lightbox-btn-prev{left:-10px}
+.lightbox-btn-next{right:-10px}
+.lightbox-close{
+  position:absolute;
+  top:10px;
+  right:10px;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  border:none;
+  background:rgba(0,0,0,.65);
+  color:#fff;
+  cursor:pointer;
+  font-size:20px;
+}
+.lightbox-caption{
+  font-size:14px;
+  color:#eee;
+  text-align:left;
+}
+@media(max-width:768px){
+  .lightbox-btn{width:52px; height:52px; font-size:24px}
+  .lightbox-btn-prev{left:4px}
+  .lightbox-btn-next{right:4px}
+}
+
 /* 首頁服務輪播（service-slider） */
 .service-slider-section{background:#efeee2; padding:48px 0 64px}
 .service-slider{width:min(100%, 760px); margin:0 auto; overflow:hidden}
