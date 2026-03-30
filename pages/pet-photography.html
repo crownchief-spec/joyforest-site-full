@@ -3,82 +3,506 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>寵物攝影｜Joyforest 揪好森｜森林派對場地</title>
-  <meta name="description" content="桃園寵物攝影：Joyforest 揪好森毛孩棚拍／森系戶外拍攝，桃園中壢生活感互動、動態奔跑都能拍到。照片全給，含基本調色。" />
+  <title>寵物攝影推薦｜揪好森寵物攝影棚・戶外草地・森林系寵物拍攝｜桃園寵物寫真</title>
+  <meta name="description" content="揪好森提供專業寵物攝影、寵物拍攝與寵物寫真服務，結合寵物攝影棚、戶外草地場景與森林系空間，打造超過100坪室內外寵物攝影場地，讓毛孩自在奔跑、自然互動，留下最真實的美好畫面。" />
+  <meta name="keywords" content="寵物攝影, 寵物拍攝, 寵物寫真, 寵物攝影棚, 桃園寵物攝影, 寵物攝影推薦, 狗狗攝影, 貓咪攝影, 戶外寵物攝影, 森林系寵物攝影" />
   <link rel="canonical" href="https://joyforest.tw/pages/pet-photography" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://joyforest.tw/pages/pet-photography" />
-  <meta property="og:title" content="寵物攝影｜Joyforest 揪好森｜森林派對場地" />
-  <meta property="og:description" content="桃園寵物攝影：Joyforest 揪好森毛孩棚拍／森系戶外拍攝，桃園中壢生活感互動、動態奔跑都能拍到。照片全給，含基本調色。" />
-  <meta property="og:image" content="https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg" />
+  <meta property="og:title" content="寵物攝影推薦｜揪好森寵物攝影棚・戶外草地・森林系寵物拍攝｜桃園寵物寫真" />
+  <meta property="og:description" content="揪好森提供專業寵物攝影、寵物拍攝與寵物寫真服務，結合寵物攝影棚、戶外草地場景與森林系空間，打造超過100坪室內外寵物攝影場地。" />
+  <meta property="og:image" content="https://joyforest.tw/assets/images/pet-photography/pet-photography-og-cover.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="揪好森寵物攝影主視覺，棚拍造型狗狗寵物寫真" />
   <meta property="og:locale" content="zh_TW" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="寵物攝影｜Joyforest 揪好森｜森林派對場地" />
-  <meta name="twitter:description" content="桃園寵物攝影：Joyforest 揪好森毛孩棚拍／森系戶外拍攝，桃園中壢生活感互動、動態奔跑都能拍到。照片全給，含基本調色。" />
-  <meta name="twitter:image" content="https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg" />
+  <meta name="twitter:title" content="寵物攝影推薦｜揪好森寵物攝影棚・戶外草地・森林系寵物拍攝｜桃園寵物寫真" />
+  <meta name="twitter:description" content="超過100坪室內外寵物攝影場地，結合寵物攝影棚、戶外草地與森林系場景，打造自然且真實的寵物寫真。" />
+  <meta name="twitter:image" content="https://joyforest.tw/assets/images/pet-photography/pet-photography-og-cover.jpg" />
   <link rel="icon" type="image/png" href="../assets/images/logo.png" />
   <link rel="stylesheet" href="../assets/css/style.css" />
+  <style>
+    :root {
+      --pet-bg: #f7f3ea;
+      --pet-card: #fffdfa;
+      --pet-line: #e8dfcf;
+      --pet-green: #2e4b3f;
+      --pet-brown: #8c6d4f;
+    }
+    body { background: var(--pet-bg); }
+    .pet-section { padding: clamp(48px, 7vw, 90px) 0; }
+    .pet-hero {
+      position: relative;
+      min-height: 72vh;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      overflow: hidden;
+    }
+    .pet-hero-bg {
+      position: absolute;
+      inset: 0;
+      margin: 0;
+    }
+    .pet-hero-bg img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transform: scale(1);
+      animation: heroCinema 24s infinite ease-in-out;
+    }
+    .pet-hero-bg img:last-child { animation-delay: 12s; }
+    .pet-hero-mask {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(28, 28, 28, 0.62), rgba(28, 28, 28, 0.36));
+    }
+    @keyframes heroCinema {
+      0% { opacity: 0; transform: scale(1.03); }
+      8%, 42% { opacity: 1; transform: scale(1.08); }
+      50%, 100% { opacity: 0; transform: scale(1.1); }
+    }
+    .pet-hero-content { position: relative; z-index: 2; max-width: 860px; }
+    .pet-hero h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.25; margin-bottom: 14px; }
+    .pet-hero p { color: rgba(255, 255, 255, 0.92); }
+    .pet-cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 20px; }
+    .pet-btn-ghost {
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      color: #fff;
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .pet-intro {
+      max-width: 880px;
+      margin: 0 auto;
+      background: var(--pet-card);
+      border: 1px solid var(--pet-line);
+      border-radius: 16px;
+      padding: clamp(20px, 4vw, 34px);
+    }
+    .pet-scenic-grid,
+    .pet-feature-grid,
+    .pet-price-grid {
+      display: grid;
+      gap: 18px;
+    }
+    .pet-scenic-card,
+    .pet-feature-item,
+    .pet-price-card,
+    .pet-booking-card {
+      background: var(--pet-card);
+      border: 1px solid var(--pet-line);
+      border-radius: 14px;
+      padding: 18px;
+    }
+    .pet-scenic-card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 12px;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+    }
+    .pet-feature-item { padding: 16px 18px; }
+    .pet-price-card h3 { margin-bottom: 6px; }
+    .pet-price-card .price { color: var(--pet-green); font-weight: 700; font-size: 1.2rem; }
+    .pet-price-card .origin { color: #777; text-decoration: line-through; margin-left: 8px; font-weight: 500; }
+    .pet-addons { margin-top: 18px; }
+    .pet-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .pet-tags span {
+      border: 1px solid var(--pet-line);
+      background: #fff;
+      color: var(--pet-brown);
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-size: .92rem;
+    }
+    .portfolio-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: end;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+    .portfolio-filter {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 8px 0 18px;
+    }
+    .portfolio-filter button {
+      border: 1px solid var(--pet-line);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--pet-green);
+      padding: 8px 14px;
+      cursor: pointer;
+      font-size: .95rem;
+    }
+    .portfolio-filter button.active {
+      background: var(--pet-green);
+      color: #fff;
+      border-color: var(--pet-green);
+    }
+    .portfolio-group[hidden] { display: none; }
+    .masonry {
+      column-count: 2;
+      column-gap: 12px;
+    }
+    .masonry button {
+      width: 100%;
+      margin: 0 0 12px;
+      border: 0;
+      padding: 0;
+      background: transparent;
+      break-inside: avoid;
+      cursor: pointer;
+    }
+    .masonry img {
+      width: 100%;
+      border-radius: 10px;
+      display: block;
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+    }
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox img {
+      max-width: min(100%, 1200px);
+      max-height: 82vh;
+      border-radius: 10px;
+    }
+    .lightbox button {
+      position: absolute;
+      border: 0;
+      background: rgba(255, 255, 255, 0.16);
+      color: #fff;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 24px;
+      line-height: 1;
+    }
+    .lightbox .prev { left: 16px; }
+    .lightbox .next { right: 16px; }
+    .lightbox .close { top: 16px; right: 16px; font-size: 28px; }
+    .lightbox-caption {
+      position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: 16px;
+      color: #fff;
+      text-align: center;
+      font-size: .95rem;
+    }
+    @media (min-width: 860px) {
+      .pet-scenic-grid { grid-template-columns: repeat(3, 1fr); }
+      .pet-feature-grid { grid-template-columns: repeat(2, 1fr); }
+      .pet-price-grid { grid-template-columns: repeat(3, 1fr); }
+      .masonry { column-count: 3; column-gap: 14px; }
+    }
+  </style>
 </head>
 <body data-base="../">
   <div id="site-header"></div>
   <main>
-    <section class="hero" aria-label="Hero">
-      <div class="media" aria-hidden="true">
-        <img src="../assets/images/pets/pet-photography-studio-01.jpg" alt="" />
-        <div class="overlay"></div>
-      </div>
-      <div class="container inner">
-        <p class="kicker" style="color:rgba(255,255,255,.85)">攝影棚｜預約制</p>
-        <h1 class="title">寵物攝影</h1>
-        <p class="subtitle">毛孩棚拍／森系戶外拍攝，生活感互動、動態奔跑都能拍到。照片全給，含基本調色。</p>
-        <div class="actions" style="margin-top:16px">
-          <a class="btn primary" href="../pages/book.html">前往預約頁</a>
-          <a class="btn ghost" href="../pages/faq.html" style="color:#fff;border-color:rgba(255,255,255,.22);background:rgba(255,255,255,.08)">先看常見問題</a>
+    <section class="pet-hero" aria-label="寵物攝影主視覺">
+      <figure class="pet-hero-bg" aria-hidden="true">
+        <img src="../assets/images/pet-photography/pet-photography-studio-surf-shiba-dogs.jpg" alt="寵物攝影棚拍，兩隻狗狗配戴造型墨鏡的高質感寵物寫真" title="寵物攝影棚作品，棚拍寵物攝影風格示意" loading="eager" />
+        <img src="../assets/images/pet-photography/outdoor-pet-photography-four-dogs-picnic.jpg" alt="戶外寵物攝影草地場景，多隻狗狗自然互動畫面" title="戶外寵物攝影作品，草地森林系寵物拍攝" loading="eager" />
+      </figure>
+      <div class="pet-hero-mask" aria-hidden="true"></div>
+      <div class="container pet-hero-content">
+        <p class="kicker" style="color:rgba(255,255,255,.88)">桃園寵物攝影推薦｜預約制</p>
+        <h1>揪好森寵物攝影<br>在自然空間裡，留下毛孩最真實的樣子</h1>
+        <p>超過100坪室內外寵物攝影場地，結合寵物攝影棚、戶外草地與森林系場景，讓毛孩自在活動、自然互動，拍下真正有感情的寵物寫真。</p>
+        <div class="pet-cta">
+          <a class="btn primary" href="../pages/book.html">立即預約寵物攝影</a>
+          <a class="btn pet-btn-ghost" href="#pet-pricing">查看拍攝方案</a>
         </div>
       </div>
     </section>
-    <section class="section"><div class="container"><h2>拍攝特色</h2><div class='grid-2'><div class='card'><h3>棚拍／戶外森系</h3><p class='small'>毛孩棚拍或草地互動，依毛孩狀態安排節奏，輕鬆自然。</p></div><div class='card'><h3>道具與佈景</h3><p class='small'>提供寵物攝影道具與背景配置，畫面乾淨、耐看。</p></div></div></div></section>
-<section class="section"><div class="container"><h2>費用參考</h2><div class="card" style="overflow:auto">
-<table style="width:100%; border-collapse:collapse">
-  <thead>
-    <tr>
-      <th style="text-align:left; padding:10px; border-bottom:1px solid var(--line)">方案</th>
-      <th style="text-align:left; padding:10px; border-bottom:1px solid var(--line)">費用</th>
-      <th style="text-align:left; padding:10px; border-bottom:1px solid var(--line)">說明</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td><strong>寵物攝影</strong></td><td>NT$3,800 起</td><td class='small'>半小時起；照片檔案全給（含基本調色），至少 50 張以上。</td></tr>
-<tr><td><strong>精修加購</strong></td><td>NT$380 / 張</td><td class='small'>人物／毛孩精修（依需求加購）。</td></tr>
-<tr><td><strong>人數/入鏡</strong></td><td>每人 NT$800</td><td class='small'>一隻毛孩＋兩位主人或家庭兩大兩小；加人/主人入鏡依此計。</td></tr>
-  </tbody>
-</table>
-</div>
-<div class="cta-next-step" style="margin-top:16px">
-  <p class="small" style="margin-bottom:8px">下一步：複製預約模板</p>
-  <a class="btn primary" href="book.html">前往預約頁</a>
-</div>
-</div></div></section>
-<section class="section"><div class="container"><h2>照片參考</h2><div class="gallery gallery--carousel"><img src="../assets/images/pets/pet-photography-studio-01.jpg" alt="自然光棚拍" loading="lazy" />
-<img src="../assets/images/pets/pet-photography-studio-02.jpg" alt="棚內互動拍攝" loading="lazy" />
-<img src="../assets/images/pets/pet-portrait-01.jpg" alt="毛孩個人寫真" loading="lazy" />
-<img src="../assets/images/pets/pet-grass-play-01.jpg" alt="草地互動與奔跑動態" loading="lazy" />
-<img src="../assets/images/pets/pet-family-lawn-01.jpg" alt="草地寵物與家庭" loading="lazy" />
-<img src="../assets/images/pets/pet-family-grass-01.jpg" alt="戶外寵物寫真" loading="lazy" />
-<img src="../assets/images/pets/pet-studio-photo-03.jpg" alt="棚拍毛孩" loading="lazy" />
-<img src="../assets/images/pets/pet-birthday-party-02.jpg" alt="毛孩慶生拍攝" loading="lazy" /></div></div></section>
-<section class="section tight"><div class="container"><h2>預約方式</h2>
-<div class="card">
-  <p><strong>全採預約制</strong>｜請加 Line 預約並留下資料（Line ID：<strong>0911252302</strong>）。</p>
-  <div class="actions" style="margin-top:10px">
-    <a class="btn primary" href="../pages/book.html">前往預約頁</a>
-    <a class="btn ghost" href="../pages/faq.html">先看常見問題</a>
-  </div>
-</div>
-</div></section>
+
+    <section class="pet-section" id="pet-about">
+      <div class="container">
+        <h2>寵物攝影服務介紹</h2>
+        <article class="pet-intro">
+          <p>這不是一般制式的寵物攝影棚拍，而是一個讓毛孩真正放鬆的寵物攝影空間。</p>
+          <p>揪好森提供超過100坪的寵物攝影場地，擁有室內與戶外兩種拍攝模式，未來也將推出森林系寵物攝影場景。無論是狗狗攝影、貓咪攝影，或是主人與毛孩一起入鏡的寵物拍攝，我們都希望拍下的不只是畫面，而是你們之間最自然的互動與陪伴。</p>
+          <p>在這裡，毛孩不需要被壓抑，只需要自在地玩與生活，而我們負責留下最真實的瞬間。這也是許多客人願意推薦揪好森作為桃園寵物攝影首選的原因。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="pet-section" id="pet-scenes">
+      <div class="container">
+        <h2>拍攝場景</h2>
+        <p class="small">室內外兼具的寵物攝影體驗</p>
+        <div class="pet-scenic-grid" style="margin-top:14px">
+          <article class="pet-scenic-card">
+            <h3>寵物攝影棚｜素色背景寫真</h3>
+            <p>室內寵物攝影棚主打乾淨、耐看的風格，以單色背景呈現毛孩最純粹的樣子。基本方案提供1種背景色，進階以上可拍攝2種背景色。</p>
+            <img src="../assets/images/pet-photography/pet-photography-studio-white-bichon-portrait.jpg" alt="寵物攝影棚素色背景寵物寫真，白色比熊犬棚拍" title="寵物攝影棚素色背景拍攝，乾淨自然的寵物寫真風格" loading="lazy" />
+            <p class="small">寵物攝影棚作品示意：素色背景狗狗攝影，畫面乾淨耐看。</p>
+          </article>
+          <article class="pet-scenic-card">
+            <h3>戶外寵物攝影｜草地自然互動</h3>
+            <p>戶外草地場景讓毛孩可以自由活動，搭配露營風佈置，拍出更生活感的寵物攝影畫面，也很適合家庭寵物寫真。</p>
+            <img src="../assets/images/pet-photography/outdoor-pet-photography-owner-multi-dogs.jpg" alt="戶外寵物攝影草地場景，主人與多隻狗狗互動拍攝" title="戶外寵物攝影草地自然互動畫面，適合家庭寵物寫真" loading="lazy" />
+            <p class="small">戶外寵物攝影作品示意：草地與露營氛圍，呈現自然互動。</p>
+          </article>
+          <article class="pet-scenic-card">
+            <h3>森林系寵物攝影（規劃中）</h3>
+            <p>未來將推出森林佈置場景，結合自然光與氛圍設計，打造更有故事感的寵物拍攝體驗，延伸森林系寵物攝影風格。</p>
+            <img src="../assets/images/pet-photography/outdoor-pet-photography-couple-with-dogs.jpg" alt="森林系寵物攝影風格示意，草地場景與狗狗互動畫面" title="森林系寵物攝影規劃中，結合戶外光線與情境佈置" loading="lazy" />
+            <p class="small">森林系寵物攝影風格示意：自然空間、柔和光線與故事感構圖。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pet-section" id="pet-features">
+      <div class="container">
+        <h2>為什麼選擇揪好森寵物攝影</h2>
+        <div class="pet-feature-grid" style="margin-top:14px">
+          <div class="pet-feature-item">超過100坪空間，毛孩可自在活動</div>
+          <div class="pet-feature-item">同時擁有寵物攝影棚與戶外場景</div>
+          <div class="pet-feature-item">一組客人拍攝，不被打擾</div>
+          <div class="pet-feature-item">適合狗狗攝影、貓咪攝影與家庭寵物寫真</div>
+          <div class="pet-feature-item">不只是拍照，而是一段相處體驗</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pet-section" id="pet-pricing">
+      <div class="container">
+        <h2>寵物攝影方案與收費</h2>
+        <p>以下為寵物攝影與寵物拍攝的優惠方案，目前為期間限定價格。</p>
+        <div class="pet-price-grid" style="margin-top:14px">
+          <article class="pet-price-card">
+            <h3>方案一｜基本寵物攝影方案</h3>
+            <p><span class="price">優惠價 NT$3,800</span><span class="origin">原價 NT$6,800</span></p>
+            <ul>
+              <li>拍攝時間約30分鐘</li>
+              <li>提供照片全數檔案（基本調色）</li>
+              <li>至少50張以上</li>
+              <li>包含1種單色背景寵物攝影棚拍攝</li>
+              <li>包含戶外草地寵物攝影</li>
+            </ul>
+          </article>
+          <article class="pet-price-card">
+            <h3>方案二｜進階寵物攝影方案</h3>
+            <p><span class="price">優惠價 NT$5,800</span><span class="origin">原價 NT$8,800</span></p>
+            <ul>
+              <li>總時數約3小時</li>
+              <li>1小時寵物攝影拍攝＋2小時場地自由使用</li>
+              <li>提供照片全數檔案，至少80張以上</li>
+              <li>包含2種單色背景寵物攝影棚</li>
+              <li>包含戶外寵物攝影</li>
+              <li>主打拍攝＋場地體驗</li>
+            </ul>
+          </article>
+          <article class="pet-price-card">
+            <h3>方案三｜高階寵物攝影方案</h3>
+            <p><span class="price">優惠價 NT$8,800</span><span class="origin">原價 NT$11,800</span></p>
+            <ul>
+              <li>總時數約4小時</li>
+              <li>2小時寵物攝影拍攝＋2小時場地自由使用</li>
+              <li>提供照片全數檔案，至少120張以上</li>
+              <li>包含2種單色背景寵物攝影棚</li>
+              <li>包含戶外寵物攝影</li>
+              <li>未來可搭配森林系場景</li>
+            </ul>
+          </article>
+        </div>
+        <div class="pet-addons pet-price-card">
+          <h3>加購項目</h3>
+          <p>精修照片 NT$380 / 張</p>
+          <p>增加一人入鏡 NT$800</p>
+          <p>增加一隻寵物 NT$800</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pet-section" id="pet-booking">
+      <div class="container">
+        <h2>預約寵物攝影</h2>
+        <article class="pet-booking-card">
+          <p>請提供拍攝日期、毛孩數量、是否入鏡與想要的場景，我們會協助安排最適合的寵物攝影方案。</p>
+          <div class="pet-cta">
+            <a class="btn primary" href="../pages/book.html">LINE 預約寵物攝影</a>
+            <a class="btn ghost" href="../pages/faq.html">立即洽詢</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="pet-section" id="pet-tags">
+      <div class="container">
+        <h2>熱門搜尋標籤</h2>
+        <div class="pet-tags" aria-label="寵物攝影相關標籤">
+          <span>#寵物攝影</span>
+          <span>#寵物拍攝</span>
+          <span>#寵物寫真</span>
+          <span>#寵物攝影棚</span>
+          <span>#桃園寵物攝影</span>
+          <span>#寵物攝影推薦</span>
+          <span>#狗狗攝影</span>
+          <span>#貓咪攝影</span>
+          <span>#戶外寵物攝影</span>
+          <span>#森林系寵物攝影</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="pet-section" id="pet-portfolio">
+      <div class="container">
+        <h2>作品集</h2>
+        <div class="portfolio-title">
+          <p class="small">點擊縮圖可查看大圖並左右切換</p>
+        </div>
+        <div class="portfolio-filter" role="tablist" aria-label="作品集分類切換">
+          <button type="button" class="active" data-filter="all" role="tab" aria-selected="true">全部作品</button>
+          <button type="button" data-filter="studio" role="tab" aria-selected="false">只看棚拍</button>
+          <button type="button" data-filter="outdoor" role="tab" aria-selected="false">只看戶外</button>
+        </div>
+        <section class="portfolio-group" data-category="studio">
+          <div class="portfolio-title"><h3>棚拍作品｜白色／素色背景寵物攝影</h3></div>
+          <div class="masonry" data-gallery="studio">
+            <button type="button"><img src="../assets/images/pet-photography/pet-photography-studio-surf-shiba-dogs.jpg" alt="棚拍寵物攝影，兩隻柴犬穿搭造型拍攝" title="寵物攝影棚作品：柴犬造型棚拍寵物寫真" loading="lazy" /></button>
+            <button type="button"><img src="../assets/images/pet-photography/pet-photography-studio-shiba-camping-scene.jpg" alt="寵物攝影棚露營場景，柴犬狗狗攝影作品" title="寵物攝影棚露營風場景，狗狗攝影自然互動" loading="lazy" /></button>
+            <button type="button"><img src="../assets/images/pet-photography/pet-photography-cat-owner-portrait-studio.jpg" alt="貓咪攝影與主人合照，室內寵物寫真" title="貓咪攝影作品，主人與毛孩互動寵物寫真" loading="lazy" /></button>
+            <button type="button"><img src="../assets/images/pet-photography/pet-photography-studio-white-bichon-portrait.jpg" alt="寵物攝影棚白色背景比熊犬寫真" title="寵物攝影棚白色背景作品，比熊犬寵物寫真" loading="lazy" /></button>
+            <button type="button"><img src="../assets/images/pet-photography/pet-photography-studio-two-cats-sofa.jpg" alt="貓咪攝影雙貓沙發場景，寵物拍攝作品" title="貓咪攝影作品，雙貓素色情境寵物拍攝" loading="lazy" /></button>
+            <button type="button"><img src="../assets/images/pet-photography/pet-photography-studio-dogs-cat-camping-scene.jpg" alt="寵物攝影棚露營佈景，狗狗與貓咪團體寫真" title="寵物攝影棚團體拍攝，狗狗貓咪合照作品" loading="lazy" /></button>
+            <button type="button"><img src="../assets/images/pet-photography/pet-photography-studio-owner-border-collie-black-bg.jpg" alt="狗狗攝影黑背景棚拍，主人與邊境牧羊犬" title="狗狗攝影棚拍作品，主人與邊境牧羊犬寫真" loading="lazy" /></button>
+            <button type="button"><img src="../assets/images/pet-photography/pet-photography-studio-corgi-pink-background.jpg" alt="寵物攝影棚粉色背景柯基犬特寫" title="寵物攝影棚粉色背景作品，柯基犬狗狗攝影" loading="lazy" /></button>
+            <button type="button"><img src="../assets/images/pet-photography/pet-photography-studio-owner-border-collie-portrait.jpg" alt="寵物寫真主人擁抱邊境牧羊犬棚拍" title="寵物寫真棚拍作品，主人與毛孩情感互動" loading="lazy" /></button>
+            <button type="button"><img src="../assets/images/pet-photography/pet-photography-studio-corgi-birthday-card.jpg" alt="狗狗攝影生日主題，柯基犬寵物拍攝" title="狗狗攝影生日主題作品，寵物拍攝情境風格" loading="lazy" /></button>
+          </div>
+        </section>
+
+        <section class="portfolio-group" data-category="outdoor">
+          <div class="portfolio-title" style="margin-top:26px">
+            <h3>實體場景作品｜草地／森林場景寵物攝影</h3>
+          </div>
+          <div class="masonry" data-gallery="outdoor">
+            <button type="button"><img src="../assets/images/pet-photography/outdoor-pet-photography-husky-grassland.jpg" alt="戶外寵物攝影草地場景，哈士奇自然表情" title="戶外寵物攝影作品，草地哈士奇寵物寫真" loading="lazy" /></button>
+            <button type="button"><img src="../assets/images/pet-photography/outdoor-pet-photography-dome-camping-party.jpg" alt="戶外寵物攝影露營區場景，毛孩與朋友聚會互動" title="戶外寵物攝影露營場景，揪好森草地拍攝作品" loading="lazy" /></button>
+            <button type="button"><img src="../assets/images/pet-photography/outdoor-pet-photography-four-dogs-picnic.jpg" alt="戶外寵物攝影野餐場景，四隻狗狗合照" title="戶外寵物攝影野餐風格，多犬寵物拍攝作品" loading="lazy" /></button>
+            <button type="button"><img src="../assets/images/pet-photography/outdoor-pet-photography-girl-rabbit-grass.jpg" alt="戶外草地寵物拍攝，小女孩與兔子互動畫面" title="戶外寵物拍攝作品，草地自然互動寫真" loading="lazy" /></button>
+            <button type="button"><img src="../assets/images/pet-photography/outdoor-pet-photography-owner-multi-dogs.jpg" alt="戶外寵物攝影主人與多隻狗狗草地互動" title="桃園寵物攝影戶外場景，主人與狗狗互動寫真" loading="lazy" /></button>
+            <button type="button"><img src="../assets/images/pet-photography/outdoor-pet-photography-couple-with-dogs.jpg" alt="森林系寵物攝影草地場景，情侶與狗狗合照" title="森林系寵物攝影作品，草地場景與人寵互動" loading="lazy" /></button>
+          </div>
+        </section>
+      </div>
+    </section>
   </main>
+
+  <div class="lightbox" id="pet-lightbox" role="dialog" aria-modal="true" aria-label="寵物攝影作品大圖檢視">
+    <button class="close" type="button" aria-label="關閉大圖">×</button>
+    <button class="prev" type="button" aria-label="上一張">‹</button>
+    <img src="" alt="" />
+    <button class="next" type="button" aria-label="下一張">›</button>
+    <p class="lightbox-caption"></p>
+  </div>
+
   <div id="site-footer"></div>
   <div id="cta-global"></div>
   <script src="../assets/js/main.js" defer></script>
+  <script>
+    (function () {
+      const lightbox = document.getElementById('pet-lightbox');
+      const modalImage = lightbox.querySelector('img');
+      const caption = lightbox.querySelector('.lightbox-caption');
+      const filterButtons = Array.from(document.querySelectorAll('#pet-portfolio .portfolio-filter button'));
+      const portfolioGroups = Array.from(document.querySelectorAll('#pet-portfolio .portfolio-group'));
+      let activeIndex = 0;
+      let activeImages = [];
+
+      function getVisibleImages() {
+        return Array.from(document.querySelectorAll('#pet-portfolio .portfolio-group:not([hidden]) .masonry img'));
+      }
+
+      function render(index) {
+        const item = activeImages[index];
+        modalImage.src = item.src;
+        modalImage.alt = item.alt;
+        caption.textContent = item.title || item.alt;
+      }
+
+      function open(index) {
+        activeIndex = index;
+        render(activeIndex);
+        lightbox.classList.add('open');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function close() {
+        lightbox.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+
+      function next(step) {
+        activeIndex = (activeIndex + step + activeImages.length) % activeImages.length;
+        render(activeIndex);
+      }
+
+      function bindGalleryClicks() {
+        activeImages = getVisibleImages();
+        activeImages.forEach((img, index) => {
+          img.closest('button').onclick = function () { open(index); };
+        });
+      }
+
+      filterButtons.forEach(function (button) {
+        button.addEventListener('click', function () {
+          const mode = button.getAttribute('data-filter');
+          filterButtons.forEach(function (btn) {
+            const isActive = btn === button;
+            btn.classList.toggle('active', isActive);
+            btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+          });
+          portfolioGroups.forEach(function (group) {
+            const type = group.getAttribute('data-category');
+            const shouldShow = mode === 'all' || mode === type;
+            group.hidden = !shouldShow;
+          });
+          bindGalleryClicks();
+        });
+      });
+
+      lightbox.querySelector('.close').addEventListener('click', close);
+      lightbox.querySelector('.prev').addEventListener('click', function () { next(-1); });
+      lightbox.querySelector('.next').addEventListener('click', function () { next(1); });
+      lightbox.addEventListener('click', function (event) {
+        if (event.target === lightbox) close();
+      });
+      document.addEventListener('keydown', function (event) {
+        if (!lightbox.classList.contains('open')) return;
+        if (event.key === 'Escape') close();
+        if (event.key === 'ArrowLeft') next(-1);
+        if (event.key === 'ArrowRight') next(1);
+      });
+      bindGalleryClicks();
+    })();
+  </script>
 </body>
 </html>
