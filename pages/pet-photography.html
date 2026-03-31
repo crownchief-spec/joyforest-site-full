@@ -108,7 +108,7 @@
       aspect-ratio: auto;
       height: auto;
       object-fit: contain;
-      background: rgba(0, 0, 0, 0.04);
+      background: rgba(232, 223, 207, 0.45);
     }
     .pet-feature-item { padding: 16px 18px; }
     .pet-feature-list { margin: 0; padding-left: 1.25em; line-height: 1.65; }
@@ -185,12 +185,14 @@
       inset: 0;
       background: rgba(0, 0, 0, 0.9);
       z-index: 1000;
-      display: none;
       align-items: center;
       justify-content: center;
       padding: 20px;
     }
-    .lightbox.open { display: flex; }
+    .lightbox[hidden] { display: none !important; }
+    .lightbox.open {
+      display: flex !important;
+    }
     .lightbox img {
       max-width: min(100%, 1200px);
       max-height: 82vh;
@@ -426,7 +428,7 @@
     </section>
   </main>
 
-  <div class="lightbox" id="pet-lightbox" role="dialog" aria-modal="true" aria-label="寵物攝影作品大圖檢視">
+  <div class="lightbox" id="pet-lightbox" role="dialog" aria-modal="true" aria-label="寵物攝影作品大圖檢視" hidden aria-hidden="true">
     <button class="close" type="button" aria-label="關閉大圖">×</button>
     <button class="prev" type="button" aria-label="上一張">‹</button>
     <img src="" alt="" />
@@ -461,12 +463,16 @@
       function open(index) {
         activeIndex = index;
         render(activeIndex);
+        lightbox.removeAttribute('hidden');
+        lightbox.setAttribute('aria-hidden', 'false');
         lightbox.classList.add('open');
         document.body.style.overflow = 'hidden';
       }
 
       function close() {
         lightbox.classList.remove('open');
+        lightbox.setAttribute('hidden', '');
+        lightbox.setAttribute('aria-hidden', 'true');
         document.body.style.overflow = '';
       }
 
