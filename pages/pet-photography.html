@@ -104,6 +104,12 @@
       aspect-ratio: 16 / 10;
       object-fit: cover;
     }
+    .pet-scenic-card--wide img {
+      aspect-ratio: auto;
+      height: auto;
+      object-fit: contain;
+      background: rgba(0, 0, 0, 0.04);
+    }
     .pet-feature-item { padding: 16px 18px; }
     .pet-feature-list { margin: 0; padding-left: 1.25em; line-height: 1.65; }
     .pet-feature-list li { margin-bottom: 0.45em; }
@@ -215,7 +221,8 @@
       font-size: .95rem;
     }
     @media (min-width: 860px) {
-      .pet-scenic-grid { grid-template-columns: repeat(3, 1fr); }
+      .pet-scenic-grid { grid-template-columns: repeat(2, 1fr); }
+      .pet-scenic-card--wide { grid-column: 1 / -1; }
       .pet-price-grid { grid-template-columns: repeat(3, 1fr); }
       .masonry { column-count: 3; column-gap: 14px; }
     }
@@ -269,7 +276,7 @@
             <img src="../assets/images/pet-photography/outdoor-pet-photography-owner-multi-dogs.jpg" alt="戶外寵物攝影草地場景，主人與多隻狗狗互動拍攝" title="戶外寵物攝影草地自然互動畫面，適合家庭寵物寫真" loading="lazy" />
             <p class="small">戶外寵物攝影作品示意：草地與露營氛圍，呈現自然互動。</p>
           </article>
-          <article class="pet-scenic-card">
+          <article class="pet-scenic-card pet-scenic-card--wide">
             <h3>森林系寵物攝影（規劃中）</h3>
             <p>未來將推出森林佈置場景，結合自然光與氛圍設計，打造更有故事感的寵物拍攝體驗，延伸森林系寵物攝影風格。</p>
             <img src="/assets/images/pet-photography/forest-pet-photography-venue-glamping.jpg" alt="桃園寵物攝影場地森林風戶外景觀，森林系寵物攝影規劃中的露營燈串與森林系佈置示意" title="揪好森寵物攝影場地｜森林風露營燈串與森林系寵物攝影場景（規劃中）" loading="lazy" width="900" height="598" decoding="async" />
