@@ -84,7 +84,6 @@
       padding: clamp(20px, 4vw, 34px);
     }
     .pet-scenic-grid,
-    .pet-feature-grid,
     .pet-price-grid {
       display: grid;
       gap: 18px;
@@ -106,6 +105,9 @@
       object-fit: cover;
     }
     .pet-feature-item { padding: 16px 18px; }
+    .pet-feature-list { margin: 0; padding-left: 1.25em; line-height: 1.65; }
+    .pet-feature-list li { margin-bottom: 0.45em; }
+    .pet-feature-list li:last-child { margin-bottom: 0; }
     .pet-price-card h3 { margin-bottom: 6px; }
     .pet-price-card .price { color: var(--pet-green); font-weight: 700; font-size: 1.2rem; }
     .pet-price-card .origin { color: #777; text-decoration: line-through; margin-left: 8px; font-weight: 500; }
@@ -214,7 +216,6 @@
     }
     @media (min-width: 860px) {
       .pet-scenic-grid { grid-template-columns: repeat(3, 1fr); }
-      .pet-feature-grid { grid-template-columns: repeat(2, 1fr); }
       .pet-price-grid { grid-template-columns: repeat(3, 1fr); }
       .masonry { column-count: 3; column-gap: 14px; }
     }
@@ -281,12 +282,14 @@
     <section class="pet-section" id="pet-features">
       <div class="container">
         <h2>為什麼選擇揪好森寵物攝影</h2>
-        <div class="pet-feature-grid" style="margin-top:14px">
-          <div class="pet-feature-item">超過100坪空間，毛孩可自在活動</div>
-          <div class="pet-feature-item">同時擁有寵物攝影棚與戶外場景</div>
-          <div class="pet-feature-item">一組客人拍攝，不被打擾</div>
-          <div class="pet-feature-item">適合狗狗攝影、貓咪攝影與家庭寵物寫真</div>
-          <div class="pet-feature-item">不只是拍照，而是一段相處體驗</div>
+        <div class="pet-feature-item" style="margin-top:14px">
+          <ul class="pet-feature-list">
+            <li>超過100坪空間，毛孩可自在活動</li>
+            <li>同時擁有寵物攝影棚與戶外場景</li>
+            <li>一組客人拍攝，不被打擾</li>
+            <li>適合狗狗攝影、貓咪攝影與家庭寵物寫真</li>
+            <li>不只是拍照，而是一段相處體驗</li>
+          </ul>
         </div>
       </div>
     </section>
