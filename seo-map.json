@@ -1,0 +1,281 @@
+{
+  "brand": "Joyforest 揪好森｜森林派對場地",
+  "baseUrl": "https://joyforest.tw",
+  "pages": [
+    {
+      "page file": "404.html",
+      "route": "/404.html",
+      "title": "找不到頁面｜Joyforest 揪好森｜森林派對場地",
+      "description": "抱歉，您要找的頁面不存在，請回到首頁繼續瀏覽 Joyforest 揪好森。",
+      "canonical": "https://joyforest.tw/404",
+      "hero image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
+      "og image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
+      "schema type": "WebPage",
+      "noindex": true
+    },
+    {
+      "page file": "index.html",
+      "route": "/",
+      "title": "Joyforest 揪好森森林派對空間｜桃園森林活動場地・抓周・寵物派對・森林攝影",
+      "description": "Joyforest 揪好森位於桃園中壢，提供森林派對場地與攝影空間，適合生日派對、抓周派對、寵物聚會與親子寫真。包場森林場地，打造自然系派對與攝影體驗。",
+      "canonical": "https://joyforest.tw/",
+      "hero image": "https://joyforest.tw/assets/images/party/outdoor-party-table-01.jpg",
+      "og image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
+      "schema type": "Organization,WebSite,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "pages/about.html",
+      "route": "/pages/about.html",
+      "title": "關於我們｜Joyforest 揪好森｜森林派對場地",
+      "description": "關於 Joyforest 揪好森：桃園中壢單組預約制的森林派對場地與自然光拍攝場景，讓你在城市之外好好相聚。",
+      "canonical": "https://joyforest.tw/pages/about",
+      "hero image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
+      "og image": "https://joyforest.tw/assets/images/hero/forest-party-table-setup.jpg",
+      "schema type": "WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "pages/baby-grab.html",
+      "route": "/pages/baby-grab.html",
+      "title": "抓周派對｜Joyforest 揪好森｜森林派對場地",
+      "description": "桃園抓周場地：Joyforest 揪好森抓周派對，週歲紀念與家庭小聚，在桃園中壢森林系空間留下溫暖的生活感影像。",
+      "canonical": "https://joyforest.tw/pages/baby-grab",
+      "hero image": "https://joyforest.tw/assets/images/party/baby-grab-ceremony-01.jpg",
+      "og image": "https://joyforest.tw/assets/images/party/baby-grab-ceremony-01.jpg",
+      "schema type": "Service,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "pages/birthday-party.html",
+      "route": "/pages/birthday-party.html",
+      "title": "生日與小型派對包場｜Joyforest 揪好森｜森林派對場地",
+      "description": "桃園派對場地推薦：Joyforest 揪好森森林系私密包場，桃園中壢適合 20 人內生日與小型聚會。可加購活動拍照或照片＋短片。",
+      "canonical": "https://joyforest.tw/pages/birthday-party",
+      "hero image": "https://joyforest.tw/assets/images/party/outdoor-party-table-01.jpg",
+      "og image": "https://joyforest.tw/assets/images/party/outdoor-party-table-01.jpg",
+      "schema type": "Service,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "pages/book.html",
+      "route": "/pages/book.html",
+      "title": "預約｜Joyforest 揪好森｜森林派對場地",
+      "description": "桃園中壢森林派對場地 Joyforest 揪好森：加 Line 預約生日派對、抓周、寵物聚會、親子寫真。留下活動類型、人數、日期與需求。",
+      "canonical": "https://joyforest.tw/pages/book",
+      "hero image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
+      "og image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-logo.png",
+      "schema type": "WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "pages/family-photography.html",
+      "route": "/pages/family-photography.html",
+      "title": "親子寫真｜Joyforest 揪好森｜森林派對場地",
+      "description": "桃園親子寫真：Joyforest 揪好森自然光、生活感親子互動紀錄，桃園中壢適合家庭日、親子遊戲紀錄與孕期/全家福拍攝。",
+      "canonical": "https://joyforest.tw/pages/family-photography",
+      "hero image": "https://joyforest.tw/assets/images/photography/outdoor-family-photography-balloon-01.jpg",
+      "og image": "https://joyforest.tw/assets/images/photography/outdoor-family-photography-balloon-01.jpg",
+      "schema type": "Service,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "pages/faq.html",
+      "route": "/pages/faq.html",
+      "title": "常見問題｜Joyforest 揪好森｜森林派對場地",
+      "description": "自主包場、飲品點心、餐點外送、加時與夜間延時使用等常見問題整理。",
+      "canonical": "https://joyforest.tw/pages/faq",
+      "hero image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
+      "og image": "https://joyforest.tw/assets/images/party/party-food-table-01.jpg",
+      "schema type": "FAQPage,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "pages/forest-night-experience.html",
+      "route": "/pages/forest-night-experience.html",
+      "title": "夜間森林帳篷體驗｜Joyforest 揪好森｜森林派對場地",
+      "description": "活動後的夜間延時使用時段，享受燈光、柴火、投影影音與森林夜晚氛圍。",
+      "canonical": "https://joyforest.tw/pages/forest-night-experience",
+      "hero image": "https://joyforest.tw/assets/images/night/forest-night-fire-lights.jpg",
+      "og image": "https://joyforest.tw/assets/images/night/forest-night-fire-lights.jpg",
+      "schema type": "Service,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "pages/forest-wedding.html",
+      "route": "/pages/forest-wedding.html",
+      "title": "森林戶外婚禮｜Joyforest 揪好森｜森林派對場地",
+      "description": "小型戶外特色婚禮與證婚儀式，在森林系場景裡留下溫暖、真實的互動影像。",
+      "canonical": "https://joyforest.tw/pages/forest-wedding",
+      "hero image": "https://joyforest.tw/assets/images/wedding/outdoor-wedding-ceremony-01.jpg",
+      "og image": "https://joyforest.tw/assets/images/wedding/outdoor-wedding-ceremony-01.jpg",
+      "schema type": "Service,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "pages/location.html",
+      "route": "/pages/location.html",
+      "title": "交通方式｜Joyforest 揪好森｜森林派對場地",
+      "description": "Joyforest 揪好森桃園中壢森林派對場地：地址、交通、周邊與地圖。鄰近桃園中壢，交通便利。",
+      "canonical": "https://joyforest.tw/pages/location",
+      "hero image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
+      "og image": "https://joyforest.tw/assets/images/location/location-map.jpg",
+      "schema type": "WebPage,LocalBusiness",
+      "noindex": false
+    },
+    {
+      "page file": "pages/pet-party.html",
+      "route": "/pages/pet-party.html",
+      "title": "寵物聚會｜Joyforest 揪好森｜森林派對場地",
+      "description": "桃園寵物派對、寵物聚會場地：Joyforest 揪好森寵物友善森林系聚會與生活感拍攝，桃園中壢適合毛孩生日、同好小聚與家庭日。",
+      "canonical": "https://joyforest.tw/pages/pet-party",
+      "hero image": "https://joyforest.tw/assets/images/pets/pet-party-outdoor-01.jpg",
+      "og image": "https://joyforest.tw/assets/images/pets/pet-party-outdoor-01.jpg",
+      "schema type": "Service,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "pages/pet-photography.html",
+      "route": "/pages/pet-photography.html",
+      "title": "寵物攝影推薦｜揪好森寵物攝影棚・戶外草地・森林系寵物拍攝｜桃園寵物寫真",
+      "description": "揪好森提供專業寵物攝影、寵物拍攝與寵物寫真服務，結合寵物攝影棚、戶外草地場景與森林系空間，打造超過100坪室內外寵物攝影場地，讓毛孩自在奔跑、自然互動，留下最真實的美好畫面。",
+      "canonical": "https://joyforest.tw/pages/pet-photography",
+      "hero image": "https://joyforest.tw/assets/images/pet-photography/pet-photography-studio-surf-shiba-dogs.jpg",
+      "og image": "https://joyforest.tw/assets/images/pet-photography/pet-photography-studio-surf-shiba-dogs.jpg",
+      "schema type": "Service,ImageObject,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "pages/photography-studio.html",
+      "route": "/pages/photography-studio.html",
+      "title": "攝影棚出租 | 200坪室外實景+室內棚｜揪好森森林系圓頂影像空間",
+      "description": "揪好森 Joyforest 攝影棚｜桃園楊梅攝影棚出租，200 坪森林系實景（圓頂室內棚＋戶外森林場景），適合親子寫真、寵物攝影、品牌形象與活動紀錄，平日／假日租棚與半日、全日包場方案。",
+      "canonical": "https://joyforest.tw/pages/photography-studio",
+      "hero image": "https://joyforest.tw/assets/images/photography-studio/studio1.png",
+      "og image": "https://joyforest.tw/assets/images/photography-studio/studio1.png",
+      "schema type": "Service,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "pages/proposal.html",
+      "route": "/pages/proposal.html",
+      "title": "求婚場地｜Joyforest 揪好森｜森林派對場地",
+      "description": "森林系求婚場景與小型驚喜儀式，保留專屬、安靜、不被打擾的時刻。",
+      "canonical": "https://joyforest.tw/pages/proposal",
+      "hero image": "https://joyforest.tw/assets/images/night/forest-night-sparkler-couple.jpg",
+      "og image": "https://joyforest.tw/assets/images/night/forest-night-sparkler-couple.jpg",
+      "schema type": "Service,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "pages/rules.html",
+      "route": "/pages/rules.html",
+      "title": "使用規則｜Joyforest 揪好森｜森林派對場地",
+      "description": "自主包場與拍攝使用說明：音量、清潔、雨備與夜間延時使用注意事項。",
+      "canonical": "https://joyforest.tw/pages/rules",
+      "hero image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
+      "og image": "https://joyforest.tw/assets/images/hero/forest-party-table-setup.jpg",
+      "schema type": "WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "seo/forest-party-venue.html",
+      "route": "/seo/forest-party-venue.html",
+      "title": "森林派對場地怎麼選？全台清單與價位分析｜Joyforest 揪好森｜森林派對場地",
+      "description": "森林系派對包場強調氛圍與生活感：草地、樹木、佈景，適合小型慶祝與紀錄。專家整理森林派對場地清單與選場建議。",
+      "canonical": "https://joyforest.tw/seo/forest-party-venue",
+      "hero image": "https://joyforest.tw/assets/images/seo/forest-party-venue/hero.png",
+      "og image": "https://joyforest.tw/assets/images/seo/forest-party-venue/hero.png",
+      "schema type": "Article,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "seo/outdoor-birthday-party.html",
+      "route": "/seo/outdoor-birthday-party.html",
+      "title": "戶外生日派對怎麼辦？場地類型與價位分析｜Joyforest 揪好森｜森林派對場地",
+      "description": "戶外生日派對在森林系場景更放鬆：拍照好看、互動自然，適合 20 人內。專家整理戶外生日派對場地類型與選場建議。",
+      "canonical": "https://joyforest.tw/seo/outdoor-birthday-party",
+      "hero image": "https://joyforest.tw/assets/images/seo/outdoor-birthday-party/hero.png",
+      "og image": "https://joyforest.tw/assets/images/seo/outdoor-birthday-party/hero.png",
+      "schema type": "Article,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "seo/pet-birthday.html",
+      "route": "/seo/pet-birthday.html",
+      "title": "寵物生日派對怎麼辦？場地類型與方案分析｜Joyforest 揪好森｜森林派對場地",
+      "description": "毛孩生日派對＋生活感拍攝：草地互動、棚拍、親子同樂都能安排。專家整理寵物生日派對場地類型與選場建議。",
+      "canonical": "https://joyforest.tw/seo/pet-birthday",
+      "hero image": "https://joyforest.tw/assets/images/seo/pet-birthday/hero.png",
+      "og image": "https://joyforest.tw/assets/images/seo/pet-birthday/hero.png",
+      "schema type": "Article,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "seo/private-event-venue.html",
+      "route": "/seo/private-event-venue.html",
+      "title": "小型包場場地怎麼選？類型與價位分析｜Joyforest 揪好森｜森林派對場地",
+      "description": "私人活動包場適合不想被打擾的你：單組預約、自主安排，留下真實互動畫面。專家整理小型包場場地類型與選場建議。",
+      "canonical": "https://joyforest.tw/seo/private-event-venue",
+      "hero image": "https://joyforest.tw/assets/images/seo/private-event-venue/hero.png",
+      "og image": "https://joyforest.tw/assets/images/seo/private-event-venue/hero.png",
+      "schema type": "Article,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "seo/taoyuan-baby-grab.html",
+      "route": "/seo/taoyuan-baby-grab.html",
+      "title": "桃園抓周場地怎麼選？場地清單與價位分析｜Joyforest 揪好森｜森林派對場地",
+      "description": "抓周派對在森林系空間進行：儀式、全家福與生活感互動一次完成。專家整理桃園抓周場地與價位比較。",
+      "canonical": "https://joyforest.tw/seo/taoyuan-baby-grab",
+      "hero image": "https://joyforest.tw/assets/images/seo/taoyuan-baby-grab/hero.png",
+      "og image": "https://joyforest.tw/assets/images/seo/taoyuan-baby-grab/hero.png",
+      "schema type": "Article,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "seo/taoyuan-party-venue.html",
+      "route": "/seo/taoyuan-party-venue.html",
+      "title": "桃園派對包場空間怎麼選？場地清單與價位分析｜Joyforest 揪好森｜森林派對場地",
+      "description": "桃園楊梅森林系派對包場，適合 20 人內的生日與小型聚會。專家整理桃園派對場地清單、價位比較與選場建議。",
+      "canonical": "https://joyforest.tw/seo/taoyuan-party-venue",
+      "hero image": "https://joyforest.tw/assets/images/seo/taoyuan-party-venue/hero.png",
+      "og image": "https://joyforest.tw/assets/images/seo/taoyuan-party-venue/hero.png",
+      "schema type": "Article,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "seo/taoyuan-pet-friendly.html",
+      "route": "/seo/taoyuan-pet-friendly.html",
+      "title": "桃園寵物友善場地怎麼選？清單與方案分析｜Joyforest 揪好森｜森林派對場地",
+      "description": "寵物友善的森林系聚會與拍攝空間，適合毛孩生日、同好小聚與親子＋毛孩家庭日。專家整理桃園寵物友善場地與價位比較。",
+      "canonical": "https://joyforest.tw/seo/taoyuan-pet-friendly",
+      "hero image": "https://joyforest.tw/assets/images/seo/taoyuan-pet-friendly/hero.png",
+      "og image": "https://joyforest.tw/assets/images/seo/taoyuan-pet-friendly/hero.png",
+      "schema type": "Article,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "seo/taoyuan-photo-location.html",
+      "route": "/seo/taoyuan-photo-location.html",
+      "title": "桃園森林系攝影場地怎麼選？類型與價位分析｜Joyforest 揪好森｜森林派對場地",
+      "description": "自然光與戶外森林場景，適合同業租棚、品牌內容與親子/寵物寫真拍攝。專家整理桃園攝影場地類型與選場建議。",
+      "canonical": "https://joyforest.tw/seo/taoyuan-photo-location",
+      "hero image": "https://joyforest.tw/assets/images/seo/taoyuan-photo-location/hero.png",
+      "og image": "https://joyforest.tw/assets/images/seo/taoyuan-photo-location/hero.png",
+      "schema type": "Article,WebPage",
+      "noindex": false
+    },
+    {
+      "page file": "seo/taoyuan-proposal.html",
+      "route": "/seo/taoyuan-proposal.html",
+      "title": "桃園求婚場地怎麼選？類型與價位分析｜Joyforest 揪好森｜森林派對場地",
+      "description": "森林系求婚場景與小型驚喜儀式，安靜、不被打擾，適合留下紀念影像。專家整理桃園求婚場地類型與選場建議。",
+      "canonical": "https://joyforest.tw/seo/taoyuan-proposal",
+      "hero image": "https://joyforest.tw/assets/images/seo/taoyuan-proposal/hero.png",
+      "og image": "https://joyforest.tw/assets/images/seo/taoyuan-proposal/hero.png",
+      "schema type": "Article,WebPage",
+      "noindex": false
+    }
+  ]
+}
