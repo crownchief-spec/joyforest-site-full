@@ -363,3 +363,85 @@ p{margin:0 0 12px}
   .slider-btn span{font-size:1.7rem}
   .slider-counter{font-size:1.45rem; gap:10px}
 }
+
+/* 攝影服務系列頁：共用導覽膠囊與關聯卡片 */
+.photo-series-nav{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:14px;
+}
+.series-pill{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:8px 14px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.42);
+  background:rgba(255,255,255,.12);
+  color:#fff;
+  font-size:.92rem;
+  transition:all .2s ease;
+}
+.series-pill:hover{background:rgba(255,255,255,.22)}
+.series-pill.active{
+  border-color:#fff;
+  background:#fff;
+  color:#2e4b3f;
+  font-weight:600;
+}
+.series-pill.series-pill-light{
+  border-color:var(--line);
+  background:#fff;
+  color:var(--green);
+}
+.series-pill.series-pill-light:hover{
+  border-color:var(--green);
+  background:#f5f8f6;
+}
+.series-pill.series-pill-light.active{
+  border-color:var(--green);
+  background:var(--green);
+  color:#fff;
+}
+.cta-inline{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:14px;
+}
+.related-service-grid{
+  display:grid;
+  gap:14px;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+}
+.related-service-card{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:var(--r2);
+  padding:18px;
+}
+.related-service-card h3{margin-bottom:8px}
+.hero-service-desc{
+  margin-top:14px;
+  max-width:56em;
+  color:rgba(255,255,255,.92);
+  line-height:1.6;
+}
+.hero-service-note{
+  margin-top:12px;
+  color:rgba(255,255,255,.88);
+  font-size:.95rem;
+}
+@media(max-width:560px){
+  .photo-series-nav{
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    padding-bottom:4px;
+    -webkit-overflow-scrolling:touch;
+  }
+  .series-pill{
+    flex:0 0 auto;
+    white-space:nowrap;
+  }
+}
