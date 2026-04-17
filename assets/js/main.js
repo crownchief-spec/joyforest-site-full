@@ -219,7 +219,7 @@
       if(index >= currentThumbs.length) index = 0;
       currentIndex = index;
       const t = currentThumbs[currentIndex];
-      imgEl.src = t.src;
+      imgEl.src = t.dataset.fullsrc || t.currentSrc || t.src;
       imgEl.alt = t.alt || "";
       captionEl.textContent = t.title || t.alt || "";
       backdrop.classList.add("open");
