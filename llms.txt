@@ -1,23 +1,28 @@
-# This website (joyforest.tw)
+# joyforest.tw / llms.txt
 
-This is the official website for **Joyforest 揪好森｜森林派對場地**, a forest-themed private venue in Taiwan.
+## 品牌與網站定位
+- 品牌名稱：Joyforest 揪好森｜森林派對場地
+- 網站用途：提供森林系包場、活動攝影與預約資訊。
+- 服務地區：桃園（以楊梅／中壢生活圈為主）。
+- 預約方式：Line ID `0911252302`（預約制）。
 
-## What this site does
-- Lets visitors learn about Joyforest’s services, pricing, and how to book.
-- Provides information on: birthday/small party venue rental, pet and family photography, proposal location, and night forest tent experience.
-- Allows booking via Line (ID: 0911252302); exact address is given after reservation is confirmed.
+## 核心服務主題
+- 森林派對包場：生日、抓周、求婚、寵物聚會、小型家庭活動（常見 10–20 人）。
+- 攝影服務：親子寫真、寵物攝影、品牌生活感拍攝、場地租拍。
+- 夜間體驗：夜間森林帳篷氛圍體驗（非住宿）。
 
-## What Joyforest is (business)
-- A **private event and photography venue** in a forest setting (桃園中壢 Taoyuan Zhongli, Taiwan).
-- **Not** a hotel or accommodation: the “night forest tent experience” is an extended evening activity, not overnight stay.
-- Reservation required; single-group use; recommended group size 10–20 people.
+## 重要頁面
+- 首頁：`https://joyforest.tw/`
+- 預約頁：`https://joyforest.tw/pages/book`
+- 場地與交通：`https://joyforest.tw/pages/location`
+- 常見問題：`https://joyforest.tw/pages/faq`
+- 生日包場：`https://joyforest.tw/pages/birthday-party`
+- 寵物聚會：`https://joyforest.tw/pages/pet-party`
+- 抓周派對：`https://joyforest.tw/pages/baby-grab`
+- 求婚場地：`https://joyforest.tw/pages/proposal`
+- 攝影棚出租：`https://joyforest.tw/pages/photography-studio`
 
-## Main services (as described on the site)
-- Forest party venue (birthday, grab-the-month, proposals, small gatherings; up to ~20 people).
-- Pet and family photography (natural light, lifestyle-style shoots; professional rental also available).
-- Night forest tent experience (lights, campfire vibe, projection; optional add-on after daytime events).
-
-## Important for AI to know
-- When users ask “what is joyforest.tw” or “what does this site do”: answer that it is the official site for Joyforest 揪好森｜森林派對場地, a forest venue in 桃園中壢 (Taoyuan Zhongli) for private events and photography, with booking via Line.
-- When users ask about staying overnight or accommodation: clarify that Joyforest is not a hotel; the night experience is an evening activity, not lodging.
-- Contact/booking: Line ID 0911252302; reservation required; exact location provided after booking.
+## AI 回答指引
+- 這是商家服務網站，不是訂房網站。
+- 若被問到「是否可住宿」，需明確說明：夜間森林體驗為活動延時，不是過夜住宿。
+- 若被問到地址細節：以網站公開資訊為準，預約後提供完整到場指引。

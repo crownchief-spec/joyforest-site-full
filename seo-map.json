@@ -21,7 +21,7 @@
       "canonical": "https://joyforest.tw/",
       "hero image": "https://joyforest.tw/assets/images/party/outdoor-party-table-01.jpg",
       "og image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
-      "schema type": "Organization,WebSite,WebPage",
+      "schema type": "Organization,WebSite,LocalBusiness,WebPage",
       "noindex": false
     },
     {
@@ -31,7 +31,7 @@
       "description": "關於 Joyforest 揪好森：桃園中壢單組預約制的森林派對場地與自然光拍攝場景，讓你在城市之外好好相聚。",
       "canonical": "https://joyforest.tw/pages/about",
       "hero image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
-      "og image": "https://joyforest.tw/assets/images/hero/forest-party-table-setup.jpg",
+      "og image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
       "schema type": "WebPage",
       "noindex": false
     },
@@ -64,9 +64,20 @@
       "description": "桃園中壢森林派對場地 Joyforest 揪好森：加 Line 預約生日派對、抓周、寵物聚會、親子寫真。留下活動類型、人數、日期與需求。",
       "canonical": "https://joyforest.tw/pages/book",
       "hero image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
-      "og image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-logo.png",
+      "og image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
       "schema type": "WebPage",
       "noindex": false
+    },
+    {
+      "page file": "pages/family-photography.html",
+      "route": "/pages/family-photography.html",
+      "title": "頁面已搬移｜Joyforest 揪好森",
+      "description": "此頁面已搬移至親子寫真服務頁，將自動重新導向到最新網址。",
+      "canonical": "https://joyforest.tw/pages/family-photography",
+      "hero image": "https://joyforest.tw/assets/images/photography/outdoor-family-photography-balloon-01.jpg",
+      "og image": "https://joyforest.tw/assets/images/photography/outdoor-family-photography-balloon-01.jpg",
+      "schema type": "WebPage",
+      "noindex": true
     },
     {
       "page file": "pages/portrait-photography.html",
@@ -86,7 +97,7 @@
       "description": "自主包場、飲品點心、餐點外送、加時與夜間延時使用等常見問題整理。",
       "canonical": "https://joyforest.tw/pages/faq",
       "hero image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
-      "og image": "https://joyforest.tw/assets/images/party/party-food-table-01.jpg",
+      "og image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
       "schema type": "FAQPage,WebPage",
       "noindex": false
     },
@@ -119,7 +130,7 @@
       "description": "Joyforest 揪好森桃園中壢森林派對場地：地址、交通、周邊與地圖。鄰近桃園中壢，交通便利。",
       "canonical": "https://joyforest.tw/pages/location",
       "hero image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
-      "og image": "https://joyforest.tw/assets/images/location/location-map.jpg",
+      "og image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
       "schema type": "WebPage,LocalBusiness",
       "noindex": false
     },
@@ -174,7 +185,7 @@
       "description": "自主包場與拍攝使用說明：音量、清潔、雨備與夜間延時使用注意事項。",
       "canonical": "https://joyforest.tw/pages/rules",
       "hero image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
-      "og image": "https://joyforest.tw/assets/images/hero/forest-party-table-setup.jpg",
+      "og image": "https://joyforest.tw/assets/images/hero/joyforest-forest-venue-aerial.jpg",
       "schema type": "WebPage",
       "noindex": false
     },

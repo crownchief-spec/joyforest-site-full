@@ -1,4 +1,6 @@
 (function(){
+  // TODO(analytics): 若導入 GA4/GTM/Meta Pixel，保留在各頁 <head> 放置 bootstrap，
+  // 並於此檔案統一管理事件追蹤（預約按鈕、電話/Line 點擊、表單送出）。
   const body = document.body;
   const base = body.dataset.base || "./";
 
