@@ -69,11 +69,11 @@
       "noindex": false
     },
     {
-      "page file": "pages/family-photography.html",
-      "route": "/pages/family-photography.html",
+      "page file": "pages/portrait-photography.html",
+      "route": "/pages/portrait-photography.html",
       "title": "親子寫真｜Joyforest 揪好森｜森林派對場地",
       "description": "桃園親子寫真：Joyforest 揪好森自然光、生活感親子互動紀錄，桃園中壢適合家庭日、親子遊戲紀錄與孕期/全家福拍攝。",
-      "canonical": "https://joyforest.tw/pages/family-photography",
+      "canonical": "https://joyforest.tw/pages/portrait-photography",
       "hero image": "https://joyforest.tw/assets/images/photography/outdoor-family-photography-balloon-01.jpg",
       "og image": "https://joyforest.tw/assets/images/photography/outdoor-family-photography-balloon-01.jpg",
       "schema type": "Service,WebPage",

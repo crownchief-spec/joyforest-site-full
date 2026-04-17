@@ -185,10 +185,8 @@
   }
 
   function initPhotoLightbox(){
-    const mosaic = document.getElementById("studio-photo-mosaic");
-    if(!mosaic) return;
-    const thumbs = Array.from(mosaic.querySelectorAll("img"));
-    if(!thumbs.length) return;
+    const mosaics = Array.from(document.querySelectorAll(".photo-mosaic"));
+    if(!mosaics.length) return;
 
     const backdrop = document.createElement("div");
     backdrop.className = "lightbox-backdrop";
@@ -212,13 +210,15 @@
     const prevBtn = backdrop.querySelector(".lightbox-btn-prev");
     const nextBtn = backdrop.querySelector(".lightbox-btn-next");
     const closeBtn = backdrop.querySelector(".lightbox-close");
+    let currentThumbs = [];
     let currentIndex = 0;
 
     function show(index){
-      if(index < 0) index = thumbs.length - 1;
-      if(index >= thumbs.length) index = 0;
+      if(!currentThumbs.length) return;
+      if(index < 0) index = currentThumbs.length - 1;
+      if(index >= currentThumbs.length) index = 0;
       currentIndex = index;
-      const t = thumbs[currentIndex];
+      const t = currentThumbs[currentIndex];
       imgEl.src = t.src;
       imgEl.alt = t.alt || "";
       captionEl.textContent = t.title || t.alt || "";
@@ -229,9 +229,16 @@
       backdrop.classList.remove("open");
     }
 
-    thumbs.forEach((img, idx)=>{
-      const btn = img.closest(".photo-mosaic-item") || img;
-      btn.addEventListener("click", ()=>{ show(idx); });
+    mosaics.forEach((mosaic)=>{
+      const thumbs = Array.from(mosaic.querySelectorAll("img"));
+      if(!thumbs.length) return;
+      thumbs.forEach((img, idx)=>{
+        const btn = img.closest(".photo-mosaic-item") || img;
+        btn.addEventListener("click", ()=>{
+          currentThumbs = thumbs;
+          show(idx);
+        });
+      });
     });
 
     prevBtn.addEventListener("click", ()=>{ show(currentIndex - 1); });
