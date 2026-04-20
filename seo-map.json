@@ -69,17 +69,6 @@
       "noindex": false
     },
     {
-      "page file": "pages/family-photography.html",
-      "route": "/pages/family-photography.html",
-      "title": "頁面已搬移｜Joyforest 揪好森",
-      "description": "此頁面已搬移至親子寫真服務頁，將自動重新導向到最新網址。",
-      "canonical": "https://joyforest.tw/pages/family-photography",
-      "hero image": "https://joyforest.tw/assets/images/photography/outdoor-family-photography-balloon-01.jpg",
-      "og image": "https://joyforest.tw/assets/images/photography/outdoor-family-photography-balloon-01.jpg",
-      "schema type": "WebPage",
-      "noindex": true
-    },
-    {
       "page file": "pages/portrait-photography.html",
       "route": "/pages/portrait-photography.html",
       "title": "親子寫真｜Joyforest 揪好森｜森林派對場地",

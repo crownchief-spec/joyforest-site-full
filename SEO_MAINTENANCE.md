@@ -27,9 +27,12 @@
 - 影片首屏頁（首頁）需持續監控 LCP 與 INP。
 
 ## Redirect 與索引策略
-- `pages/family-photography.html`：舊頁保留、`noindex,follow`、導向新頁。
-- `404.html`：`noindex, nofollow`，不收錄於 sitemap。
-- 建議後續由伺服器層補 301（目前為 HTML refresh + JS replace）。
+- 統一由 `_redirects`（Cloudflare Pages）做 301 轉址，不再使用 meta refresh 假搬移頁。
+- `pages/family-photography.*` → `/pages/portrait-photography`（301）。
+- `pages/photo-location.*` → `/pages/photography-studio`（301）。
+- 全站一律使用 **不帶 `.html` 的 clean URL**（如 `/pages/about`），`.html` 舊版一律 301 到 clean URL。
+- 正式網域統一為 `https://joyforest.tw`（非 www、https）。如 Cloudflare 仍有 www 轉址錯誤，請在 Cloudflare Dashboard → Rules → Redirect Rules 將 www → apex 修正。
+- `404.html`：`noindex, nofollow`，不收錄於 sitemap；Cloudflare Pages 會自動把不存在網址回傳 404 + 此頁內容。
 
 ## 目前待補強 TODO
 - FAQPage `mainEntity` 結構化資料完整化。

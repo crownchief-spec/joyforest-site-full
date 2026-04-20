@@ -79,7 +79,7 @@
 62. [x] robots.txt 含 sitemap
 63. [x] sitemap.xml
 64. [x] sitemap 僅收錄正式頁
-65. [x] 排除重複頁（舊 family-photography 未進 sitemap）
+65. [x] 排除重複頁（舊 family-photography 已改由 _redirects 301 到 portrait-photography）
 66. [x] noindex 支援
 67. [x] 404.html
 68. [~] 薄內容頁（已標註，待持續補強）

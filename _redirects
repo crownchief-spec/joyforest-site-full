@@ -1,0 +1,80 @@
+# Cloudflare Pages redirects
+# 文件用途：集中管理舊網址 301，確保 GSC 不再出現 404。
+# 規則順序：從上到下，先匹配先生效。
+
+# ─────────────────────────────────────────────
+# 1. 已搬移頁面（301）
+# photo-location → photography-studio（2026/03 攝影棚頁更名）
+/pages/photo-location             /pages/photography-studio   301
+/pages/photo-location.html        /pages/photography-studio   301
+/pages/photo-location/            /pages/photography-studio   301
+
+# family-photography → portrait-photography（整合為寫真攝影頁）
+/pages/family-photography         /pages/portrait-photography 301
+/pages/family-photography.html    /pages/portrait-photography 301
+/pages/family-photography/        /pages/portrait-photography 301
+
+# ─────────────────────────────────────────────
+# 2. 正式 URL 版本一致化：一律使用不帶 .html 的 clean URL
+/index.html                       /                           301
+/pages/about.html                 /pages/about                301
+/pages/baby-grab.html             /pages/baby-grab            301
+/pages/birthday-party.html        /pages/birthday-party       301
+/pages/book.html                  /pages/book                 301
+/pages/faq.html                   /pages/faq                  301
+/pages/forest-night-experience.html /pages/forest-night-experience 301
+/pages/forest-wedding.html        /pages/forest-wedding       301
+/pages/location.html              /pages/location             301
+/pages/pet-party.html             /pages/pet-party            301
+/pages/pet-photography.html       /pages/pet-photography      301
+/pages/photography-studio.html    /pages/photography-studio   301
+/pages/portrait-photography.html  /pages/portrait-photography 301
+/pages/proposal.html              /pages/proposal             301
+/pages/rules.html                 /pages/rules                301
+/seo/forest-party-venue.html      /seo/forest-party-venue     301
+/seo/outdoor-birthday-party.html  /seo/outdoor-birthday-party 301
+/seo/pet-birthday.html            /seo/pet-birthday           301
+/seo/private-event-venue.html     /seo/private-event-venue    301
+/seo/taoyuan-baby-grab.html       /seo/taoyuan-baby-grab      301
+/seo/taoyuan-party-venue.html     /seo/taoyuan-party-venue    301
+/seo/taoyuan-pet-friendly.html    /seo/taoyuan-pet-friendly   301
+/seo/taoyuan-photo-location.html  /seo/taoyuan-photo-location 301
+/seo/taoyuan-proposal.html        /seo/taoyuan-proposal       301
+
+# ─────────────────────────────────────────────
+# 3. 尾斜線版本 → 無尾斜線正式版（避免重複內容）
+/pages/about/                     /pages/about                301
+/pages/baby-grab/                 /pages/baby-grab            301
+/pages/birthday-party/            /pages/birthday-party       301
+/pages/book/                      /pages/book                 301
+/pages/faq/                       /pages/faq                  301
+/pages/forest-night-experience/   /pages/forest-night-experience 301
+/pages/forest-wedding/            /pages/forest-wedding       301
+/pages/location/                  /pages/location             301
+/pages/pet-party/                 /pages/pet-party            301
+/pages/pet-photography/           /pages/pet-photography      301
+/pages/photography-studio/        /pages/photography-studio   301
+/pages/portrait-photography/      /pages/portrait-photography 301
+/pages/proposal/                  /pages/proposal             301
+/pages/rules/                     /pages/rules                301
+/seo/forest-party-venue/          /seo/forest-party-venue     301
+/seo/outdoor-birthday-party/      /seo/outdoor-birthday-party 301
+/seo/pet-birthday/                /seo/pet-birthday           301
+/seo/private-event-venue/         /seo/private-event-venue    301
+/seo/taoyuan-baby-grab/           /seo/taoyuan-baby-grab      301
+/seo/taoyuan-party-venue/         /seo/taoyuan-party-venue    301
+/seo/taoyuan-pet-friendly/        /seo/taoyuan-pet-friendly   301
+/seo/taoyuan-photo-location/      /seo/taoyuan-photo-location 301
+/seo/taoyuan-proposal/            /seo/taoyuan-proposal       301
+
+# ─────────────────────────────────────────────
+# 4. 常見錯別/大小寫變形（保險用）
+/Pages/*                          /pages/:splat               301
+/SEO/*                            /seo/:splat                 301
+/home                             /                           301
+/home/                            /                           301
+
+# ─────────────────────────────────────────────
+# 5. 自訂 404
+# Cloudflare Pages 會自動以 /404.html 作為 fallback，此行僅供佐證。
+/404.html                         /404                        301
