@@ -255,6 +255,19 @@
       else if(e.key === "ArrowLeft") show(currentIndex - 1);
       else if(e.key === "ArrowRight") show(currentIndex + 1);
     });
+
+    let touchStartX = 0;
+    backdrop.addEventListener("touchstart", (e)=>{
+      if(e.touches && e.touches.length === 1) touchStartX = e.touches[0].clientX;
+    }, { passive: true });
+    backdrop.addEventListener("touchend", (e)=>{
+      if(!backdrop.classList.contains("open") || !e.changedTouches || !e.changedTouches.length) return;
+      const dx = e.changedTouches[0].clientX - touchStartX;
+      if(Math.abs(dx) > 48){
+        if(dx < 0) show(currentIndex + 1);
+        else show(currentIndex - 1);
+      }
+    }, { passive: true });
   }
 
   function initServiceSlider(){

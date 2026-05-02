@@ -56,6 +56,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://joyforest.tw/pages/pet-party-photography</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://joyforest.tw/pages/pet-photography</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
