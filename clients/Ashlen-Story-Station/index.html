@@ -1,0 +1,514 @@
+<!--
+Ashlen’s Story Station / 昕閱森林
+Client preview page
+Path: clients/Ashlen-Story-Station/index.html
+URL: https://joyforest.tw/clients/Ashlen-Story-Station/
+Status: Draft preview / noindex
+Notes:
+- Replace placeholder photos after client confirms image permissions.
+- Replace consultation link after client provides LINE or form URL.
+- Remove noindex only after final approval.
+-->
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>昕閱森林 Ashlen’s Story Station｜讓英文成為孩子看世界的眼睛</title>
+  <meta name="description" content="昕閱森林 Ashlen’s Story Station 從英文繪本、自然拼讀、故事課與口說訓練出發，陪孩子透過真實交流、世界議題與海外深度學習旅程，讓英文成為看見世界的能力。" />
+  <meta name="keywords" content="昕閱森林, Ashlen Story Station, 兒童英文, 英文繪本, 自然拼讀, 英文故事課, 兒童口說, 親子英文, 海外親子團, 紐西蘭微留學, 韓國文化學習, 世界學習旅程, 小小文化記者, SSSP線上交流" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://joyforest.tw/clients/Ashlen-Story-Station/" />
+  <meta property="og:title" content="昕閱森林 Ashlen’s Story Station｜讓英文成為孩子看世界的眼睛" />
+  <meta property="og:description" content="從故事、聲音、閱讀與真實世界互動出發，陪孩子用英文理解文化、表達自己、看見世界。" />
+  <meta property="og:image" content="/assets/clients/ashlen-story-station/brand-banner.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://joyforest.tw/clients/Ashlen-Story-Station/" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta name="theme-color" content="#DDF3FF" />
+  <link rel="icon" href="../../favicon.ico" sizes="any" />
+  <style>
+    :root {
+      --ashlen-blue: #2F8FD3;
+      --ashlen-sky: #DDF3FF;
+      --ashlen-cream: #FFF7DD;
+      --ashlen-green: #4CAF50;
+      --ashlen-leaf: #7BC96F;
+      --ashlen-brown: #8B5E3C;
+      --ashlen-pink: #F48FB1;
+      --ashlen-orange: #F5B75B;
+      --ashlen-ink: #3F3428;
+      --ashlen-muted: #6F675F;
+      --ashlen-white: #FFFFFF;
+      --radius-xl: 24px;
+      --radius-lg: 18px;
+      --shadow-soft: 0 10px 30px rgba(47, 143, 211, 0.12);
+      --max-width: 1120px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ashlen-ink);
+      background: linear-gradient(180deg, #edf8ff 0%, #f9fcff 28%, #fffef8 56%, #f6fff6 100%);
+      font-family: "Noto Sans TC", "Noto Sans", system-ui, sans-serif;
+      line-height: 1.75;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    .container { width: min(calc(100% - 32px), var(--max-width)); margin: 0 auto; }
+    section { padding: 68px 0; }
+    h1, h2, h3 { margin-top: 0; line-height: 1.3; }
+    h2 { font-size: clamp(1.5rem, 2vw, 2rem); margin-bottom: 12px; }
+    .subhead { color: var(--ashlen-muted); margin-bottom: 28px; }
+    .chip-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 22px 0; }
+    .chip {
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.8);
+      border: 1px solid rgba(47,143,211,.25);
+      color: var(--ashlen-blue);
+      font-weight: 700;
+      font-size: 13px;
+    }
+    .btn-row { display: flex; flex-wrap: wrap; gap: 12px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      padding: 12px 18px;
+      font-weight: 700;
+      border: 1px solid transparent;
+      transition: .2s ease;
+    }
+    .btn.primary { background: var(--ashlen-blue); color: #fff; box-shadow: 0 8px 22px rgba(47,143,211,.28); }
+    .btn.primary:hover { transform: translateY(-1px); background: #207dc2; }
+    .btn.secondary { background: #fff; color: var(--ashlen-blue); border-color: rgba(47,143,211,.35); }
+    .btn.secondary:hover { background: rgba(47,143,211,.06); }
+    .btn.soft { background: var(--ashlen-cream); color: var(--ashlen-brown); border-color: rgba(139,94,60,.25); }
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+      background: rgba(255, 255, 255, 0.82);
+      border-bottom: 1px solid rgba(47, 143, 211, 0.12);
+    }
+    .nav-wrap { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; gap: 14px; }
+    .brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
+    .brand img { width: 52px; height: 52px; object-fit: contain; border-radius: 12px; background: #fff; }
+    .brand strong { font-size: 14px; display: block; }
+    .brand span { font-size: 12px; color: var(--ashlen-muted); display: block; }
+    .nav-links { display: flex; gap: 18px; align-items: center; font-size: 14px; font-weight: 700; color: var(--ashlen-ink); }
+    .nav-toggle { display: none; border: 1px solid rgba(47,143,211,.25); background: #fff; border-radius: 10px; padding: 8px 10px; }
+    .hero {
+      padding-top: 48px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      width: 240px;
+      height: 240px;
+      background: radial-gradient(circle, rgba(244,143,177,.28), rgba(244,143,177,0));
+      top: -40px;
+      right: -50px;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 1fr;
+      gap: 24px;
+      align-items: center;
+    }
+    .hero-card {
+      background: rgba(255,255,255,.9);
+      border-radius: var(--radius-xl);
+      padding: clamp(22px, 4vw, 38px);
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(47,143,211,.13);
+    }
+    .hero-card h1 { font-size: clamp(1.9rem, 3.8vw, 3rem); margin-bottom: 12px; color: var(--ashlen-ink); }
+    .hero-visual img { border-radius: var(--radius-xl); box-shadow: var(--shadow-soft); border: 1px solid rgba(47,143,211,.18); }
+    .logo-inline { width: 120px; margin-bottom: 14px; }
+    .tone-cream { background: linear-gradient(180deg, rgba(255,247,221,.74), rgba(255,247,221,.48)); }
+    .tone-green { background: linear-gradient(180deg, rgba(123,201,111,.16), rgba(123,201,111,.06)); }
+    .tone-sky { background: linear-gradient(180deg, rgba(221,243,255,.55), rgba(221,243,255,.25)); }
+    .cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .card {
+      background: var(--ashlen-white);
+      border-radius: var(--radius-xl);
+      padding: 20px;
+      border: 1px solid rgba(47,143,211,.12);
+      box-shadow: var(--shadow-soft);
+    }
+    .card h3 { margin-bottom: 8px; font-size: 1.1rem; }
+    .card p { margin: 0; color: var(--ashlen-muted); }
+    .story-wrap {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 22px;
+      align-items: start;
+    }
+    .placeholder {
+      min-height: 280px;
+      border-radius: var(--radius-xl);
+      border: 2px dashed rgba(47,143,211,.3);
+      background: linear-gradient(135deg, rgba(221,243,255,.85), rgba(255,247,221,.8));
+      color: var(--ashlen-muted);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-weight: 700;
+      padding: 22px;
+    }
+    .timeline { margin-top: 16px; display: grid; gap: 10px; }
+    .timeline li {
+      list-style: none;
+      background: rgba(255,255,255,.8);
+      border: 1px solid rgba(47,143,211,.14);
+      border-radius: 14px;
+      padding: 10px 14px;
+      color: var(--ashlen-muted);
+      font-weight: 600;
+    }
+    .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .step-badge {
+      width: 40px; height: 40px; border-radius: 50%;
+      display: inline-flex; align-items: center; justify-content: center;
+      background: var(--ashlen-blue); color: #fff; font-weight: 800; margin-bottom: 12px;
+    }
+    .course-grid, .feature-grid, .value-grid, .video-grid, .faq-grid {
+      display: grid; gap: 16px;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .tag {
+      display: inline-block; margin-top: 12px; padding: 6px 12px; border-radius: 999px;
+      background: rgba(123,201,111,.18); color: #2f7d36; font-size: 12px; font-weight: 700;
+    }
+    .gallery-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin-top: 16px; }
+    .gallery-item {
+      min-height: 120px; border-radius: 16px;
+      border: 1px dashed rgba(47,143,211,.3);
+      background: rgba(255,255,255,.8);
+      display: flex; align-items: center; justify-content: center;
+      text-align: center; padding: 12px; color: var(--ashlen-muted); font-size: 14px;
+    }
+    .reporter {
+      border-radius: var(--radius-xl);
+      padding: 28px;
+      background: linear-gradient(130deg, rgba(47,143,211,.12), rgba(244,143,177,.12));
+      border: 1px solid rgba(47,143,211,.16);
+    }
+    .faq-list details {
+      background: #fff; border-radius: 16px; border: 1px solid rgba(47,143,211,.14);
+      padding: 14px 16px; margin-bottom: 12px;
+    }
+    .faq-list summary { cursor: pointer; font-weight: 800; color: var(--ashlen-ink); }
+    .faq-list p { margin: 10px 0 0; color: var(--ashlen-muted); }
+    .cta-band {
+      border-radius: var(--radius-xl);
+      background: linear-gradient(130deg, #fdf7e7, #e8f6ff);
+      border: 1px solid rgba(47,143,211,.16);
+      padding: 30px;
+      box-shadow: var(--shadow-soft);
+    }
+    footer {
+      margin-top: 40px;
+      background: #f5fbff;
+      border-top: 1px solid rgba(47,143,211,.15);
+      padding: 34px 0;
+      color: var(--ashlen-muted);
+    }
+    footer .footer-brand { display: flex; align-items: center; gap: 12px; color: var(--ashlen-ink); font-weight: 800; }
+    footer .footer-brand img { width: 52px; height: 52px; border-radius: 12px; }
+    @media (max-width: 1024px) {
+      .cards { grid-template-columns: repeat(2, 1fr); }
+      .steps { grid-template-columns: repeat(2, 1fr); }
+      .course-grid, .feature-grid, .value-grid, .video-grid { grid-template-columns: repeat(2, 1fr); }
+      .story-wrap, .hero-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 780px) {
+      section { padding: 50px 0; }
+      .nav-toggle { display: inline-flex; }
+      .nav-links {
+        display: none; position: absolute; left: 16px; right: 16px; top: 72px; flex-direction: column;
+        align-items: flex-start; gap: 10px; background: #fff; border-radius: 16px; padding: 14px;
+        border: 1px solid rgba(47,143,211,.18); box-shadow: var(--shadow-soft);
+      }
+      .nav-links.open { display: flex; }
+      .cards, .steps, .course-grid, .feature-grid, .value-grid, .video-grid, .gallery-grid { grid-template-columns: 1fr; }
+      .btn-row .btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">
+        <img src="../../assets/clients/ashlen-story-station/logo.png" alt="昕閱森林 Ashlen Story Station 品牌標誌，兩隻猴子一起閱讀英文故事書" />
+        <div>
+          <strong>昕閱森林 Ashlen’s Story Station</strong>
+          <span>讓英文，成為孩子看世界的眼睛</span>
+        </div>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="開啟選單">選單</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#brand-story">品牌故事</a>
+        <a href="#courses">英文能力養成</a>
+        <a href="#world-learning">世界學習旅程</a>
+        <a href="#little-reporter">小小文化記者</a>
+        <a href="#videos">影音故事</a>
+        <a href="#contact">聯絡諮詢</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-card">
+          <img class="logo-inline" src="../../assets/clients/ashlen-story-station/logo.png" alt="昕閱森林 Ashlen Story Station 品牌標誌，兩隻猴子一起閱讀英文故事書" />
+          <h1>讓英文，成為孩子看世界的眼睛</h1>
+          <p>從故事、聲音與閱讀開始，陪孩子走進真實世界。<br>在昕閱森林，我們不只教英文，更帶孩子用英文理解文化、表達自己、看見世界。</p>
+          <div class="chip-row">
+            <span class="chip">英文繪本共讀</span><span class="chip">自然拼讀</span><span class="chip">兒童口說</span>
+            <span class="chip">海外深度學習</span><span class="chip">世界議題交流</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="#brand-story">了解品牌故事</a>
+            <a class="btn secondary" href="#world-learning">查看世界學習旅程</a>
+            <a class="btn soft" href="https://www.facebook.com/AshlenStoryStation/" target="_blank" rel="noopener">前往 Facebook</a>
+          </div>
+          <p style="margin-top:16px;color:var(--ashlen-muted)">昕閱森林 Ashlen’s Story Station 是一座沒有圍牆的英文教室。孩子在這裡從故事開始，透過聽覺、閱讀、表達與真實互動，一步步把英文變成能夠使用、能夠感受、也能夠與世界連結的能力。</p>
+        </div>
+        <div class="hero-visual">
+          <img src="../../assets/clients/ashlen-story-station/brand-banner.png" alt="Ashlen’s Story Station 繪本風格品牌橫幅，天空雲朵與動物插畫" />
+        </div>
+      </div>
+    </section>
+
+    <section class="tone-sky">
+      <div class="container">
+        <h2>不只是學英文，而是學會用英文理解世界</h2>
+        <div class="cards">
+          <article class="card"><h3>從故事開始</h3><p>以英文繪本、圖像、聲音與情境，引導孩子自然進入語言，而不是一開始就用考卷和文法壓迫孩子。</p></article>
+          <article class="card"><h3>聽力先行</h3><p>孩子學語言先從大量聽見開始，熟悉聲音、節奏與語感，再逐步連結字母與閱讀。</p></article>
+          <article class="card"><h3>自然拼讀與橋樑閱讀</h3><p>透過自然拼讀建立音與字母的連結，陪孩子從共讀慢慢走向自主閱讀。</p></article>
+          <article class="card"><h3>走進真實世界</h3><p>從課堂故事到海外校園、文化交流與世界議題，讓孩子真的用英文觀察、提問與表達。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="brand-story" class="tone-cream">
+      <div class="container">
+        <h2>從英文挫折的孩子，到帶孩子看世界的老師</h2>
+        <div class="story-wrap">
+          <div class="placeholder">此處可放 Ashlen 老師照片或品牌故事形象照<br><!-- TODO: 替換為客戶提供照片 --></div>
+          <div>
+            <p>Ashlen 曾經也是在英文學習裡感到挫折的孩子。在國立編譯館的年代，英文對她而言曾經只是考卷上的字塊。她曾經靠著死記硬背勉強過關，卻在考試範圍擴大後發現，真正的語言能力不是刷題能累積出來的。</p>
+            <p>直到 16 歲那年，她走進美國的教室，遇見一位懂她的老師，才第一次感受到：原來語言是活的。</p>
+            <p>回到台灣後，她不再只鑽研語法公式，而是從英文繪本、圖像、韻律與故事中重新找回學習英文的快樂。這份快樂成為她後來赴墨爾本進修、學習翻譯與教育的起點，也慢慢長成了今天的昕閱森林。</p>
+            <ul class="timeline">
+              <li>1. 曾經英文挫折</li><li>2. 16 歲遇見真實語言環境</li><li>3. 從英文繪本找回學習動力</li>
+              <li>4. 澳洲留學，看見孩子自然學語言</li><li>5. 成為母親後，重新思考孩子的英文教育</li><li>6. 創辦昕閱森林，陪孩子從故事走向世界</li>
+            </ul>
+            <div style="margin-top:14px"><a class="btn primary" href="#contact">認識 Ashlen 老師</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>像孩子一樣學習：從聲音、故事到自主閱讀</h2>
+        <p class="subhead">真正適合孩子的英文學習，不是先背規則，而是先聽見、感受、理解，再慢慢說出來、讀出來。</p>
+        <div class="steps">
+          <article class="card"><span class="step-badge">1</span><h3>聽見聲音</h3><p>孩子先透過故事、韻律與大量聽覺輸入，熟悉英文的聲音。</p></article>
+          <article class="card"><span class="step-badge">2</span><h3>理解故事</h3><p>透過繪本、圖像與情境，讓孩子理解語言背後的意思，而不是只背單字。</p></article>
+          <article class="card"><span class="step-badge">3</span><h3>連結字母</h3><p>自然拼讀幫助孩子把聲音與字母連接起來，建立閱讀的基礎能力。</p></article>
+          <article class="card"><span class="step-badge">4</span><h3>表達自己</h3><p>透過口說、任務、分享與真實情境，讓孩子開始用英文說出自己的想法。</p></article>
+        </div>
+        <p style="margin-top:16px;color:var(--ashlen-muted)">昕閱森林的教學，不只是教孩子記住英文，而是幫孩子建立一條能走得長遠的路：從聽力先行，到自然拼讀；從橋樑閱讀，到真實表達。孩子不只是學會英文，更學會用英文看見更大的世界。</p>
+      </div>
+    </section>
+
+    <section id="courses" class="tone-green">
+      <div class="container">
+        <h2>在教室裡紮根：英文能力養成</h2>
+        <div class="course-grid">
+          <article class="card"><h3>故事課</h3><p>透過英文繪本、圖像與故事情境，讓孩子自然理解語言，建立對英文的親近感。</p><span class="tag">閱讀起步</span></article>
+          <article class="card"><h3>自然拼讀課</h3><p>從聲音出發，連結字母與拼讀規則，讓孩子不再只靠死背單字。</p><span class="tag">自然拼讀</span></article>
+          <article class="card"><h3>口說課</h3><p>在安全、鼓勵與有主題的環境裡練習表達，讓孩子敢說，也說得有內容。</p><span class="tag">口說練習</span></article>
+          <article class="card"><h3>兒美課</h3><p>結合圖像、創作與英文，讓孩子用感官和想像力進入語言。</p><span class="tag">多感官學習</span></article>
+          <article class="card"><h3>橋樑閱讀</h3><p>陪孩子從親子共讀、師生共讀，逐步走向自主閱讀。</p><span class="tag">中階閱讀</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="world-learning">
+      <div class="container">
+        <h2>從教室走向世界：把英文帶進真實生活</h2>
+        <p class="subhead">昕閱森林的海外學習旅程，不是一般觀光團，也不是制式遊學團。孩子會在行前學習、旅中任務、真實互動與文化觀察中，把英文變成可以使用的能力。</p>
+        <div class="feature-grid">
+          <article class="card"><h3>小團深度學習</h3><p>一團約 5-10 人，保留更多互動、提問與照顧空間，讓孩子不是被動跟團，而是真的參與。</p></article>
+          <article class="card"><h3>真實英文任務</h3><p>孩子在學校、餐廳、圖書館、文化場域與生活情境中練習使用英文。</p></article>
+          <article class="card"><h3>文化理解與成果輸出</h3><p>不只看風景，更引導孩子觀察文化差異，回來後整理成口說、文字、攝影或影片作品。</p></article>
+        </div>
+        <p style="margin-top:16px;font-weight:700">我們帶孩子出國，不只是為了看見遠方，而是讓孩子發現：原來自己學過的英文，可以拿來問問題、交朋友、讀懂標示、理解文化，也可以勇敢說出自己的想法。</p>
+      </div>
+    </section>
+
+    <section class="tone-cream">
+      <div class="container">
+        <h2>韓國深度學習旅程｜文化、議題與真實交流</h2>
+        <p>韓國旅程不只是城市參訪，而是帶孩子走進文化與真實議題。在旅程中，孩子將透過觀察、提問與任務，理解一個地方的歷史、生活與人。若行程安排包含與脫北者相關的交流或生命故事學習，這將成為孩子理解世界議題的重要窗口。</p>
+        <div class="cards">
+          <article class="card"><h3>韓國文化觀察</h3></article>
+          <article class="card"><h3>城市與生活探索</h3></article>
+          <article class="card"><h3>世界議題討論</h3></article>
+          <article class="card"><h3>小小文化記者任務與英文紀錄</h3></article>
+        </div>
+        <div style="margin-top:14px" class="placeholder">韓國旅程素材可放這裡<br><!-- TODO: 替換為客戶提供照片 --></div>
+      </div>
+    </section>
+
+    <section class="tone-sky">
+      <div class="container">
+        <h2>紐西蘭微留學與世界學習｜校園、自然與毛利文化</h2>
+        <p>紐西蘭旅程將孩子帶進真實校園與生活場景。從入學式、制服、早茶、課堂、圖書館，到草地生活、體育課、文化課與自然生態，孩子不只是參觀，而是透過英文進入一段真實的生活經驗。</p>
+        <div class="feature-grid">
+          <article class="card"><h3>校園生活</h3><p>入學式、制服、教室、早茶、圖書館、體育課，讓孩子感受海外學校的一天。</p></article>
+          <article class="card"><h3>當地生活</h3><p>校長家、牧場、咖啡廳、商店、餐廳與鎮上探索，讓孩子看見英文如何出現在日常生活裡。</p></article>
+          <article class="card"><h3>自然與文化</h3><p>毛利文化、玉石、奇異鳥、紅樹林、羊農場、湖邊公園，讓孩子透過英文理解土地與文化。</p></article>
+        </div>
+        <article class="card" style="margin-top:16px"><h3>孩子任務</h3><p>觀察、拍照、訪問、記錄，成為小小文化記者。</p></article>
+        <div class="gallery-grid">
+          <div class="gallery-item">校園生活照片</div><div class="gallery-item">孩子穿制服照片</div><div class="gallery-item">圖書館／教室照片</div>
+          <div class="gallery-item">毛利文化照片</div><div class="gallery-item">自然景點照片</div><div class="gallery-item">孩子互動畫面</div>
+        </div>
+        <!-- TODO: 替換為客戶提供照片 -->
+      </div>
+    </section>
+
+    <section id="little-reporter">
+      <div class="container reporter">
+        <h2>小小文化記者｜讓孩子帶著任務去看世界</h2>
+        <p class="subhead">旅行不是只有抵達景點，而是學會觀察、提問、記錄與表達。</p>
+        <p>在昕閱森林的世界學習旅程裡，孩子不是被動跟著走，而是帶著任務出發。他們會學習用鏡頭觀察世界、用英文提出問題、用文字整理發現，最後把旅途中的經驗變成自己的故事。</p>
+        <div class="cards" style="margin-top:16px">
+          <article class="card"><h3>任務 1：拍下文化差異</h3><p>今天你看到什麼和台灣不一樣？</p></article>
+          <article class="card"><h3>任務 2：用英文問一個問題</h3><p>練習向當地人、老師或同學提出簡單問題。</p></article>
+          <article class="card"><h3>任務 3：用三張照片說故事</h3><p>學會從畫面中整理開頭、過程與發現。</p></article>
+          <article class="card"><h3>任務 4：回國後分享</h3><p>把照片、影片、口說或文字整理成自己的學習成果。</p></article>
+        </div>
+        <p style="margin-top:14px">旅程中也可以安排基礎手機攝影引導，讓孩子學會用 0.5x、1x、2x 焦段，拍出人物、環境、細節與故事感畫面。</p>
+      </div>
+    </section>
+
+    <section class="tone-cream">
+      <div class="container">
+        <h2>我們的教室沒有圍牆｜SSSP 世界議題學習</h2>
+        <p>語言的終點不是考試，而是理解。</p>
+        <p>Ashlen 曾參與 SSSP 小型學校支持計畫，跨海協助敘利亞孩子從最基礎的聲音開始學英文。隨著學習需求增加，她也投入當地老師的培訓，讓英文學習不只幫助孩子，也支持老師重新建立生活與教學的力量。</p>
+        <p>對昕閱森林的孩子來說，這樣的連結是一扇看見世界的窗。當台灣的孩子與遠方同齡人線上對話，他們會發現：世界上有不同的童年、不同的生活條件，也有同樣想被理解、想分享生活的孩子。英文在這一刻，不再只是課本上的句子，而是一座讓人靠近彼此的橋。</p>
+        <div class="feature-grid">
+          <article class="card"><h3>看見世界的不同</h3></article>
+          <article class="card"><h3>學會理解與同理</h3></article>
+          <article class="card"><h3>用英文建立連結</h3></article>
+        </div>
+        <div style="margin-top:14px" class="placeholder">SSSP 圖片素材可放這裡<br><!-- TODO: 替換為客戶提供照片 --></div>
+      </div>
+    </section>
+
+    <section id="videos">
+      <div class="container">
+        <h2>影音故事｜把孩子的成長留下來</h2>
+        <p class="subhead">從課堂、比賽、海外旅程到文化交流，每一段影像都可以成為孩子成長的證明，也成為家長理解教育理念的入口。</p>
+        <div class="video-grid">
+          <article class="card"><h3>兒子演講比賽紀錄</h3><p>從初賽、複賽到決賽，看見孩子如何把英文變成自己的聲音。</p></article>
+          <article class="card"><h3>紐西蘭校園生活</h3><p>孩子走進海外校園，在真實生活裡使用英文。</p></article>
+          <article class="card"><h3>小小文化記者</h3><p>用鏡頭、英文提問與故事整理，記錄旅途中看見的世界。</p></article>
+          <article class="card"><h3>SSSP 線上交流</h3><p>透過英文與遠方同齡孩子對話，看見世界的多樣性。</p></article>
+          <article class="card"><h3>故事課與繪本共讀</h3><p>從聲音、圖像與故事開始，建立孩子的英文語感。</p></article>
+          <article class="card"><h3>海外學習團紀錄</h3><p>不只是旅行，而是能被整理、表達與回顧的學習旅程。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="tone-green">
+      <div class="container">
+        <h2>為什麼選擇昕閱森林？</h2>
+        <div class="value-grid">
+          <article class="card"><h3>不以考試為唯一目標</h3><p>英文學習不只為了分數，而是為了理解、表達與使用。</p></article>
+          <article class="card"><h3>從孩子真正的學習方式出發</h3><p>重視聽覺、故事、圖像、共讀與真實情境。</p></article>
+          <article class="card"><h3>課程與世界連結</h3><p>孩子在教室裡學到的內容，會延伸到生活與海外旅程。</p></article>
+          <article class="card"><h3>小團深度陪伴</h3><p>海外學習旅程人數精緻，保留更多互動與照顧。</p></article>
+          <article class="card"><h3>重視文化與同理</h3><p>讓孩子透過英文認識不同文化與生命故事。</p></article>
+          <article class="card"><h3>留下可回顧的成果</h3><p>透過照片、影片、口說、文字與作品，讓學習不只停留在當下。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="cta-band">
+          <h2>想了解孩子適合哪一種學習方式？</h2>
+          <p>每個孩子的英文起點不同，適合的學習節奏也不同。如果你想了解故事課、自然拼讀、口說課，或未來海外世界學習旅程，歡迎透過昕閱森林的社群與我們聯繫。</p>
+          <div class="btn-row" style="margin-top:14px">
+            <a class="btn primary" href="https://www.facebook.com/AshlenStoryStation/" target="_blank" rel="noopener">Facebook 粉絲專頁</a>
+            <a class="btn secondary" href="https://www.instagram.com/ashlens_story_station/" target="_blank" rel="noopener">Instagram</a>
+            <a class="btn secondary" href="https://www.youtube.com/@AshlensStoryStation" target="_blank" rel="noopener">YouTube 頻道</a>
+            <a class="btn soft" href="#">預約諮詢</a>
+            <!-- TODO: 客戶確認 LINE 或表單連結後替換 -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container faq-list">
+        <h2>FAQ 常見問題</h2>
+        <details><summary>Q1：昕閱森林和一般英文補習班有什麼不同？</summary><p>A：昕閱森林不只重視單字與文法，更重視故事、聽覺、閱讀、口說與真實使用情境。孩子不是只為了考試學英文，而是學會用英文理解世界與表達自己。</p></details>
+        <details><summary>Q2：孩子英文程度還不高，可以參加嗎？</summary><p>A：可以先從故事、聽力與自然拼讀開始建立基礎。實際適合的課程與旅程，需要依孩子年齡、程度與個性評估。</p></details>
+        <details><summary>Q3：自然拼讀適合幾歲開始？</summary><p>A：可依孩子的聽覺發展、字母認識與學習狀態安排。網站先不寫死年齡，保留彈性，後續由客戶確認。</p></details>
+        <details><summary>Q4：海外學習旅程是遊學團嗎？</summary><p>A：它比一般遊學團更重視深度學習與文化理解。孩子會透過行前學習、旅中任務、校園體驗與真實互動，把英文帶進生活裡。</p></details>
+        <details><summary>Q5：一團大約多少人？</summary><p>A：目前定位為小團制，約 5-10 人，實際人數依每次旅程規劃為準。</p></details>
+        <details><summary>Q6：家長可以一起參加嗎？</summary><p>A：部分海外學習旅程可能會規劃親子同行，實際方式依當次行程公告為準。</p></details>
+        <details><summary>Q7：旅程結束後會有成果嗎？</summary><p>A：可以規劃照片、影片、口說分享、文字紀錄或小小文化記者作品，讓孩子把旅途經驗整理成可回顧的學習成果。</p></details>
+        <details><summary>Q8：如何報名或諮詢？</summary><p>A：請透過 Facebook、Instagram 或未來提供的表單 / LINE 進行諮詢。</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-brand">
+        <img src="../../assets/clients/ashlen-story-station/logo.png" alt="昕閱森林 Ashlen Story Station 品牌標誌，兩隻猴子一起閱讀英文故事書" loading="lazy" />
+        <div>
+          <div>昕閱森林 Ashlen’s Story Station</div>
+          <div style="font-weight:600;color:var(--ashlen-muted)">讓英文，成為孩子看世界的眼睛。</div>
+        </div>
+      </div>
+      <div class="btn-row" style="margin:16px 0">
+        <a class="btn secondary" href="https://www.facebook.com/AshlenStoryStation/" target="_blank" rel="noopener">Facebook</a>
+        <a class="btn secondary" href="https://www.instagram.com/ashlens_story_station/" target="_blank" rel="noopener">Instagram</a>
+        <a class="btn secondary" href="https://www.youtube.com/@AshlensStoryStation" target="_blank" rel="noopener">YouTube</a>
+      </div>
+      <p>本頁為網站規劃預覽頁，內容與課程資訊仍以昕閱森林正式公告為準。</p>
+      <p>© Ashlen’s Story Station. Website preview by 小巴老師攝影.</p>
+    </div>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById("navToggle");
+    const navLinks = document.getElementById("navLinks");
+    navToggle.addEventListener("click", () => navLinks.classList.toggle("open"));
+    navLinks.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => navLinks.classList.remove("open"));
+    });
+  </script>
+</body>
+</html>
