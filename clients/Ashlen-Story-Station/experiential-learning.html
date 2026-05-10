@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>真實任務學習（在應用）｜昕閱森林</title>
+  <meta name="description" content="小小職人體驗棧：感官體驗、素養深化與視野拓展，從真實情境中長出運用與表達的能力。" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" href="../../favicon.ico" sizes="any" />
+  <link rel="stylesheet" href="ashlen-site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <img src="../../assets/clients/ashlen-story-station/logo.png" alt="" width="52" height="52" />
+        <div><strong>昕閱森林</strong><span>真實任務學習</span></div>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="開啟選單">選單</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">首頁</a>
+        <a href="english-classroom.html">英文能力養成</a>
+        <a href="experiential-learning.html">真實任務學習</a>
+        <a href="world-journeys.html">世界學習旅程</a>
+        <a href="sssp.html">世界議題 SSSP</a>
+        <a href="about-ashlen.html">關於昕閱森林</a>
+        <a href="team.html">師資團隊</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="page-hero">
+      <p class="breadcrumb"><a href="index.html">首頁</a> · 真實任務學習（在應用）</p>
+      <h1>真實任務學習 · Experiential Learning</h1>
+      <p class="lead">「學習，不只是學過，而是能在真實中運用與表達。」這裡是模擬真實世界的實驗場：情境設計與角色置換，讓孩子從被動接收者成為主動行動者。</p>
+    </div>
+
+    <section class="prose tone-sky" style="padding:28px;border-radius:var(--radius-xl);margin-bottom:22px">
+      <h2>三個向度</h2>
+      <h3>感官體驗 Experience</h3>
+      <p>用雙手感受生活——節慶文化或自然場域，在真實場景中動手做，理解世界的運作。</p>
+      <h3>素養深化 Literacy</h3>
+      <p>從快樂走向對生活技能的掌握：小小理財家、小小生態家等，在任務裡練習思考與責任。</p>
+      <h3>視野拓展 Perspective</h3>
+      <p>Ashlen 老師長期投入偏鄉公益與生命教育，將「分享愛」帶回課堂；引導孩子看見不同生命故事，播下同理心的種子。</p>
+    </section>
+
+    <section class="prose" style="padding:28px;border-radius:var(--radius-xl);background:#fff;border:1px solid rgba(47,143,211,.12);margin-bottom:22px">
+      <h2>小小職人體驗棧｜Little Professionals Station</h2>
+      <p><strong>感官探索 × 任務實踐 × 生活素養 · 適合幼稚園至國小</strong></p>
+      <p>自 2020 年起深耕真實經驗：戶外音樂會、中秋露營、節慶派對；結合走訪偏鄉與公益機構的見聞，把愛與分享帶回課堂；並開辦泰國文化分享等主題。</p>
+      <p>在每一次任務中，我們期待孩子：</p>
+      <ul>
+        <li>那雙「發現問題」的眼睛——先觀察再行动。</li>
+        <li>那顆「想說就說」的大腦——不怕說錯，自信分享。</li>
+        <li>那對「把英文變超能力」的小手——把教室單字用在眼前挑戰。</li>
+      </ul>
+      <p class="section-muted">年度照片與檔案可依年份於後台維護（見架構文件「雲端／後台」說明）。</p>
+    </section>
+
+    <div class="cta-band" style="margin-bottom:48px">
+      <div class="btn-row">
+        <a class="btn primary" href="world-journeys.html">接續：世界學習旅程</a>
+        <a class="btn secondary" href="english-classroom.html">回到：英文能力養成</a>
+      </div>
+    </div>
+  </main>
+
+  <footer><div class="container"><p style="margin:0;color:var(--ashlen-muted);font-size:14px">© Ashlen’s Story Station</p></div></footer>
+  <script>
+    const navToggle = document.getElementById("navToggle");
+    const navLinks = document.getElementById("navLinks");
+    if (navToggle && navLinks) {
+      navToggle.addEventListener("click", () => navLinks.classList.toggle("open"));
+      navLinks.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => navLinks.classList.remove("open")));
+    }
+  </script>
+</body>
+</html>
