@@ -11,9 +11,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://joyforest.tw/pages/baby-grab</loc>
+    <loc>https://joyforest.tw/pages/baby-party</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://joyforest.tw/pages/family-party</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://joyforest.tw/pages/workshop-event</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://joyforest.tw/pages/birthday-party</loc>

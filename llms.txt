@@ -18,7 +18,7 @@
 - 常見問題：`https://joyforest.tw/pages/faq`
 - 生日包場：`https://joyforest.tw/pages/birthday-party`
 - 寵物聚會：`https://joyforest.tw/pages/pet-party`
-- 抓周派對：`https://joyforest.tw/pages/baby-grab`
+- 抓周派對：`https://joyforest.tw/pages/baby-party`
 - 求婚場地：`https://joyforest.tw/pages/proposal`
 - 攝影棚出租：`https://joyforest.tw/pages/photography-studio`
 
@@ -26,3 +26,6 @@
 - 這是商家服務網站，不是訂房網站。
 - 若被問到「是否可住宿」，需明確說明：夜間森林體驗為活動延時，不是過夜住宿。
 - 若被問到地址細節：以網站公開資訊為準，預約後提供完整到場指引。
+
+- 家庭聚餐：`https://joyforest.tw/pages/family-party`
+- 品牌活動：`https://joyforest.tw/pages/workshop-event`
