@@ -1,57 +1,77 @@
-<!doctype html>
-<html lang="zh-Hant">
+<!DOCTYPE html>
+<html lang="zh-TW">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>常態課程｜昕閱森林 Ashlen's Story Station</title>
-  <meta name="robots" content="noindex, nofollow" />
-  <link rel="icon" href="../../favicon.ico" sizes="any" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>tailwind.config = { theme: { extend: { colors: { forest: { 900: "#064e3b", 800: "#065f46", 700: "#047857" } } } } };</script>
-  <link rel="stylesheet" href="css/tailwind.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>70% 常態課程與 20% 真實任務 | 昕閱森林</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="../../favicon.ico" sizes="any">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-stone-50 text-stone-800 leading-relaxed">
-  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-stone-200">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
-      <a href="index.html" class="font-extrabold text-forest-900">昕閱森林 · Ashlen</a>
-      <button id="navToggle" type="button" class="md:hidden px-3 py-2 border rounded-lg text-sm font-bold">選單</button>
-      <nav id="navMenu" class="hidden md:flex flex-wrap gap-x-5 text-sm font-bold">
-        <a href="index.html">首頁</a>
-        <a href="philosophy.html" class="hover:text-forest-700 transition-all duration-300">核心理念</a>
-        <a href="courses.html" class="text-forest-800">常態課程</a>
-        <a href="journey.html" class="hover:text-forest-700 transition-all duration-300">世界旅程</a>
-        <a href="insights/story-first.html" class="hover:text-forest-700 transition-all duration-300">深度專題</a>
-      </nav>
-    </div>
-  </header>
+<body class="bg-stone-50 text-stone-800 font-sans antialiased">
+    <nav class="bg-emerald-950 text-white py-6 px-8 sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto flex justify-between items-center flex-wrap gap-4">
+            <a href="index.html" class="text-2xl font-bold tracking-wider text-emerald-100">昕閱森林</a>
+            <div class="flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium tracking-wide">
+                <a href="index.html" class="hover:text-emerald-300 transition">官網首頁</a>
+                <a href="philosophy.html" class="hover:text-emerald-300 transition">理念成效</a>
+                <a href="courses.html" class="text-emerald-400 border-b-2 border-emerald-400 pb-1">常態課程</a>
+                <a href="journey.html" class="hover:text-emerald-300 transition">世界學習旅程</a>
+            </div>
+        </div>
+    </nav>
 
-  <main class="max-w-6xl mx-auto px-4 py-12 md:py-16">
-    <h1 class="text-3xl md:text-4xl font-extrabold text-forest-900 mb-4">常態課程 · 70% 英文能力養成</h1>
-    <p class="text-stone-600 mb-12 leading-loose max-w-3xl">三大里程碑課程，從聽力資料到拼讀口說，再到日常 PBL 專題任務。</p>
+    <section class="py-24 px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-20">
+            <span class="text-emerald-700 font-bold tracking-widest text-xs uppercase block mb-2">70% CORE CURRICULUM & 20% REAL TASKS</span>
+            <h1 class="text-3xl md:text-4xl font-black text-emerald-950 tracking-tight mb-4">用大腦最喜歡的方式學英文</h1>
+            <p class="text-stone-600 max-w-2xl mx-auto font-light">我們拒絕填鴨式默背死學科。在常態教室裡，英文就是孩子完成一項項硬核專題的真實工具。</p>
+        </div>
 
-    <div class="grid md:grid-cols-3 gap-6">
-      <article class="bg-white rounded-2xl p-6 border border-stone-200 shadow-sm flex flex-col">
-        <h2 class="text-xl font-extrabold text-forest-900 mb-3">2.5 歲故事活動課</h2>
-        <p class="text-sm font-bold text-forest-700 mb-3">聽力先行</p>
-        <p class="leading-loose flex-grow">從故事聽讀出發，用繪本自然灌溉孩子的耳朵。拒絕點讀筆的單向刺激，透過高質量的互動式聽力，在幼兒大腦中建立最純粹的「英文聲音資料庫」。</p>
-        <p class="mt-4 text-xs font-bold text-stone-500">素材標籤：#故事教學 #互動式聽力 #繪本</p>
-      </article>
-      <article class="bg-white rounded-2xl p-6 border border-stone-200 shadow-sm flex flex-col">
-        <h2 class="text-xl font-extrabold text-forest-900 mb-3">5–7 歲雙軌拼讀與口說課</h2>
-        <p class="text-sm font-bold text-forest-700 mb-3">聲音推導拼讀</p>
-        <p class="leading-loose flex-grow">把握拼讀黃金期，拒絕死背字母名字，從 44 個英文語音（Sounds）切入，無痛對接字形。口說課拒絕背誦罐頭對話公式，引導孩子有內容、有邏輯地說出自己的真實觀點。</p>
-        <p class="mt-4 text-xs font-bold text-stone-500">素材標籤：#44個語音 #拼讀 #口說表達</p>
-      </article>
-      <article class="bg-white rounded-2xl p-6 border border-stone-200 shadow-sm flex flex-col">
-        <h2 class="text-xl font-extrabold text-forest-900 mb-3">進階兒美與日常 PBL 專題</h2>
-        <p class="text-sm font-bold text-forest-700 mb-3">20% 真實任務</p>
-        <p class="leading-loose flex-grow">全面內嵌專題式任務學習。孩子學會自發查找全英文資料、組織資訊，並進行全英文的專題簡報發表。在日常教室裡，英文就是孩子完成一項硬核任務的「工具」，而非應試的死學科。</p>
-        <p class="mt-4 text-xs font-bold text-stone-500">素材標籤：#日常PBL #專題簡報 #真實任務</p>
-      </article>
-    </div>
-  </main>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-xl border border-stone-100 flex flex-col justify-between">
+                <div>
+                    <span class="text-stone-400 text-xs font-bold uppercase tracking-widest block mb-1">STAGE 01 // 2.5歲–5歲</span>
+                    <h3 class="text-xl font-bold text-emerald-950 mb-4">繪本故事課（互動式聽力先行）</h3>
+                    <p class="text-stone-600 font-light text-sm leading-relaxed mb-6">
+                        從故事聽讀出發，用繪本自然灌溉孩子的耳朵。拒絕點讀筆的單向冷冰刺激，透過高質量的互動式聽力，在幼兒大腦中建立最純粹的「英文聲音資料庫」。
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-stone-100 text-[11px] font-medium text-emerald-800 uppercase tracking-wider">
+                    <span>#故事教學</span> <span>#互動式聽力</span>
+                </div>
+            </div>
 
-  <footer class="bg-emerald-950 text-emerald-100 py-8 text-center text-sm"><a href="index.html" class="underline">返回首頁</a></footer>
-  <script src="js/main.js"></script>
+            <div class="bg-white p-8 rounded-2xl shadow-xl border border-stone-100 flex flex-col justify-between">
+                <div>
+                    <span class="text-stone-400 text-xs font-bold uppercase tracking-widest block mb-1">STAGE 02 // 5歲–7歲</span>
+                    <h3 class="text-xl font-bold text-emerald-950 mb-4">雙軌拼讀與口說課（44語音推導）</h3>
+                    <p class="text-stone-600 font-light text-sm leading-relaxed mb-6">
+                        把握拼讀黃金期，拒絕死背字母視覺符號，從 44 個英文語音（Sounds）切入，用聲音無痛對接字形。口說教育拒絕背誦公式句型，引導孩子有內容地說出想法。
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-stone-100 text-[11px] font-medium text-emerald-800 uppercase tracking-wider">
+                    <span>#自然拼讀</span> <span>#44個語音</span> <span>#口說表達</span>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-xl border border-stone-100 flex flex-col justify-between">
+                <div>
+                    <span class="text-stone-400 text-xs font-bold uppercase tracking-widest block mb-1">STAGE 03 // 國小兒美進階課</span>
+                    <h3 class="text-xl font-bold text-emerald-950 mb-4">日常 PBL 專題任務（真實語言輸出）</h3>
+                    <p class="text-stone-600 font-light text-sm leading-relaxed mb-6">
+                        每學期全面內嵌專題式任務學習（PBL）。孩子學會自發查找全英文資料、組織資訊並上台簡報發表。化身「小小文化記者」與海外兒童線上全英文對話交鋒。
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-stone-100 text-[11px] font-medium text-emerald-800 uppercase tracking-wider">
+                    <span>#真實任務學習</span> <span>#小小文化記者</span> <span>#網站文案</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-stone-900 text-stone-400 py-12 px-8 text-center text-sm border-t border-stone-800">
+        <p>&copy; 2026 昕閱森林 English Academy. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
