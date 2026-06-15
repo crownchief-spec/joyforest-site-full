@@ -183,6 +183,28 @@ def extract_main(html: str) -> str:
     return m.group(1).strip() if m else ""
 
 
+def build_offer(cfg: dict) -> dict | None:
+    offer_cfg = cfg.get("offer")
+    if not offer_cfg:
+        return None
+    offer: dict = {
+        "@type": "Offer",
+        "url": "https://joyforest.tw/pages/book",
+        "priceCurrency": offer_cfg.get("priceCurrency", "TWD"),
+        "availability": "https://schema.org/InStock",
+    }
+    if offer_cfg.get("unitText"):
+        offer["priceSpecification"] = {
+            "@type": "UnitPriceSpecification",
+            "price": offer_cfg["price"],
+            "priceCurrency": offer_cfg.get("priceCurrency", "TWD"),
+            "unitText": offer_cfg["unitText"],
+        }
+    else:
+        offer["price"] = offer_cfg["price"]
+    return offer
+
+
 def build_head(cfg: dict) -> str:
     slug = cfg["slug"]
     title = cfg["title"]
@@ -199,6 +221,9 @@ def build_head(cfg: dict) -> str:
         "description": desc,
         "image": image,
     }
+    offer = build_offer(cfg)
+    if offer:
+        svc["offers"] = offer
     wp = {
         "@context": "https://schema.org",
         "@type": "WebPage",
@@ -431,6 +456,7 @@ def nine_cfg() -> dict[str, dict]:
             "faq": [("可以自備餐點嗎？", "可以，自備餐點、外送與簡單烤肉皆可。"), ("是否可加購拍攝？", "可加購活動拍照或照片＋短片，請預約時提出。")],
             "related": [("family-party", "家庭聚餐"), ("pet-party", "寵物聚會"), ("forest-night-experience", "夜間體驗")],
             "tags": "#生日派對 #生日包場 #朋友聚會 #聚會場地 #桃園聚會場地 #中壢聚會 #楊梅聚會",
+            "offer": {"price": "880", "unitText": "HUR"},
         },
         "baby-grab": {
             "slug": "baby-grab",
@@ -456,6 +482,7 @@ def nine_cfg() -> dict[str, dict]:
             "faq": [("是否可加購拍攝？", "可加購活動拍照或照片＋短片，協助保留抓周流程。"), ("是否可攜帶長輩同行？", "可，空間可安排室內休息與戶外活動分區。")],
             "related": [("portrait-photography", "親子寫真"), ("family-party", "家庭聚餐"), ("birthday-party", "生日派對")],
             "tags": "#抓周 #抓周場地 #週歲派對 #寶寶生日 #桃園抓周 #中壢抓周 #楊梅抓周",
+            "offer": {"price": "880", "unitText": "HUR"},
         },
         "pet-party": {
             "slug": "pet-party",
@@ -485,6 +512,7 @@ def nine_cfg() -> dict[str, dict]:
             "related": [],
             "faq": [],
             "tags": "#寵物聚會 #毛孩生日 #寵物友善場地",
+            "offer": {"price": "4800"},
         },
         "family-party": {
             "slug": "family-party",
@@ -507,6 +535,7 @@ def nine_cfg() -> dict[str, dict]:
             "faq": [("可攜帶孩子與毛孩嗎？", "可以，空間可安排不同區域讓全家一起參與。"), ("是否可加購拍攝？", "可加購活動拍照或照片＋短片。")],
             "related": [("birthday-party", "生日派對"), ("baby-grab", "抓周派對"), ("portrait-photography", "親子寫真")],
             "tags": "#家庭聚餐 #家族聚會 #桃園家庭聚會 #楊梅家庭聚會 #包場聚餐",
+            "offer": {"price": "880", "unitText": "HUR"},
         },
         "proposal": {
             "slug": "proposal",
@@ -537,6 +566,7 @@ def nine_cfg() -> dict[str, dict]:
             ],
             "related": [("forest-wedding", "戶外婚禮"), ("forest-night-experience", "夜間體驗"), ("birthday-party", "生日派對")],
             "tags": "#求婚場地 #求婚包場 #桃園求婚場地 #戶外求婚 #森林求婚 #草地求婚 #求婚佈置 #求婚攝影 #驚喜求婚 #浪漫求婚 #求婚派對",
+            "offer": {"price": "880", "unitText": "HUR"},
         },
         "forest-wedding": {
             "slug": "forest-wedding",
@@ -567,6 +597,7 @@ def nine_cfg() -> dict[str, dict]:
             ],
             "related": [("proposal", "求婚"), ("family-party", "家庭聚餐"), ("portrait-photography", "親子寫真")],
             "tags": "#戶外婚禮 #森林系婚禮 #戶外證婚 #證婚場地 #草地婚禮 #桃園婚禮場地 #小型婚禮 #小型婚宴 #婚禮包場 #森林婚禮",
+            "offer": {"price": "880", "unitText": "HUR"},
         },
         "workshop-event": {
             "slug": "workshop-event",
@@ -589,6 +620,7 @@ def nine_cfg() -> dict[str, dict]:
             "faq": [("可安排室內講座嗎？", "可以，室內可用於講座、交流與休息。"), ("可加購活動紀錄嗎？", "可加購拍照或照片＋短片。")],
             "related": [("birthday-party", "生日派對"), ("family-party", "家庭聚餐"), ("portrait-photography", "攝影服務")],
             "tags": "#品牌活動 #工作坊場地 #桃園活動場地 #森林活動場地 #企業小聚",
+            "offer": {"price": "880", "unitText": "HUR"},
         },
         "portrait-photography": {
             "slug": "portrait-photography",
@@ -623,6 +655,7 @@ def nine_cfg() -> dict[str, dict]:
             "related": [("pet-photography", "寵物攝影"), ("baby-grab", "抓周派對"), ("family-party", "家庭聚餐")],
             "faq": [],
             "tags": "#家庭照 #親子寫真 #家庭攝影 #人像寫真 #桃園家庭寫真 #自然風寫真 #生活感寫真 #白背景棚拍 #森林系寫真 #閨蜜寫真 #個人形象照",
+            "offer": {"price": "5800"},
         },
         "pet-photography": {
             "slug": "pet-photography",
@@ -656,6 +689,7 @@ def nine_cfg() -> dict[str, dict]:
             "related": [("pet-party", "寵物聚會"), ("portrait-photography", "親子寫真"), ("birthday-party", "生日派對")],
             "faq": [],
             "tags": "#寵物攝影 #寵物寫真 #毛孩攝影 #狗狗攝影 #貓咪攝影 #人寵合照 #寵物家庭照 #桃園寵物攝影 #草地寵物攝影 #寵物友善攝影棚 #毛孩生日",
+            "offer": {"price": "5800"},
         },
         "forest-night-experience": {
             "slug": "forest-night-experience",
@@ -681,6 +715,7 @@ def nine_cfg() -> dict[str, dict]:
             "faq": [("是住宿服務嗎？", "不是，為活動後的夜間延時使用時段。"), ("可以加購拍攝嗎？", "可以，可與活動拍攝一起安排。")],
             "related": [("birthday-party", "生日派對"), ("pet-party", "寵物聚會"), ("proposal", "求婚場地")],
             "tags": "#夜間體驗 #森林夜間活動 #活動延長方案 #燈光投影 #桃園夜間聚會",
+            "offer": {"price": "6800"},
         },
     }
 

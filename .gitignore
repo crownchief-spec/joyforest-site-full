@@ -4,6 +4,7 @@ assets/images/.DS_Store
 assets/video/.DS_Store
 node_modules
 .env
+clients/Ashlen-Story-Station/tools/nz-clips/
 dist
 .vscode
 .idea
