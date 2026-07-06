@@ -21,8 +21,9 @@ ASSETS: list[tuple[str, str]] = [
     ("08-friends-group-victory-photo", "joyforest-outdoor-proposal-friends-group-victory-photo-01"),
 ]
 
-HERO_BASE = "joyforest-outdoor-surprise-proposal-kneeling-ohana-forever-01"
-OG_BASE = "joyforest-outdoor-surprise-proposal-kneeling-ohana-forever-01"
+HERO_SOURCE = "06-success-friends-celebration-petals"
+HERO_OUTPUT = "hero-proposal-outdoor-success-friends-celebration-joyforest.webp"
+OG_SOURCE = "04-surprise-kneeling-ohana-forever"
 
 
 def to_rgb(img: Image.Image) -> Image.Image:
@@ -96,14 +97,18 @@ def main() -> None:
             print(f"  - {name}.jpg (or .jpeg/.png/.webp)")
         raise SystemExit(1)
 
-    hero_src = find_source("04-surprise-kneeling-ohana-forever")
+    hero_src = find_source(HERO_SOURCE)
     if hero_src:
         rgb = to_rgb(Image.open(hero_src))
         hero = resize_max_w(rgb, 2400)
-        save_webp(hero, OUT_DIR / "hero-proposal-surprise-kneeling-joyforest.webp")
-        og = make_og_cover(Image.open(hero_src))
+        save_webp(hero, OUT_DIR / HERO_OUTPUT)
+        print(f"Hero written: {HERO_OUTPUT}")
+
+    og_src = find_source(OG_SOURCE)
+    if og_src:
+        og = make_og_cover(Image.open(og_src))
         og.save(OUT_DIR / "og-proposal-joyforest.jpg", format="JPEG", quality=88, optimize=True)
-        print("Hero + OG written")
+        print("OG written: og-proposal-joyforest.jpg")
 
     print("Done. Output:", OUT_DIR)
 
