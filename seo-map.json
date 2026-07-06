@@ -159,11 +159,11 @@
     {
       "page file": "pages/proposal.html",
       "route": "/pages/proposal.html",
-      "title": "求婚場地｜Joyforest 揪好森｜森林派對場地",
-      "description": "森林系求婚場景與小型驚喜儀式，保留專屬、安靜、不被打擾的時刻。",
+      "title": "森林系求婚場地・驚喜求婚・親友見證｜Joyforest 揪好森",
+      "description": "桃園楊梅森林系求婚包場｜約200坪專屬空間，從好友齊聚準備、戶外紅毯驚喜、親友見證到夜間慶祝與延長停留。",
       "canonical": "https://joyforest.tw/pages/proposal",
-      "hero image": "https://joyforest.tw/assets/images/night/forest-night-sparkler-couple.jpg",
-      "og image": "https://joyforest.tw/assets/images/night/forest-night-sparkler-couple.jpg",
+      "hero image": "https://joyforest.tw/assets/images/proposal/og-proposal-joyforest.jpg",
+      "og image": "https://joyforest.tw/assets/images/proposal/og-proposal-joyforest.jpg",
       "schema type": "Service,WebPage",
       "noindex": false
     },
