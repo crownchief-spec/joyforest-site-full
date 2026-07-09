@@ -5,6 +5,9 @@ assets/video/.DS_Store
 node_modules
 .env
 clients/Ashlen-Story-Station/tools/nz-clips/
+
+# Cloudflare Pages 單檔上限 25MB；客戶 Facebook 影片請改放 R2 / 外部連結
+assets/clients/ashlen-story-station/videos/
 dist
 .vscode
 .idea
