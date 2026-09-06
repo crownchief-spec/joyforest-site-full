@@ -521,3 +521,62 @@ p{margin:0 0 12px}
 .image-placeholder-card figcaption { padding: 12px 14px 14px; }
 .image-placeholder-caption { margin: 0 0 6px; }
 /* --- end nine-services --- */
+
+/* ---------- 活動包場統一服務頁 ---------- */
+.private-event-hero{min-height:76vh}
+.private-event-hero .title{max-width:18ch}
+.section-lead{max-width:68ch;color:var(--muted);margin-bottom:22px}
+.split-feature{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(280px,.72fr);gap:34px;align-items:center}
+.feature-list{margin:18px 0 0;padding-left:20px}
+.feature-list li{margin:8px 0}
+.event-poster-card{margin:0;background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}
+.event-poster-card img{display:block;width:100%;height:auto;background:#ede8dc}
+.event-poster-card figcaption{padding:11px 14px;color:var(--muted);font-size:12px;line-height:1.55}
+.event-pricing-section{background:#ece8dc}
+.event-price-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.price-card{position:relative;padding:24px;background:rgba(255,255,255,.94);border:1px solid rgba(102,112,91,.2);border-radius:var(--r);box-shadow:0 14px 36px rgba(55,56,45,.08)}
+.price-card-featured{background:#66705b;color:#fff}
+.price-card-featured .small{color:rgba(255,255,255,.76)}
+.price-index{display:inline-block;margin-bottom:24px;font-size:12px;letter-spacing:.12em;color:#9a7653}
+.price-card-featured .price-index{color:#ead9bd}
+.price-main{margin:18px 0 14px;color:#53604b;font-size:clamp(25px,3vw,34px);font-weight:900;line-height:1.15}
+.price-row{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-top:1px solid rgba(255,255,255,.2)}
+.price-row:last-of-type{border-bottom:1px solid rgba(255,255,255,.2);margin-bottom:14px}
+.price-row strong{font-size:20px;color:#fff;white-space:nowrap}
+.price-note{margin:14px 0 0;padding-top:12px;border-top:1px solid var(--line);font-size:12px;color:#795f46}
+.example-total{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-top:18px;padding:22px 24px;background:#fff;border:1px solid var(--line);border-radius:var(--r)}
+.example-total h3{margin-top:10px}
+.example-prices{display:grid;gap:5px;text-align:right;white-space:nowrap}
+.example-prices strong{font-size:20px;color:#53604b}
+.event-space-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+.space-number{display:block;margin-bottom:18px;color:#9a7653;font-size:12px;letter-spacing:.14em}
+.event-visuals{background:#f0e9dc}
+.event-poster-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;max-width:900px;margin:24px auto 0}
+.event-booking-card{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:30px;background:#66705b;color:#fff;border-radius:var(--r);box-shadow:var(--shadow)}
+.event-booking-card p{color:rgba(255,255,255,.8)}
+.event-booking-card .kicker{color:#ead9bd}
+.event-booking-card .btn.ghost{border-color:rgba(255,255,255,.35);color:#fff}
+.partner-price-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:20px}
+.partner-price-card{padding:20px;background:#fff;border:1px solid var(--line);border-radius:var(--r2);box-shadow:0 8px 24px rgba(55,56,45,.06)}
+.partner-price-card h3{min-height:2.1em}
+.partner-price{margin:10px 0 8px;color:#53604b;font-size:20px;font-weight:900}
+.partner-disclaimer{margin-top:16px;padding:14px 16px;border-left:3px solid #9a7653;background:rgba(184,137,91,.08)}
+.event-home-prices{margin:20px 0;padding:4px 18px;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:var(--r2)}
+.event-home-prices p{display:flex;justify-content:space-between;gap:18px;margin:0;padding:12px 0;border-bottom:1px solid var(--line)}
+.event-home-prices p:last-child{border-bottom:0}
+.event-home-prices strong{color:#53604b;text-align:right}
+@media(max-width:900px){
+  .split-feature,.event-price-grid,.event-space-grid,.partner-price-grid{grid-template-columns:1fr 1fr}
+  .event-price-grid .price-card:last-child{grid-column:1/-1}
+}
+@media(max-width:640px){
+  .private-event-hero{min-height:72vh}
+  .split-feature,.event-price-grid,.event-space-grid,.event-poster-grid,.partner-price-grid{grid-template-columns:1fr}
+  .event-price-grid .price-card:last-child{grid-column:auto}
+  .example-total,.event-booking-card{align-items:flex-start;flex-direction:column}
+  .example-prices{text-align:left;white-space:normal}
+  .event-booking-card .actions{width:100%}
+  .event-booking-card .btn{width:100%}
+  .event-home-prices p{align-items:flex-start;flex-direction:column;gap:2px}
+  .event-home-prices strong{text-align:left}
+}
