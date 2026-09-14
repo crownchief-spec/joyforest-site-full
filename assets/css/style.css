@@ -692,7 +692,8 @@ p{margin:0 0 12px}
   .birthday-plan-principles article > span{margin-bottom:18px}
   .experience-row{grid-template-columns:1fr}
   .experience-row:nth-child(even) figure{order:0}
-  .experience-row figure{min-height:0;aspect-ratio:16/9}
+  .experience-row figure{min-height:0;aspect-ratio:auto}
+  .experience-row figure img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;visibility:visible;opacity:1}
   .birthday-plan-contact-card{align-items:flex-start;flex-direction:column}
 }
 @media(max-width:640px){
