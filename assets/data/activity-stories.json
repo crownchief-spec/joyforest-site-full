@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "sitePurpose": "Joyforest 活動、攝影與聚會版森林故事",
+  "updatedDate": "2026-10-14",
+  "stories": [
+    {
+      "caseId": "event-20261008-01",
+      "slug": "friends-pets-hotpot-forest-party",
+      "publishedDate": "2026-10-08",
+      "title": "好友帶毛孩吃火鍋與烤肉｜桃園寵物友善森林聚會",
+      "description": "朋友與毛孩圍坐戶外餐桌，一邊吃火鍋、烤肉，一邊享受森林燈光與自在聊天的聚會節奏。",
+      "intro": "這場聚會把朋友、毛孩、火鍋與烤肉集中在同一個夜晚。戶外餐桌旁有足夠空間讓毛孩待在主人身邊，大家可以慢慢吃、慢慢聊，也能拍下夜間燈光與森林背景中的合照。",
+      "fit": "適合毛孩生日、寵物同好聚會、好友晚餐與 20 人內的小型森林包場。",
+      "tags": ["寵物友善", "好友聚會", "烤肉 BBQ", "戶外料理", "夜間燈光"],
+      "collaborators": [{"handle": "@evenwang.0521", "url": "https://www.instagram.com/evenwang.0521/"}],
+      "servicePath": "/pages/pet-party",
+      "serviceLabel": "查看寵物派對場地",
+      "cover": {"src": "/assets/media/stories/friends-pets-hotpot-forest-party/cover.webp", "alt": "朋友與博美犬圍坐戶外餐桌，桌上有火鍋與烤肉", "width": 675, "height": 1200},
+      "media": [
+        {"type": "video", "title": "朋友與毛孩的戶外火鍋烤肉聚會", "poster": "/assets/media/stories/friends-pets-hotpot-forest-party/cover.webp", "webm": "/assets/media/stories/friends-pets-hotpot-forest-party/friends-pets-hotpot-bbq.webm", "mp4": "/assets/media/stories/friends-pets-hotpot-forest-party/friends-pets-hotpot-bbq.mp4", "width": 675, "height": 1200, "visualSummary": "畫面從朋友和毛孩合照開始，接著帶到火鍋蒸氣、烤網食物、被抱在懷裡的博美犬與夜間樹林。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與聚會環境聲為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"}
+      ]
+    },
+    {
+      "caseId": "event-20261008-02",
+      "slug": "four-pomeranians-forest-lawn-playdate",
+      "publishedDate": "2026-10-08",
+      "title": "四隻博美的森林草地遊戲日｜桃園多犬家庭包場",
+      "description": "四隻博美在私人草地、坡道與森林木棧道自在探索，呈現多犬家庭需要的戶外活動範圍。",
+      "intro": "四隻不同個性的博美一起來到森林場地，從草地一路跑到木棧道。寬闊動線讓毛孩可以分散探索，主人也能在視線範圍內陪伴、拍照與記錄每一隻狗狗的反應。",
+      "fit": "適合多犬家庭、寵物社團、毛孩生日與需要草地活動空間的小型聚會。",
+      "tags": ["寵物友善", "多犬家庭", "草地活動", "森林步道", "寵物攝影"],
+      "collaborators": [{"handle": "@cookie_coffee_pom", "url": "https://www.instagram.com/cookie_coffee_pom/"}],
+      "servicePath": "/pages/pet-party-photography",
+      "serviceLabel": "查看寵物派對攝影",
+      "cover": {"src": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/cover.webp", "alt": "博美犬在圓頂帳篷外的森林草地與坡道探索", "width": 675, "height": 1200},
+      "media": [
+        {"type": "video", "title": "博美犬探索森林草地", "poster": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/cover.webp", "webm": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-lawn-play.webm", "mp4": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-lawn-play.mp4", "width": 675, "height": 1200, "visualSummary": "鏡頭跟著毛孩從圓頂帳篷外走向草地與坡道，記錄多隻狗狗分散活動的狀態。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與環境聲為主，沒有可可靠轉寫的人物口述。"},
+        {"type": "video", "title": "博美犬沿森林木棧道散步", "poster": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-forest-boardwalk-poster.webp", "webm": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-forest-boardwalk.webm", "mp4": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-forest-boardwalk.mp4", "width": 675, "height": 1200, "visualSummary": "白色與黑色博美犬在木棧道上跑向鏡頭，低角度畫面保留毛孩散步時的速度與表情。", "audioSummary": "可聽見主人呼喚 Cookie 過來，並笑說毛孩慢半拍，保留多犬家庭互動的自然聲音。"}
+      ]
+    },
+    {
+      "caseId": "event-20261005-01",
+      "slug": "woman-dog-forest-portrait",
+      "publishedDate": "2026-10-05",
+      "title": "女孩與狗狗的森林花牆寫真｜桃園寵物友善攝影場景",
+      "description": "女孩穿白色洋裝抱著狗狗，在森林花牆與戶外餐桌旁留下自然又有辨識度的合照。",
+      "intro": "綠色花牆、粉色小花與白色洋裝形成柔和層次，狗狗也自然加入畫面。這組分享證明寵物寫真不一定需要複雜佈景，只要有舒服的戶外光線與能讓毛孩安心停留的空間，就能留下好看的共同紀錄。",
+      "fit": "適合寵物寫真、毛孩生日、個人形象照與主人和毛孩的紀念拍攝。",
+      "tags": ["寵物友善", "寵物攝影", "女孩寫真", "森林花牆", "戶外攝影"],
+      "collaborators": [{"handle": "@soullychang", "url": "https://www.instagram.com/soullychang/"}],
+      "servicePath": "/pages/pet-photography",
+      "serviceLabel": "查看寵物寫真服務",
+      "cover": {"src": "/assets/media/stories/woman-dog-forest-portrait/cover.webp", "alt": "穿白色洋裝的女孩抱著棕色狗狗坐在森林花牆前", "width": 675, "height": 1200},
+      "media": []
+    },
+    {
+      "caseId": "event-20260926-01",
+      "slug": "mid-autumn-forest-bbq-gathering",
+      "publishedDate": "2026-09-26",
+      "title": "中秋夜的森林烤肉時光｜戶外燈串與美式烤肉爐",
+      "description": "在森林燈串下準備烤肉，把中秋節的儀式感放進戶外料理與慢慢聊天的夜晚。",
+      "intro": "畫面把夜間燈串、烤網上的肉品與炭火拍得很完整。無論是一個人享受安靜節奏，或和家人朋友一起聚餐，戶外烤肉都能成為中秋活動最直接的核心。",
+      "fit": "適合中秋聚餐、情侶約會、好友烤肉與森林夜間活動。",
+      "tags": ["烤肉 BBQ", "中秋聚會", "戶外料理", "夜間燈光", "森林活動"],
+      "collaborators": [{"handle": "@liao0908", "url": "https://www.instagram.com/liao0908/"}],
+      "servicePath": "/pages/private-event",
+      "serviceLabel": "查看森林活動包場",
+      "cover": {"src": "/assets/media/stories/mid-autumn-forest-bbq-gathering/cover.webp", "alt": "男生在森林燈串與戶外料理區使用烤肉爐", "width": 675, "height": 1200},
+      "media": [
+        {"type": "video", "title": "中秋夜在森林場地烤肉", "poster": "/assets/media/stories/mid-autumn-forest-bbq-gathering/cover.webp", "webm": "/assets/media/stories/mid-autumn-forest-bbq-gathering/mid-autumn-forest-bbq.webm", "mp4": "/assets/media/stories/mid-autumn-forest-bbq-gathering/mid-autumn-forest-bbq.mp4", "width": 675, "height": 1200, "visualSummary": "影片記錄夜間自拍、戶外燈串、烤網食物與炭火，呈現中秋烤肉的現場節奏。", "audioSummary": "現場可聽見一句協助煎食材的簡短對話，對應戶外料理的真實互動。"}
+      ]
+    },
+    {
+      "caseId": "event-20260912-01",
+      "slug": "friends-movie-night-breakfast-party",
+      "publishedDate": "2026-09-12",
+      "title": "好友電影夜與手作早餐｜桃園森林包場聚會",
+      "description": "一群好友先拍團體照、一起看投影電影，再動手完成早餐點心，讓聚會有看、有吃也有共同參與。",
+      "intro": "這段分享把三件最容易讓朋友聚在一起的事放在同一支影片：團體合照、投影電影與手作餐點。活動不必排得很滿，只要保留共同完成一件事的時間，就能讓每個人自然加入。",
+      "fit": "適合生日派對、閨蜜聚會、電影主題活動與好友料理體驗。",
+      "tags": ["好友聚會", "戶外電影", "手作料理", "團體包場", "投影活動"],
+      "collaborators": [{"handle": "@luce_429", "url": "https://www.instagram.com/luce_429/"}],
+      "servicePath": "/pages/forest-night-experience",
+      "serviceLabel": "查看夜間森林體驗",
+      "cover": {"src": "/assets/media/stories/friends-movie-night-breakfast-party/cover.webp", "alt": "好友團體照、投影電影與手作早餐組成的活動分享", "width": 540, "height": 960},
+      "media": [
+        {"type": "video", "title": "好友合照、投影電影與手作早餐", "poster": "/assets/media/stories/friends-movie-night-breakfast-party/cover.webp", "webm": "/assets/media/stories/friends-movie-night-breakfast-party/friends-movie-breakfast.webm", "mp4": "/assets/media/stories/friends-movie-night-breakfast-party/friends-movie-breakfast.mp4", "width": 540, "height": 960, "visualSummary": "直式影片依序出現好友團體照、投影畫面與一盤剛完成的早餐點心。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"}
+      ]
+    },
+    {
+      "caseId": "event-20260823-01",
+      "slug": "two-families-forest-activity-day",
+      "publishedDate": "2026-08-23",
+      "title": "兩個家庭的森林活動日｜草地泡泡、營火與親子寫真",
+      "description": "兄弟各自帶著家庭來到森林場地，孩子玩泡泡、體驗營火，大人則在草地留下自然的家庭合照。",
+      "intro": "兩個小家庭一起活動的好處，是孩子很快就有玩伴，大人也能互相陪伴與照顧。這組照片只保留草地、泡泡、營火與親子攝影內容，呈現一場從白天玩到夜色亮起的家庭活動。",
+      "fit": "適合親子日、兄弟姊妹家庭聚會、草地遊戲與家庭攝影。",
+      "tags": ["親子活動", "家庭聚會", "草地泡泡", "營火體驗", "家庭攝影"],
+      "collaborators": [],
+      "servicePath": "/pages/family-party",
+      "serviceLabel": "查看家庭聚會場地",
+      "cover": {"src": "/assets/media/stories/two-families-forest-activity-day/cover.webp", "alt": "兩個孩子在森林草地上一同玩泡泡", "width": 1200, "height": 799},
+      "media": [
+        {"type": "image", "src": "/assets/media/stories/two-families-forest-activity-day/children-sharing-bubbles.webp", "alt": "男孩與女孩在草地上分享泡泡玩具", "width": 1200, "height": 799, "caption": "孩子在草地分享泡泡玩具，也自然學習等待與合作。"},
+        {"type": "image", "src": "/assets/media/stories/two-families-forest-activity-day/child-campfire-activity.webp", "alt": "男孩在大人陪伴下參與森林營火活動", "width": 1200, "height": 799, "caption": "大人陪在旁邊，讓孩子安全認識火光與夜間活動。"},
+        {"type": "image", "src": "/assets/media/stories/two-families-forest-activity-day/parents-daughter-lawn-play.webp", "alt": "爸爸媽媽在草地上一起抱起女兒", "width": 1200, "height": 799, "caption": "一起玩耍的瞬間，就是最自然的親子寫真。"},
+        {"type": "image", "src": "/assets/media/stories/two-families-forest-activity-day/family-laughing-on-lawn.webp", "alt": "一家三口在森林草地上相視大笑", "width": 1200, "height": 799, "caption": "不必刻意排隊站好，真實笑容就能說完整故事。"},
+        {"type": "image", "src": "/assets/media/stories/two-families-forest-activity-day/father-son-laughing.webp", "alt": "爸爸抱著兒子在草地上一起大笑", "width": 1200, "height": 799, "caption": "父子互動成為家庭活動裡最有溫度的畫面。"},
+        {"type": "image", "src": "/assets/media/stories/two-families-forest-activity-day/parents-swinging-son.webp", "alt": "爸爸媽媽牽著兒子的手在草地玩飛高高", "width": 1200, "height": 799, "caption": "寬闊草地讓全家能自在跑動與玩耍。"}
+      ]
+    },
+    {
+      "caseId": "event-20260823-02",
+      "slug": "forest-family-photography-session",
+      "publishedDate": "2026-08-23",
+      "title": "森林草地親子全家福｜桃園戶外家庭攝影",
+      "description": "一家人在森林、泡泡與草地之間自然互動，讓親子全家福不只是一張排好姿勢的合照。",
+      "intro": "戶外攝影最珍貴的，是孩子可以走、跑、追泡泡，攝影師則在互動中捕捉全家的表情。森林、草地與圓頂建築形成有層次的背景，也讓正式合照和生活感畫面能在同一場拍攝完成。",
+      "fit": "適合親子全家福、週歲紀錄、家庭週年照與戶外生活感寫真。",
+      "tags": ["家庭攝影", "親子寫真", "戶外攝影", "森林場景", "草地活動"],
+      "collaborators": [],
+      "servicePath": "/pages/portrait-photography",
+      "serviceLabel": "查看親子寫真服務",
+      "cover": {"src": "/assets/media/stories/forest-family-photography-session/cover.webp", "alt": "一家四口在森林草地與圓頂建築前拍攝全家福", "width": 800, "height": 1200},
+      "media": [
+        {"type": "image", "src": "/assets/media/stories/forest-family-photography-session/family-forest-portrait.webp", "alt": "一家人在綠色森林背景前自然互動", "width": 1067, "height": 1600, "caption": "森林綠意讓人物膚色與白色服裝更突出。"},
+        {"type": "image", "src": "/assets/media/stories/forest-family-photography-session/family-bubble-play.webp", "alt": "親子家庭在草地上玩泡泡並拍攝生活感照片", "width": 1200, "height": 800, "caption": "泡泡讓孩子自然移動，也帶出更多真實表情。"},
+        {"type": "image", "src": "/assets/media/stories/forest-family-photography-session/parent-child-forest-portrait.webp", "alt": "父母陪孩子在森林草地拍攝親子照", "width": 800, "height": 1200, "caption": "以陪伴和互動取代僵硬站姿。"},
+        {"type": "image", "src": "/assets/media/stories/forest-family-photography-session/family-lawn-portrait.webp", "alt": "一家人在草地留下明亮自然的全家福", "width": 800, "height": 1200, "caption": "草地提供充足距離，適合全身與動態構圖。"},
+        {"type": "image", "src": "/assets/media/stories/forest-family-photography-session/family-natural-moment.webp", "alt": "家庭成員在森林場景中自然相視微笑", "width": 800, "height": 1200, "caption": "最有記憶點的照片，常常發生在正式合照之外。"}
+      ]
+    },
+    {
+      "caseId": "event-20260823-03",
+      "slug": "white-backdrop-family-photography",
+      "publishedDate": "2026-08-23",
+      "title": "純白背景親子家庭攝影｜簡潔棚拍與草地動態照",
+      "description": "以純白背景完成乾淨的家庭合照，再到戶外草地捕捉孩子跑向鏡頭的動態瞬間。",
+      "intro": "純白背景能把注意力留給人物、服裝與表情，適合製作耐看的家庭合照；拍完正式畫面後，再到草地讓孩子自由活動，整組作品就同時擁有簡潔與自然兩種節奏。",
+      "fit": "適合家庭形象照、親子全家福、成長紀錄與需要正式照片的家庭。",
+      "tags": ["家庭攝影", "純白棚拍", "親子寫真", "草地攝影", "成長紀錄"],
+      "collaborators": [],
+      "servicePath": "/pages/photography-studio",
+      "serviceLabel": "查看攝影場地與棚拍",
+      "cover": {"src": "/assets/media/stories/white-backdrop-family-photography/cover.webp", "alt": "爸爸媽媽一起抱起孩子拍攝純白背景全家福", "width": 1067, "height": 1600},
+      "media": [
+        {"type": "image", "src": "/assets/media/stories/white-backdrop-family-photography/family-standing-portrait.webp", "alt": "一家三口站在純白背景前拍攝全身家庭照", "width": 800, "height": 1200, "caption": "同色系服裝讓畫面簡潔又有整體感。"},
+        {"type": "image", "src": "/assets/media/stories/white-backdrop-family-photography/family-seated-portrait.webp", "alt": "爸爸媽媽與孩子坐在純白背景前自然互動", "width": 1200, "height": 800, "caption": "坐姿互動讓正式棚拍保留家庭的生活感。"},
+        {"type": "image", "src": "/assets/media/stories/white-backdrop-family-photography/family-running-lawn.webp", "alt": "孩子跑在草地前方，父母在後方微笑陪伴", "width": 800, "height": 1200, "caption": "從棚拍切換到草地，孩子能展現更自由的動作。"},
+        {"type": "image", "src": "/assets/media/stories/white-backdrop-family-photography/family-stacked-portrait.webp", "alt": "一家三口以高低層次排列拍攝純白背景家庭照", "width": 800, "height": 1200, "caption": "有趣的高低排列，讓全家福更輕鬆活潑。"}
+      ]
+    },
+    {
+      "caseId": "event-20260823-04",
+      "slug": "xinyue-forest-team-building-event",
+      "publishedDate": "2026-08-23",
+      "title": "昕閱森林英語的包場團隊活動｜攝影課、英文尋寶與戶外電影",
+      "description": "英語教室團隊把攝影課、森林尋寶、拼字遊戲、泡泡、烤肉與夜間活動串成一整天。",
+      "intro": "這場活動不是把教室原封不動搬到戶外，而是把觀察、表達、合作與英文運用重新設計成孩子願意主動參與的遊戲。從攝影課、森林尋寶到草地拼字，再一路延伸到泡泡、烤肉與夜間投影，主辦人可以在同一場地連續切換活動。",
+      "fit": "適合公司員工日、補習班戶外課、親子團隊活動、品牌工作坊與小型企業包場。",
+      "tags": ["企業包場", "團隊活動", "親子活動", "戶外電影", "烤肉 BBQ", "攝影課程"],
+      "collaborators": [],
+      "servicePath": "/pages/workshop-event",
+      "serviceLabel": "查看工作坊與團體活動",
+      "cover": {"src": "/assets/media/stories/xinyue-forest-team-building-event/cover.webp", "alt": "孩子在森林草地、戶外廚房與投影幕之間參與團隊活動", "width": 1200, "height": 799},
+      "media": [
+        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/children-photography-workshop.webp", "alt": "孩子與老師進行攝影觀察課程", "width": 1200, "height": 799, "caption": "先從觀察與取景開始，讓孩子用影像表達自己看到的事物。"},
+        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/forest-english-treasure-hunt.webp", "alt": "孩子拿著任務單在森林步道尋找英文線索", "width": 1200, "height": 799, "caption": "把英文線索放進環境，森林就成為可探索的教室。"},
+        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/outdoor-word-game.webp", "alt": "孩子在戶外圓桌使用字卡進行英文拼字遊戲", "width": 1200, "height": 799, "caption": "尋寶結束後，把線索帶回桌面完成拼字與討論。"},
+        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/outdoor-projector-learning.webp", "alt": "孩子站在草地戶外投影幕前進行學習活動", "width": 1200, "height": 799, "caption": "戶外投影能支援成果分享、教學與電影活動。"},
+        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/children-bubble-play.webp", "alt": "孩子們在森林草地上追逐泡泡", "width": 1200, "height": 799, "caption": "團體課程結束後，草地立刻切換成自由遊戲空間。"},
+        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/team-barbecue-dinner.webp", "alt": "團隊成員在戶外料理區準備烤肉晚餐", "width": 1200, "height": 799, "caption": "一起準備晚餐，也讓團隊交流自然發生。"},
+        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/children-night-activity.webp", "alt": "孩子們在戶外投影幕前參與夜間活動", "width": 1200, "height": 799, "caption": "投影、火光與燈串讓活動能順暢延伸到晚上。"},
+        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/team-campfire-activity.webp", "alt": "大人和孩子一起參與森林營火活動", "width": 1200, "height": 799, "caption": "共同完成的小事，最容易變成團隊記憶。"}
+      ]
+    },
+    {
+      "caseId": "event-20260812-01",
+      "slug": "family-craft-campfire-movie-night",
+      "publishedDate": "2026-08-12",
+      "title": "親子手作、營火與戶外電影夜｜桃園家庭包場活動",
+      "description": "親子家庭從手作與草地活動一路玩到營火、戶外投影與夜間合照。",
+      "intro": "白天先安排能讓孩子動手參與的內容，晚上再以營火與戶外投影收尾。大人能坐在旁邊聊天，孩子則有火光、電影與共同活動可以投入，讓不同年齡都找到舒服的參與方式。",
+      "fit": "適合親子手作、家庭日、營火晚會與戶外電影主題活動。",
+      "tags": ["親子活動", "親子手作", "營火體驗", "戶外電影", "家庭包場"],
+      "collaborators": [{"handle": "@ashlens_story_station", "url": "https://www.instagram.com/ashlens_story_station/"}],
+      "servicePath": "/pages/family-party",
+      "serviceLabel": "查看家庭聚會場地",
+      "cover": {"src": "/assets/media/stories/family-craft-campfire-movie-night/cover.webp", "alt": "親子家庭圍著營火並觀看戶外投影的夜間拼貼", "width": 540, "height": 960},
+      "media": [
+        {"type": "video", "title": "親子家庭的營火與戶外電影夜", "poster": "/assets/media/stories/family-craft-campfire-movie-night/cover.webp", "webm": "/assets/media/stories/family-craft-campfire-movie-night/family-campfire-movie.webm", "mp4": "/assets/media/stories/family-craft-campfire-movie-night/family-campfire-movie.mp4", "width": 540, "height": 960, "visualSummary": "夜間拼貼可見營火、親子圍坐與戶外投影畫面，活動在火光與合照中收尾。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與環境聲為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"}
+      ]
+    },
+    {
+      "caseId": "event-20260810-01",
+      "slug": "dome-family-photo-studio",
+      "publishedDate": "2026-08-10",
+      "title": "圓頂空間變身自然光親子攝影棚｜桃園家庭場地租借",
+      "description": "攝影師架設純白背景並利用自然光，拍攝親子互動、家庭合照與孩子的動態表情。",
+      "intro": "可調整的室內活動空間能直接架設白色背景、燈架與拍攝器材。自然光提供柔和基礎，攝影師再透過動作引導，讓家人在正式合照之外，也留下孩子跑動與彼此靠近的真實畫面。",
+      "fit": "適合親子攝影、家庭形象照、週歲紀錄與小型棚拍企劃。",
+      "tags": ["自然光攝影棚", "親子攝影", "場地租借", "家庭寫真", "純白背景"],
+      "collaborators": [{"handle": "@jimphotooo", "url": "https://www.instagram.com/jimphotooo/"}],
+      "servicePath": "/pages/photography-studio",
+      "serviceLabel": "查看森林攝影場地出租",
+      "cover": {"src": "/assets/media/stories/dome-family-photo-studio/cover.webp", "alt": "媽媽與兩個孩子在純白背景前拍攝親子照", "width": 675, "height": 1200},
+      "media": [
+        {"type": "video", "title": "圓頂空間裡的自然光親子攝影", "poster": "/assets/media/stories/dome-family-photo-studio/cover.webp", "webm": "/assets/media/stories/dome-family-photo-studio/dome-family-photography.webm", "mp4": "/assets/media/stories/dome-family-photo-studio/dome-family-photography.mp4", "width": 675, "height": 1200, "visualSummary": "影片先拍攝影器材與白色背景，再呈現媽媽和孩子互動及完成後的家庭合照。", "audioSummary": "可聽見攝影師引導家人調整腳步、頭部靠近與互動動作，呈現實際拍攝過程。"}
+      ]
+    },
+    {
+      "caseId": "event-20260731-01",
+      "slug": "friends-movie-light-painting-party",
+      "publishedDate": "2026-07-31",
+      "title": "好友電影夜與仙女棒光繪派對｜桃園森林夜間聚會",
+      "description": "好友先看投影電影，再到夜間草地玩仙女棒與長曝光光繪，留下有燈光也有互動的派對紀錄。",
+      "intro": "投影大畫面、暖色小燈與戶外火光先建立電影夜氣氛，接著大家走到草地用仙女棒完成光繪合照。活動從靜態觀影切換到共同創作，讓每個人都有參與感。",
+      "fit": "適合生日派對、閨蜜聚會、求婚後派對、電影主題活動與夜間攝影。",
+      "tags": ["好友聚會", "戶外電影", "光繪攝影", "夜間燈光", "生日派對"],
+      "collaborators": [{"handle": "@kitty1010ki", "url": "https://www.instagram.com/kitty1010ki/"}],
+      "servicePath": "/pages/forest-night-experience",
+      "serviceLabel": "查看夜間森林體驗",
+      "cover": {"src": "/assets/media/stories/friends-movie-light-painting-party/cover.webp", "alt": "投影幕播放營火畫面，前方有戶外火光與暖色燈具", "width": 675, "height": 1200},
+      "media": [
+        {"type": "video", "title": "好友投影電影與火光派對", "poster": "/assets/media/stories/friends-movie-light-painting-party/cover.webp", "webm": "/assets/media/stories/friends-movie-light-painting-party/friends-projector-movie.webm", "mp4": "/assets/media/stories/friends-movie-light-painting-party/friends-projector-movie.mp4", "width": 675, "height": 1200, "visualSummary": "影片記錄關燈看投影的情境，投影大畫面、暖色燈與現場火光構成夜間聚會焦點。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂或電影環境聲為主，沒有可可靠整理的長段口述。"},
+        {"type": "image", "src": "/assets/media/stories/friends-movie-light-painting-party/friends-light-painting.webp", "alt": "好友在夜間草地以長曝光留下仙女棒光繪", "width": 675, "height": 1200, "caption": "橘色光線把人物與夜間森林連成一張派對合照。"},
+        {"type": "image", "src": "/assets/media/stories/friends-movie-light-painting-party/sparkler-light-painting-collage.webp", "alt": "多張朋友手持仙女棒的夜間光繪照片拼貼", "width": 675, "height": 1200, "caption": "不同光繪圖案組成一套可反覆回看的活動紀念。"}
+      ]
+    },
+    {
+      "caseId": "event-20260731-02",
+      "slug": "couple-acoustic-lawn-date",
+      "publishedDate": "2026-07-31",
+      "title": "情侶草地彈唱約會｜森林裡的兩人小型音樂會",
+      "description": "一把木吉他、兩張露營椅與一片草地，把午後變成情侶自己的自然系音樂約會。",
+      "intro": "男生彈奏木吉他，女生跟著唱歌，背景只有森林、草地與自然光。這種活動不需要大型舞台，卻能讓音樂、聊天與拍攝都保持輕鬆，適合紀念日或兩人約會。",
+      "fit": "適合情侶約會、小型音樂活動、求婚暖場與草地人像拍攝。",
+      "tags": ["情侶約會", "草地彈唱", "音樂活動", "戶外攝影", "私人草地"],
+      "collaborators": [{"handle": "@yulun_1.1.17", "url": "https://www.instagram.com/yulun_1.1.17/"}, {"handle": "@jimmy801026", "url": "https://www.instagram.com/jimmy801026/"}],
+      "servicePath": "/pages/private-event",
+      "serviceLabel": "查看森林活動包場",
+      "cover": {"src": "/assets/media/stories/couple-acoustic-lawn-date/cover.webp", "alt": "男生彈木吉他，女生坐在草地椅上唱歌", "width": 675, "height": 1200},
+      "media": [
+        {"type": "video", "title": "情侶坐在草地彈吉他唱歌", "poster": "/assets/media/stories/couple-acoustic-lawn-date/cover.webp", "webm": "/assets/media/stories/couple-acoustic-lawn-date/couple-acoustic-lawn.webm", "mp4": "/assets/media/stories/couple-acoustic-lawn-date/couple-acoustic-lawn.mp4", "width": 675, "height": 1200, "visualSummary": "影片完整保留男生彈吉他、女生坐在草地跟唱的午後場景。", "audioSummary": "可聽見現場木吉他與男女彈唱；為避免刊載完整歌曲歌詞，文章只整理草地彈唱與情侶約會情境。"}
+      ]
+    },
+    {
+      "caseId": "event-20260706-01",
+      "slug": "couple-forest-bbq-date",
+      "publishedDate": "2026-07-06",
+      "title": "情侶森林烤肉約會｜兩個人的草地料理時光",
+      "description": "情侶在森林草地與戶外料理區慢慢準備烤肉，享受不被大型人潮打斷的兩人約會。",
+      "intro": "鏡頭從天空與樹梢帶到草地自拍，再拍下同行伴侶操作烤肉設備。兩個人也能安排完整的戶外料理活動，把吃飯、聊天、拍照與森林散步放在同一個午後。",
+      "fit": "適合情侶約會、紀念日烤肉、兩人聚餐與自然系人像拍攝。",
+      "tags": ["情侶約會", "烤肉 BBQ", "戶外料理", "私人草地", "森林攝影"],
+      "collaborators": [{"handle": "@qienn1116", "url": "https://www.instagram.com/qienn1116/"}],
+      "servicePath": "/pages/private-event",
+      "serviceLabel": "查看森林活動包場",
+      "cover": {"src": "/assets/media/stories/couple-forest-bbq-date/cover.webp", "alt": "女孩在森林草地自拍，同行伴侶在戶外料理區準備烤肉", "width": 675, "height": 1200},
+      "media": [
+        {"type": "video", "title": "情侶在森林草地準備烤肉", "poster": "/assets/media/stories/couple-forest-bbq-date/cover.webp", "webm": "/assets/media/stories/couple-forest-bbq-date/couple-forest-bbq.webm", "mp4": "/assets/media/stories/couple-forest-bbq-date/couple-forest-bbq.mp4", "width": 675, "height": 1200, "visualSummary": "影片先拍天空與樹林，再帶到女孩自拍、草地與正在準備烤肉的同行伴侶。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與環境聲為主，沒有可可靠轉寫的人物口述。"}
+      ]
+    },
+    {
+      "caseId": "event-20260706-02",
+      "slug": "girls-forest-portrait-party",
+      "publishedDate": "2026-07-06",
+      "title": "女孩森林草地寫真｜好友包場活動的自然拍攝場景",
+      "description": "女孩在綠色草地、芒草與圓頂建築前自然走動，完成不用另外搭景的森林系個人寫真。",
+      "intro": "戶外草地提供足夠距離讓人物走動、轉身與對鏡頭互動，背景同時保留樹林、芒草與白色圓頂建築。好友聚會裡安排一段短短拍攝時間，就能讓每個人帶回有辨識度的照片。",
+      "fit": "適合閨蜜聚會、生日人像、個人寫真與活動側拍。",
+      "tags": ["女孩寫真", "好友聚會", "戶外攝影", "草地活動", "森林場景"],
+      "collaborators": [{"handle": "@moon_t96", "url": "https://www.instagram.com/moon_t96/"}],
+      "servicePath": "/pages/portrait-photography",
+      "serviceLabel": "查看人像寫真服務",
+      "cover": {"src": "/assets/media/stories/girls-forest-portrait-party/cover.webp", "alt": "女孩在綠色草地與白色圓頂建築前拍攝個人寫真", "width": 675, "height": 1200},
+      "media": [
+        {"type": "video", "title": "女孩在森林草地拍攝自然人像", "poster": "/assets/media/stories/girls-forest-portrait-party/cover.webp", "webm": "/assets/media/stories/girls-forest-portrait-party/woman-forest-lawn-portrait.webm", "mp4": "/assets/media/stories/girls-forest-portrait-party/woman-forest-lawn-portrait.mp4", "width": 675, "height": 1200, "visualSummary": "女孩在草地自然走動、轉身並對鏡頭打招呼，森林與白色圓頂建築形成乾淨背景。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"}
+      ]
+    },
+    {
+      "caseId": "event-20260705-01",
+      "slug": "friends-pets-lawn-gathering",
+      "publishedDate": "2026-07-05",
+      "title": "朋友與毛孩的森林草地聚會｜寵物友善包場活動",
+      "description": "朋友和數隻毛孩在森林草地散步、追逐與互動，留下人與寵物都能自在參與的聚會紀錄。",
+      "intro": "私人草地讓朋友可以聊天、丟球、陪毛孩奔跑，也讓不同體型與個性的狗狗保有自己的活動距離。聚會核心不是把毛孩放在一旁，而是讓牠們真正加入共同活動。",
+      "fit": "適合寵物同好會、毛孩生日、好友家庭日與戶外團體遊戲。",
+      "tags": ["寵物友善", "好友聚會", "草地活動", "毛孩包場", "戶外遊戲"],
+      "collaborators": [{"handle": "@yiching8526", "url": "https://www.instagram.com/yiching8526/"}],
+      "servicePath": "/pages/pet-party",
+      "serviceLabel": "查看寵物派對場地",
+      "cover": {"src": "/assets/media/stories/friends-pets-lawn-gathering/cover.webp", "alt": "朋友與毛孩在森林草地追逐互動", "width": 675, "height": 1200},
+      "media": [
+        {"type": "video", "title": "朋友與毛孩在森林草地一起活動", "poster": "/assets/media/stories/friends-pets-lawn-gathering/cover.webp", "webm": "/assets/media/stories/friends-pets-lawn-gathering/friends-pets-lawn-play.webm", "mp4": "/assets/media/stories/friends-pets-lawn-gathering/friends-pets-lawn-play.mp4", "width": 675, "height": 1200, "visualSummary": "朋友們和毛孩在草地散步、追逐、丟球與互動，活動範圍清楚又寬敞。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與戶外環境聲為主，沒有可可靠轉寫的人物口述。"}
+      ]
+    },
+    {
+      "caseId": "event-20260927-01",
+      "slug": "forest-bbq-equipment-story",
+      "publishedDate": "2026-09-27",
+      "title": "森林聚餐設備升級｜大型美式烤肉爐完成組裝",
+      "description": "大型美式烤肉爐在森林草地完成組裝，提供團體烤肉、家庭聚餐與活動料理更多彈性。",
+      "intro": "聚會好不好用，往往取決於料理設備是否能支援多人同時準備食物。這台大型美式烤肉爐具備寬烤網與側邊平台，適合團體分工、連續烤製與現場上桌。",
+      "fit": "適合好友烤肉、家庭聚餐、生日派對與需要戶外料理設備的包場活動。",
+      "tags": ["烤肉 BBQ", "戶外料理", "美式烤肉爐", "森林聚餐", "設備升級"],
+      "collaborators": [],
+      "servicePath": "/pages/private-event",
+      "serviceLabel": "查看森林活動包場",
+      "cover": {"src": "/assets/media/stories/forest-bbq-equipment-story/cover.webp", "alt": "大型不鏽鋼美式烤肉爐架設在森林草地上", "width": 1122, "height": 1402},
+      "media": []
+    },
+    {
+      "caseId": "event-20260903-01",
+      "slug": "family-forest-venue-walk",
+      "publishedDate": "2026-09-03",
+      "title": "一家七口走訪森林活動場地｜草地、步道與包場動線",
+      "description": "跟著家庭成員沿木棧道走進森林草地，實際感受活動區、坡道與不同空間之間的距離。",
+      "intro": "大型家庭活動最在意的，不只是畫面好不好看，也包括長輩、孩子與多人移動時是否容易理解動線。這段影片沿著木棧道、草地與坡道前進，讓第一次來的人先看懂戶外活動區的高低差與分區方式。",
+      "fit": "適合家庭包場、親子活動、多人聚會與活動前的場地評估。",
+      "tags": ["家庭包場", "場地導覽", "森林步道", "私人草地", "親子活動"],
+      "collaborators": [{"handle": "@kelly311430", "url": "https://www.instagram.com/kelly311430/"}],
+      "servicePath": "/pages/private-event",
+      "serviceLabel": "查看森林活動包場",
+      "cover": {"src": "/assets/media/stories/family-forest-venue-walk/cover.webp", "alt": "鏡頭沿木棧道拍攝森林草地、坡道與白色圓頂建築", "width": 675, "height": 1200},
+      "media": [
+        {"type": "video", "title": "一家人走訪森林草地與活動動線", "poster": "/assets/media/stories/family-forest-venue-walk/cover.webp", "webm": "/assets/media/stories/family-forest-venue-walk/family-forest-venue-walk.webm", "mp4": "/assets/media/stories/family-forest-venue-walk/family-forest-venue-walk.mp4", "width": 675, "height": 1200, "visualSummary": "鏡頭以步行方式帶過木棧道、草地、樹蔭、坡道與圓頂建築，呈現活動區之間的距離。", "audioSummary": "原始影片沒有音軌；本篇以畫面字幕與森林場地動線描述補足。"}
+      ]
+    }
+  ]
+}

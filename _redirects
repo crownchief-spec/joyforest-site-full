@@ -27,7 +27,8 @@
 /pages/book.html                  /pages/book                 301
 /pages/faq.html                   /pages/faq                  301
 /pages/forest-night-experience.html /pages/forest-night-experience 301
-/pages/forest-first-birthday-stay-plan.html /pages/forest-first-birthday-stay-plan 301
+/pages/forest-first-birthday-stay-plan.html /pages/baby-grab            301
+/pages/forest-first-birthday-stay-plan /pages/baby-grab                 301
 /pages/forest-wedding.html        /pages/forest-wedding       301
 /pages/location.html              /pages/location             301
 /pages/pet-party.html             /pages/pet-party            301
@@ -36,6 +37,7 @@
 /pages/portrait-photography.html  /pages/portrait-photography 301
 /pages/proposal.html              /pages/proposal             301
 /pages/rules.html                 /pages/rules                301
+/pages/stories.html               /pages/stories              301
 /seo/forest-party-venue.html      /seo/forest-party-venue     301
 /seo/outdoor-birthday-party.html  /seo/outdoor-birthday-party 301
 /seo/pet-birthday.html            /seo/pet-birthday           301
@@ -57,7 +59,7 @@
 /pages/book/                      /pages/book                 301
 /pages/faq/                       /pages/faq                  301
 /pages/forest-night-experience/   /pages/forest-night-experience 301
-/pages/forest-first-birthday-stay-plan/ /pages/forest-first-birthday-stay-plan 301
+/pages/forest-first-birthday-stay-plan/ /pages/baby-grab            301
 /pages/forest-wedding/            /pages/forest-wedding       301
 /pages/location/                  /pages/location             301
 /pages/pet-party/                 /pages/pet-party            301
@@ -66,6 +68,7 @@
 /pages/portrait-photography/      /pages/portrait-photography 301
 /pages/proposal/                  /pages/proposal             301
 /pages/rules/                     /pages/rules                301
+/pages/stories/                   /pages/stories              301
 /seo/forest-party-venue/          /seo/forest-party-venue     301
 /seo/outdoor-birthday-party/      /seo/outdoor-birthday-party 301
 /seo/pet-birthday/                /seo/pet-birthday           301

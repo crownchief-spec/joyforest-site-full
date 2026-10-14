@@ -696,6 +696,101 @@ p{margin:0 0 12px}
   .experience-row figure img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;visibility:visible;opacity:1}
   .birthday-plan-contact-card{align-items:flex-start;flex-direction:column}
 }
+
+/* ---------- 森林故事：活動、攝影與聚會案例 ---------- */
+.activity-stories-hero{position:relative;padding:92px 0 72px;overflow:hidden;background:linear-gradient(135deg,#173a30 0%,#315b47 58%,#8b7655 100%);color:#fff}
+.activity-stories-hero::after{content:"";position:absolute;inset:auto -8% -55% 38%;width:720px;height:720px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.17),rgba(255,255,255,0) 67%)}
+.activity-stories-hero .container{position:relative;z-index:1}
+.activity-stories-hero .kicker{color:#dccaa4}
+.activity-stories-hero h1{font-family:"Noto Serif TC","Songti TC",serif;font-size:clamp(48px,8vw,90px);letter-spacing:-.055em}
+.activity-stories-hero > .container > p:not(.kicker){max-width:760px;font-size:18px;line-height:1.85;color:rgba(255,255,255,.82)}
+.activity-stories-summary{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.activity-stories-summary span{padding:9px 13px;border:1px solid rgba(255,255,255,.22);border-radius:999px;background:rgba(255,255,255,.08);font-size:13px;color:rgba(255,255,255,.88)}
+.activity-stories-summary strong{color:#fff}
+.activity-story-filter{background:#efe8da;border-bottom:1px solid rgba(64,83,68,.12)}
+.activity-story-filter h2{font-family:"Noto Serif TC","Songti TC",serif;color:#28483b}
+.activity-story-tags{display:flex;flex-wrap:wrap;gap:8px}
+.activity-story-tag{display:inline-flex;align-items:center;min-height:34px;padding:6px 11px;border:1px solid rgba(46,75,63,.2);border-radius:999px;background:rgba(255,255,255,.75);color:#345647;font-size:12px;font-weight:800;text-decoration:none;transition:.2s ease}
+.activity-story-tag:hover,.activity-story-tag.is-active{border-color:#466f5b;background:#466f5b;color:#fff;transform:translateY(-1px)}
+.activity-story-tags--filter{margin-top:18px}
+.activity-stories-list{background:#f8f5ef}
+.activity-story-list-heading{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:28px}
+.activity-story-list-heading h2,.activity-related h2{font-family:"Noto Serif TC","Songti TC",serif;font-size:clamp(30px,4vw,46px);color:#29483b}
+.activity-story-list-heading > p{color:#667268;font-size:13px;font-weight:800}
+.activity-story-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.activity-story-card{display:flex;min-width:0;flex-direction:column;overflow:hidden;border:1px solid rgba(64,83,68,.13);border-radius:22px;background:#fff;box-shadow:0 16px 38px rgba(47,63,53,.08)}
+.activity-story-card[hidden]{display:none}
+.activity-story-card__image{display:block;aspect-ratio:4/3;overflow:hidden;background:#dfe5dc}
+.activity-story-card__image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .45s ease}
+.activity-story-card:hover .activity-story-card__image img{transform:scale(1.035)}
+.activity-story-card__body{display:flex;flex:1;flex-direction:column;padding:20px}
+.activity-story-card__meta{display:flex;justify-content:space-between;gap:12px;margin-bottom:10px;color:#778078;font-size:11px;font-weight:800;letter-spacing:.04em}
+.activity-story-card h2{font-size:20px;line-height:1.42}
+.activity-story-card h2 a{text-decoration:none;color:#29483b}
+.activity-story-card p{flex:1;color:#667068;font-size:14px;line-height:1.75}
+.activity-story-card .activity-story-tags{margin-top:8px}
+.activity-story-card .activity-story-tag{min-height:28px;padding:4px 8px;font-size:10px}
+.activity-story-empty{padding:30px;border:1px dashed rgba(64,83,68,.24);border-radius:18px;text-align:center;color:#667068}
+
+.activity-story-hero{padding:58px 0 64px;background:linear-gradient(180deg,#e9e1d2,#f8f5ef)}
+.activity-story-hero__grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.65fr);gap:54px;align-items:center}
+.activity-story-breadcrumb{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;color:#6d776f;font-size:12px}
+.activity-story-breadcrumb a{text-decoration:none}
+.activity-story-hero .kicker{color:#7d684c}
+.activity-story-hero h1{max-width:17ch;font-family:"Noto Serif TC","Songti TC",serif;font-size:clamp(38px,5.4vw,68px);line-height:1.13;letter-spacing:-.035em;color:#244539}
+.activity-story-deck{max-width:680px;margin:20px 0 22px;color:#5f6b62;font-size:17px;line-height:1.85}
+.activity-story-cover{margin:0;overflow:hidden;border:10px solid rgba(255,255,255,.74);border-radius:28px;background:#dce3dc;box-shadow:0 28px 70px rgba(41,68,56,.18);transform:rotate(1deg)}
+.activity-story-cover img{display:block;width:100%;height:min(68vh,720px);object-fit:cover}
+.activity-story-content{max-width:900px;padding-top:68px;padding-bottom:76px}
+.activity-story-credit{display:flex;justify-content:space-between;gap:24px;align-items:center;margin-bottom:42px;padding:18px 22px;border-left:4px solid #b8895b;border-radius:0 16px 16px 0;background:#fff}
+.activity-story-credit p{margin:0}
+.activity-story-credit a{color:#315b47;font-weight:900}
+.activity-story-section{margin-top:52px}
+.activity-story-section:first-of-type{margin-top:0}
+.activity-story-section > h2{font-family:"Noto Serif TC","Songti TC",serif;font-size:clamp(28px,3.7vw,42px);line-height:1.25;color:#29483b}
+.activity-story-section > p{font-size:17px;line-height:1.95;color:#535f57}
+.activity-story-media-list{display:grid;gap:44px;margin-top:26px}
+.activity-story-media{margin:0}
+.activity-story-media img,.activity-story-media video{display:block;max-width:100%;margin-inline:auto;border-radius:20px;background:#161b18;box-shadow:0 18px 48px rgba(39,52,44,.13)}
+.activity-story-media--image img{width:auto;max-height:780px;object-fit:contain}
+.activity-story-media--video video{width:min(100%,520px);max-height:78vh;object-fit:contain}
+.activity-story-media figcaption{display:grid;gap:5px;max-width:760px;margin:12px auto 0;color:#667068;font-size:13px;line-height:1.65}
+.activity-story-media figcaption strong{color:#2f4e41;font-size:15px}
+.activity-story-transcript{max-width:760px;margin:16px auto 0;padding:18px 20px;border:1px solid rgba(64,83,68,.14);border-radius:16px;background:#fff}
+.activity-story-transcript p{margin:0;color:#5b665e;font-size:14px;line-height:1.78}
+.activity-story-transcript p+p{margin-top:10px}
+.activity-story-fit{padding:30px;border-radius:24px;background:#e7eee8}
+.activity-story-fit .activity-story-tags{margin-top:18px}
+.activity-story-cta{display:flex;justify-content:space-between;gap:36px;align-items:center;margin-top:58px;padding:34px;border-radius:24px;background:#2e4b3f;color:#fff;box-shadow:0 20px 52px rgba(39,63,53,.18)}
+.activity-story-cta > div:first-child{max-width:600px}
+.activity-story-cta .kicker{color:#d8c49c}
+.activity-story-cta h2{font-family:"Noto Serif TC","Songti TC",serif;font-size:32px}
+.activity-story-cta p{color:rgba(255,255,255,.78)}
+.activity-story-cta .btn.ghost{border-color:rgba(255,255,255,.34);color:#fff}
+.activity-related{background:#e9e1d2}
+.activity-related .activity-story-grid{margin-top:28px}
+
+@media(max-width:980px){
+  .activity-story-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .activity-story-hero__grid{grid-template-columns:1fr;gap:34px}
+  .activity-story-cover{max-width:620px;transform:none}
+  .activity-story-cover img{height:auto;max-height:720px;object-fit:cover}
+}
+@media(max-width:640px){
+  .activity-stories-hero{padding:66px 0 54px}
+  .activity-stories-hero h1{font-size:52px}
+  .activity-story-list-heading{align-items:start;flex-direction:column}
+  .activity-story-grid{grid-template-columns:1fr}
+  .activity-story-card{border-radius:18px}
+  .activity-story-hero{padding:40px 0 46px}
+  .activity-story-hero h1{font-size:39px}
+  .activity-story-deck{font-size:16px}
+  .activity-story-credit,.activity-story-cta{align-items:flex-start;flex-direction:column}
+  .activity-story-content{padding-top:46px}
+  .activity-story-section{margin-top:42px}
+  .activity-story-fit,.activity-story-cta{padding:24px}
+  .activity-story-media img,.activity-story-media video{border-radius:14px}
+}
 @media(max-width:640px){
   .birthday-plan-home-card{gap:24px;padding:22px;border-radius:20px}
   .birthday-plan-hero{padding:44px 0 54px}

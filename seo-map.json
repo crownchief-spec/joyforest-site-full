@@ -91,6 +91,17 @@
       "noindex": false
     },
     {
+      "page file": "pages/stories.html",
+      "route": "/pages/stories.html",
+      "title": "森林故事｜真實活動、聚會與攝影案例｜Joyforest 揪好森",
+      "description": "Joyforest 揪好森森林故事，收錄桃園楊梅寵物友善聚會、親子活動、戶外電影院、烤肉 BBQ、團隊活動與森林攝影真實案例。",
+      "canonical": "https://joyforest.tw/pages/stories",
+      "hero image": "https://joyforest.tw/assets/media/stories/friends-pets-hotpot-forest-party/cover.webp",
+      "og image": "https://joyforest.tw/assets/media/stories/friends-pets-hotpot-forest-party/cover.webp",
+      "schema type": "CollectionPage,ItemList,WebPage",
+      "noindex": false
+    },
+    {
       "page file": "pages/forest-night-experience.html",
       "route": "/pages/forest-night-experience.html",
       "title": "夜間森林帳篷體驗｜Joyforest 揪好森｜森林派對場地",
