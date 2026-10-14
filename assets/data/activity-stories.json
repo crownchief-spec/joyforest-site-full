@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sitePurpose": "Joyforest 活動、攝影與聚會版森林故事",
-  "updatedDate": "2026-10-14",
+  "updatedDate": "2026-10-15",
   "stories": [
     {
       "caseId": "event-20261008-01",
@@ -15,7 +15,7 @@
       "collaborators": [{"handle": "@evenwang.0521", "url": "https://www.instagram.com/evenwang.0521/"}],
       "servicePath": "/pages/pet-party",
       "serviceLabel": "查看寵物派對場地",
-      "cover": {"src": "/assets/media/stories/friends-pets-hotpot-forest-party/cover.webp", "alt": "朋友與博美犬圍坐戶外餐桌，桌上有火鍋與烤肉", "width": 675, "height": 1200},
+      "cover": {"src": "/assets/media/stories/friends-pets-hotpot-forest-party/cover-v2.webp", "alt": "朋友與多隻博美犬圍坐戶外餐桌，搭配毛孩互動畫面", "width": 1200, "height": 900},
       "media": [
         {"type": "video", "title": "朋友與毛孩的戶外火鍋烤肉聚會", "poster": "/assets/media/stories/friends-pets-hotpot-forest-party/cover.webp", "webm": "/assets/media/stories/friends-pets-hotpot-forest-party/friends-pets-hotpot-bbq.webm", "mp4": "/assets/media/stories/friends-pets-hotpot-forest-party/friends-pets-hotpot-bbq.mp4", "width": 675, "height": 1200, "visualSummary": "畫面從朋友和毛孩合照開始，接著帶到火鍋蒸氣、烤網食物、被抱在懷裡的博美犬與夜間樹林。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與聚會環境聲為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"}
       ]
@@ -32,7 +32,7 @@
       "collaborators": [{"handle": "@cookie_coffee_pom", "url": "https://www.instagram.com/cookie_coffee_pom/"}],
       "servicePath": "/pages/pet-party-photography",
       "serviceLabel": "查看寵物派對攝影",
-      "cover": {"src": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/cover.webp", "alt": "博美犬在圓頂帳篷外的森林草地與坡道探索", "width": 675, "height": 1200},
+      "cover": {"src": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/cover-v2.webp", "alt": "情境主圖：四隻博美犬在森林草地與白色圓頂旁奔跑", "width": 1200, "height": 900},
       "media": [
         {"type": "video", "title": "博美犬探索森林草地", "poster": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/cover.webp", "webm": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-lawn-play.webm", "mp4": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-lawn-play.mp4", "width": 675, "height": 1200, "visualSummary": "鏡頭跟著毛孩從圓頂帳篷外走向草地與坡道，記錄多隻狗狗分散活動的狀態。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與環境聲為主，沒有可可靠轉寫的人物口述。"},
         {"type": "video", "title": "博美犬沿森林木棧道散步", "poster": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-forest-boardwalk-poster.webp", "webm": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-forest-boardwalk.webm", "mp4": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-forest-boardwalk.mp4", "width": 675, "height": 1200, "visualSummary": "白色與黑色博美犬在木棧道上跑向鏡頭，低角度畫面保留毛孩散步時的速度與表情。", "audioSummary": "可聽見主人呼喚 Cookie 過來，並笑說毛孩慢半拍，保留多犬家庭互動的自然聲音。"}
@@ -50,7 +50,7 @@
       "collaborators": [{"handle": "@soullychang", "url": "https://www.instagram.com/soullychang/"}],
       "servicePath": "/pages/pet-photography",
       "serviceLabel": "查看寵物寫真服務",
-      "cover": {"src": "/assets/media/stories/woman-dog-forest-portrait/cover.webp", "alt": "穿白色洋裝的女孩抱著棕色狗狗坐在森林花牆前", "width": 675, "height": 1200},
+      "cover": {"src": "/assets/media/stories/woman-dog-forest-portrait/cover-v2.webp", "alt": "穿白色洋裝的女孩抱著棕色狗狗坐在森林花牆前", "width": 1200, "height": 900},
       "media": []
     },
     {
@@ -65,7 +65,7 @@
       "collaborators": [{"handle": "@liao0908", "url": "https://www.instagram.com/liao0908/"}],
       "servicePath": "/pages/private-event",
       "serviceLabel": "查看森林活動包場",
-      "cover": {"src": "/assets/media/stories/mid-autumn-forest-bbq-gathering/cover.webp", "alt": "男生在森林燈串與戶外料理區使用烤肉爐", "width": 675, "height": 1200},
+      "cover": {"src": "/assets/media/stories/mid-autumn-forest-bbq-gathering/cover-v2.webp", "alt": "中秋夜在森林燈串下使用美式烤肉爐料理肉品與玉米", "width": 1200, "height": 900},
       "media": [
         {"type": "video", "title": "中秋夜在森林場地烤肉", "poster": "/assets/media/stories/mid-autumn-forest-bbq-gathering/cover.webp", "webm": "/assets/media/stories/mid-autumn-forest-bbq-gathering/mid-autumn-forest-bbq.webm", "mp4": "/assets/media/stories/mid-autumn-forest-bbq-gathering/mid-autumn-forest-bbq.mp4", "width": 675, "height": 1200, "visualSummary": "影片記錄夜間自拍、戶外燈串、烤網食物與炭火，呈現中秋烤肉的現場節奏。", "audioSummary": "現場可聽見一句協助煎食材的簡短對話，對應戶外料理的真實互動。"}
       ]
@@ -82,7 +82,7 @@
       "collaborators": [{"handle": "@luce_429", "url": "https://www.instagram.com/luce_429/"}],
       "servicePath": "/pages/forest-night-experience",
       "serviceLabel": "查看夜間森林體驗",
-      "cover": {"src": "/assets/media/stories/friends-movie-night-breakfast-party/cover.webp", "alt": "好友團體照、投影電影與手作早餐組成的活動分享", "width": 540, "height": 960},
+      "cover": {"src": "/assets/media/stories/friends-movie-night-breakfast-party/cover-v2.webp", "alt": "好友團體照、投影電影與手作早餐組成的活動拼貼", "width": 1200, "height": 900},
       "media": [
         {"type": "video", "title": "好友合照、投影電影與手作早餐", "poster": "/assets/media/stories/friends-movie-night-breakfast-party/cover.webp", "webm": "/assets/media/stories/friends-movie-night-breakfast-party/friends-movie-breakfast.webm", "mp4": "/assets/media/stories/friends-movie-night-breakfast-party/friends-movie-breakfast.mp4", "width": 540, "height": 960, "visualSummary": "直式影片依序出現好友團體照、投影畫面與一盤剛完成的早餐點心。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"}
       ]
@@ -99,7 +99,7 @@
       "collaborators": [],
       "servicePath": "/pages/family-party",
       "serviceLabel": "查看家庭聚會場地",
-      "cover": {"src": "/assets/media/stories/two-families-forest-activity-day/cover.webp", "alt": "兩個孩子在森林草地上一同玩泡泡", "width": 1200, "height": 799},
+      "cover": {"src": "/assets/media/stories/two-families-forest-activity-day/cover-v2.webp", "alt": "親子家庭在森林草地玩泡泡、互動並參與營火活動", "width": 1200, "height": 900},
       "media": [
         {"type": "image", "src": "/assets/media/stories/two-families-forest-activity-day/children-sharing-bubbles.webp", "alt": "男孩與女孩在草地上分享泡泡玩具", "width": 1200, "height": 799, "caption": "孩子在草地分享泡泡玩具，也自然學習等待與合作。"},
         {"type": "image", "src": "/assets/media/stories/two-families-forest-activity-day/child-campfire-activity.webp", "alt": "男孩在大人陪伴下參與森林營火活動", "width": 1200, "height": 799, "caption": "大人陪在旁邊，讓孩子安全認識火光與夜間活動。"},
@@ -121,7 +121,7 @@
       "collaborators": [],
       "servicePath": "/pages/portrait-photography",
       "serviceLabel": "查看親子寫真服務",
-      "cover": {"src": "/assets/media/stories/forest-family-photography-session/cover.webp", "alt": "一家四口在森林草地與圓頂建築前拍攝全家福", "width": 800, "height": 1200},
+      "cover": {"src": "/assets/media/stories/forest-family-photography-session/cover-v2.webp", "alt": "一家人在森林草地玩泡泡並拍攝自然親子全家福", "width": 1200, "height": 900},
       "media": [
         {"type": "image", "src": "/assets/media/stories/forest-family-photography-session/family-forest-portrait.webp", "alt": "一家人在綠色森林背景前自然互動", "width": 1067, "height": 1600, "caption": "森林綠意讓人物膚色與白色服裝更突出。"},
         {"type": "image", "src": "/assets/media/stories/forest-family-photography-session/family-bubble-play.webp", "alt": "親子家庭在草地上玩泡泡並拍攝生活感照片", "width": 1200, "height": 800, "caption": "泡泡讓孩子自然移動，也帶出更多真實表情。"},
@@ -142,7 +142,7 @@
       "collaborators": [],
       "servicePath": "/pages/photography-studio",
       "serviceLabel": "查看攝影場地與棚拍",
-      "cover": {"src": "/assets/media/stories/white-backdrop-family-photography/cover.webp", "alt": "爸爸媽媽一起抱起孩子拍攝純白背景全家福", "width": 1067, "height": 1600},
+      "cover": {"src": "/assets/media/stories/white-backdrop-family-photography/cover-v2.webp", "alt": "親子家庭拍攝純白背景全家福與草地動態寫真", "width": 1200, "height": 900},
       "media": [
         {"type": "image", "src": "/assets/media/stories/white-backdrop-family-photography/family-standing-portrait.webp", "alt": "一家三口站在純白背景前拍攝全身家庭照", "width": 800, "height": 1200, "caption": "同色系服裝讓畫面簡潔又有整體感。"},
         {"type": "image", "src": "/assets/media/stories/white-backdrop-family-photography/family-seated-portrait.webp", "alt": "爸爸媽媽與孩子坐在純白背景前自然互動", "width": 1200, "height": 800, "caption": "坐姿互動讓正式棚拍保留家庭的生活感。"},
@@ -162,7 +162,7 @@
       "collaborators": [],
       "servicePath": "/pages/workshop-event",
       "serviceLabel": "查看工作坊與團體活動",
-      "cover": {"src": "/assets/media/stories/xinyue-forest-team-building-event/cover.webp", "alt": "孩子在森林草地、戶外廚房與投影幕之間參與團隊活動", "width": 1200, "height": 799},
+      "cover": {"src": "/assets/media/stories/xinyue-forest-team-building-event/cover-v2.webp", "alt": "孩子在森林草地玩泡泡、參與戶外料理與投影活動", "width": 1200, "height": 900},
       "media": [
         {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/children-photography-workshop.webp", "alt": "孩子與老師進行攝影觀察課程", "width": 1200, "height": 799, "caption": "先從觀察與取景開始，讓孩子用影像表達自己看到的事物。"},
         {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/forest-english-treasure-hunt.webp", "alt": "孩子拿著任務單在森林步道尋找英文線索", "width": 1200, "height": 799, "caption": "把英文線索放進環境，森林就成為可探索的教室。"},
@@ -186,7 +186,7 @@
       "collaborators": [{"handle": "@ashlens_story_station", "url": "https://www.instagram.com/ashlens_story_station/"}],
       "servicePath": "/pages/family-party",
       "serviceLabel": "查看家庭聚會場地",
-      "cover": {"src": "/assets/media/stories/family-craft-campfire-movie-night/cover.webp", "alt": "親子家庭圍著營火並觀看戶外投影的夜間拼貼", "width": 540, "height": 960},
+      "cover": {"src": "/assets/media/stories/family-craft-campfire-movie-night/cover-v2.webp", "alt": "親子家庭圍著營火並觀看戶外投影的夜間活動拼貼", "width": 1200, "height": 900},
       "media": [
         {"type": "video", "title": "親子家庭的營火與戶外電影夜", "poster": "/assets/media/stories/family-craft-campfire-movie-night/cover.webp", "webm": "/assets/media/stories/family-craft-campfire-movie-night/family-campfire-movie.webm", "mp4": "/assets/media/stories/family-craft-campfire-movie-night/family-campfire-movie.mp4", "width": 540, "height": 960, "visualSummary": "夜間拼貼可見營火、親子圍坐與戶外投影畫面，活動在火光與合照中收尾。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與環境聲為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"}
       ]
@@ -203,7 +203,7 @@
       "collaborators": [{"handle": "@jimphotooo", "url": "https://www.instagram.com/jimphotooo/"}],
       "servicePath": "/pages/photography-studio",
       "serviceLabel": "查看森林攝影場地出租",
-      "cover": {"src": "/assets/media/stories/dome-family-photo-studio/cover.webp", "alt": "媽媽與兩個孩子在純白背景前拍攝親子照", "width": 675, "height": 1200},
+      "cover": {"src": "/assets/media/stories/dome-family-photo-studio/cover-v2.webp", "alt": "媽媽與兩個孩子在純白背景前拍攝親子互動照", "width": 1200, "height": 900},
       "media": [
         {"type": "video", "title": "圓頂空間裡的自然光親子攝影", "poster": "/assets/media/stories/dome-family-photo-studio/cover.webp", "webm": "/assets/media/stories/dome-family-photo-studio/dome-family-photography.webm", "mp4": "/assets/media/stories/dome-family-photo-studio/dome-family-photography.mp4", "width": 675, "height": 1200, "visualSummary": "影片先拍攝影器材與白色背景，再呈現媽媽和孩子互動及完成後的家庭合照。", "audioSummary": "可聽見攝影師引導家人調整腳步、頭部靠近與互動動作，呈現實際拍攝過程。"}
       ]
@@ -220,7 +220,7 @@
       "collaborators": [{"handle": "@kitty1010ki", "url": "https://www.instagram.com/kitty1010ki/"}],
       "servicePath": "/pages/forest-night-experience",
       "serviceLabel": "查看夜間森林體驗",
-      "cover": {"src": "/assets/media/stories/friends-movie-light-painting-party/cover.webp", "alt": "投影幕播放營火畫面，前方有戶外火光與暖色燈具", "width": 675, "height": 1200},
+      "cover": {"src": "/assets/media/stories/friends-movie-light-painting-party/cover-v2.webp", "alt": "好友以仙女棒完成光繪合照並參與戶外電影活動", "width": 1200, "height": 900},
       "media": [
         {"type": "video", "title": "好友投影電影與火光派對", "poster": "/assets/media/stories/friends-movie-light-painting-party/cover.webp", "webm": "/assets/media/stories/friends-movie-light-painting-party/friends-projector-movie.webm", "mp4": "/assets/media/stories/friends-movie-light-painting-party/friends-projector-movie.mp4", "width": 675, "height": 1200, "visualSummary": "影片記錄關燈看投影的情境，投影大畫面、暖色燈與現場火光構成夜間聚會焦點。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂或電影環境聲為主，沒有可可靠整理的長段口述。"},
         {"type": "image", "src": "/assets/media/stories/friends-movie-light-painting-party/friends-light-painting.webp", "alt": "好友在夜間草地以長曝光留下仙女棒光繪", "width": 675, "height": 1200, "caption": "橘色光線把人物與夜間森林連成一張派對合照。"},
@@ -239,7 +239,7 @@
       "collaborators": [{"handle": "@yulun_1.1.17", "url": "https://www.instagram.com/yulun_1.1.17/"}, {"handle": "@jimmy801026", "url": "https://www.instagram.com/jimmy801026/"}],
       "servicePath": "/pages/private-event",
       "serviceLabel": "查看森林活動包場",
-      "cover": {"src": "/assets/media/stories/couple-acoustic-lawn-date/cover.webp", "alt": "男生彈木吉他，女生坐在草地椅上唱歌", "width": 675, "height": 1200},
+      "cover": {"src": "/assets/media/stories/couple-acoustic-lawn-date/cover-v2.webp", "alt": "情侶在白色圓頂旁的草地彈吉他唱歌", "width": 1200, "height": 900},
       "media": [
         {"type": "video", "title": "情侶坐在草地彈吉他唱歌", "poster": "/assets/media/stories/couple-acoustic-lawn-date/cover.webp", "webm": "/assets/media/stories/couple-acoustic-lawn-date/couple-acoustic-lawn.webm", "mp4": "/assets/media/stories/couple-acoustic-lawn-date/couple-acoustic-lawn.mp4", "width": 675, "height": 1200, "visualSummary": "影片完整保留男生彈吉他、女生坐在草地跟唱的午後場景。", "audioSummary": "可聽見現場木吉他與男女彈唱；為避免刊載完整歌曲歌詞，文章只整理草地彈唱與情侶約會情境。"}
       ]
@@ -256,7 +256,7 @@
       "collaborators": [{"handle": "@qienn1116", "url": "https://www.instagram.com/qienn1116/"}],
       "servicePath": "/pages/private-event",
       "serviceLabel": "查看森林活動包場",
-      "cover": {"src": "/assets/media/stories/couple-forest-bbq-date/cover.webp", "alt": "女孩在森林草地自拍，同行伴侶在戶外料理區準備烤肉", "width": 675, "height": 1200},
+      "cover": {"src": "/assets/media/stories/couple-forest-bbq-date/cover-v2.webp", "alt": "情境主圖：情侶在森林草地與白色圓頂旁準備烤肉", "width": 1200, "height": 900},
       "media": [
         {"type": "video", "title": "情侶在森林草地準備烤肉", "poster": "/assets/media/stories/couple-forest-bbq-date/cover.webp", "webm": "/assets/media/stories/couple-forest-bbq-date/couple-forest-bbq.webm", "mp4": "/assets/media/stories/couple-forest-bbq-date/couple-forest-bbq.mp4", "width": 675, "height": 1200, "visualSummary": "影片先拍天空與樹林，再帶到女孩自拍、草地與正在準備烤肉的同行伴侶。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與環境聲為主，沒有可可靠轉寫的人物口述。"}
       ]
@@ -273,7 +273,7 @@
       "collaborators": [{"handle": "@moon_t96", "url": "https://www.instagram.com/moon_t96/"}],
       "servicePath": "/pages/portrait-photography",
       "serviceLabel": "查看人像寫真服務",
-      "cover": {"src": "/assets/media/stories/girls-forest-portrait-party/cover.webp", "alt": "女孩在綠色草地與白色圓頂建築前拍攝個人寫真", "width": 675, "height": 1200},
+      "cover": {"src": "/assets/media/stories/girls-forest-portrait-party/cover-v2.webp", "alt": "女孩在綠色草地與白色圓頂建築前拍攝個人寫真", "width": 1200, "height": 900},
       "media": [
         {"type": "video", "title": "女孩在森林草地拍攝自然人像", "poster": "/assets/media/stories/girls-forest-portrait-party/cover.webp", "webm": "/assets/media/stories/girls-forest-portrait-party/woman-forest-lawn-portrait.webm", "mp4": "/assets/media/stories/girls-forest-portrait-party/woman-forest-lawn-portrait.mp4", "width": 675, "height": 1200, "visualSummary": "女孩在草地自然走動、轉身並對鏡頭打招呼，森林與白色圓頂建築形成乾淨背景。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"}
       ]
@@ -290,7 +290,7 @@
       "collaborators": [{"handle": "@yiching8526", "url": "https://www.instagram.com/yiching8526/"}],
       "servicePath": "/pages/pet-party",
       "serviceLabel": "查看寵物派對場地",
-      "cover": {"src": "/assets/media/stories/friends-pets-lawn-gathering/cover.webp", "alt": "朋友與毛孩在森林草地追逐互動", "width": 675, "height": 1200},
+      "cover": {"src": "/assets/media/stories/friends-pets-lawn-gathering/cover-v2.webp", "alt": "朋友與毛孩在森林草地追逐並進行團體遊戲", "width": 1200, "height": 900},
       "media": [
         {"type": "video", "title": "朋友與毛孩在森林草地一起活動", "poster": "/assets/media/stories/friends-pets-lawn-gathering/cover.webp", "webm": "/assets/media/stories/friends-pets-lawn-gathering/friends-pets-lawn-play.webm", "mp4": "/assets/media/stories/friends-pets-lawn-gathering/friends-pets-lawn-play.mp4", "width": 675, "height": 1200, "visualSummary": "朋友們和毛孩在草地散步、追逐、丟球與互動，活動範圍清楚又寬敞。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與戶外環境聲為主，沒有可可靠轉寫的人物口述。"}
       ]
@@ -307,7 +307,7 @@
       "collaborators": [],
       "servicePath": "/pages/private-event",
       "serviceLabel": "查看森林活動包場",
-      "cover": {"src": "/assets/media/stories/forest-bbq-equipment-story/cover.webp", "alt": "大型不鏽鋼美式烤肉爐架設在森林草地上", "width": 1122, "height": 1402},
+      "cover": {"src": "/assets/media/stories/forest-bbq-equipment-story/cover-v2.webp", "alt": "全新美式烤肉爐與白色圓頂森林場地的設備主圖", "width": 1200, "height": 900},
       "media": []
     },
     {
@@ -322,7 +322,7 @@
       "collaborators": [{"handle": "@kelly311430", "url": "https://www.instagram.com/kelly311430/"}],
       "servicePath": "/pages/private-event",
       "serviceLabel": "查看森林活動包場",
-      "cover": {"src": "/assets/media/stories/family-forest-venue-walk/cover.webp", "alt": "鏡頭沿木棧道拍攝森林草地、坡道與白色圓頂建築", "width": 675, "height": 1200},
+      "cover": {"src": "/assets/media/stories/family-forest-venue-walk/cover-v2.webp", "alt": "森林草地、坡道、白色圓頂建築與木棧道的場地導覽", "width": 1200, "height": 900},
       "media": [
         {"type": "video", "title": "一家人走訪森林草地與活動動線", "poster": "/assets/media/stories/family-forest-venue-walk/cover.webp", "webm": "/assets/media/stories/family-forest-venue-walk/family-forest-venue-walk.webm", "mp4": "/assets/media/stories/family-forest-venue-walk/family-forest-venue-walk.mp4", "width": 675, "height": 1200, "visualSummary": "鏡頭以步行方式帶過木棧道、草地、樹蔭、坡道與圓頂建築，呈現活動區之間的距離。", "audioSummary": "原始影片沒有音軌；本篇以畫面字幕與森林場地動線描述補足。"}
       ]
