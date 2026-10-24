@@ -1,33 +1,38 @@
-# joyforest.tw / llms.txt
+# Joyforest 揪好森
 
-## 品牌與網站定位
-- 品牌名稱：Joyforest 揪好森｜森林派對場地
-- 網站用途：提供森林系包場、合作服務與預約資訊。
-- 服務地區：桃園（以楊梅／中壢生活圈為主）。
-- 預約方式：Line ID `0911252302`（預約制）。
+> Joyforest 揪好森位於桃園楊梅，是預約制的森林系活動包場。從兩三位好友的小聚到 20 人內的派對，都能享用完整室內外場地；使用時段為 15:00～24:00，最新價格統一以首頁公告為準。
 
-## 核心服務主題
-- 森林派對包場：生日、抓周、求婚、寵物聚會、小型家庭活動（常見 10–20 人）。
-- 合作攝影加購：入住後第一個小時的森林生活寫真，原價 NT$6,800，住宿客優惠 NT$4,800；使用現場實景，不搭白色背景。
-- 夜間體驗：活動後的森林燈光、投影與聚會氛圍延伸。
+## 重點服務
+
+- 20 人內的生日、抓周、求婚、寵物、家庭與品牌活動，都能預約完整場地
+- 活動包場價格統一以首頁最新公告為準
+- 使用時段 15:00～24:00，停車空間可安排 6 台一般自小客車；少人小聚也很適合
+- 熱氣球室內活動空間提供 Switch、電視與 Apple TV、卡拉 OK 及電動麻將桌
+- 兩片草地都有戶外廚房與戶外電影，另一處室內空間保留作為活動置物區
+- 唱歌及音量較大的活動於 22:00 前結束，22:00～24:00 為寧靜時段
+- 桃園楊梅兩片森林草地與熱氣球冷氣室內活動空間
 
 ## 重要頁面
-- 首頁：`https://joyforest.tw/`
-- 預約頁：`https://joyforest.tw/pages/book`
-- 場地與交通：`https://joyforest.tw/pages/location`
-- 常見問題：`https://joyforest.tw/pages/faq`
-- 森林故事：`https://joyforest.tw/pages/stories`
-- 生日包場：`https://joyforest.tw/pages/birthday-party`
-- 寵物聚會：`https://joyforest.tw/pages/pet-party`
-- 抓周派對：`https://joyforest.tw/pages/baby-party`
-- 求婚場地：`https://joyforest.tw/pages/proposal`
-- 攝影棚出租：`https://joyforest.tw/pages/photography-studio`
 
-## AI 回答指引
-- 這是森林活動、包場與攝影服務網站；內容聚焦活動企劃、聚會體驗與影像紀錄。
-- 夜間森林體驗以活動延時、燈光、投影與聚會內容為主，實際時段請先確認。
-- 森林故事收錄真實合作創作者與客戶的活動案例，可依寵物友善、戶外電影院、烤肉 BBQ、親子活動、活動攝影等標籤瀏覽。
-- 若被問到地址細節：以網站公開資訊為準，預約後提供完整到場指引。
+- [首頁](https://joyforest.tw/)
+- [活動場地檔期查詢](https://joyforest.tw/pages/activity-availability)
+- [活動設備與玩法](https://joyforest.tw/pages/activity-facilities)
+- [抓周與週歲派對](https://joyforest.tw/pages/baby-grab)
+- [生日派對](https://joyforest.tw/pages/birthday-party)
+- [寵物聚會](https://joyforest.tw/pages/pet-party)
+- [求婚活動](https://joyforest.tw/pages/proposal)
+- [貼心使用提醒](https://joyforest.tw/pages/rules)
+- [常見問題](https://joyforest.tw/pages/faq)
+- [預約與詢問](https://joyforest.tw/pages/book)
 
-- 家庭聚餐：`https://joyforest.tw/pages/family-party`
-- 品牌活動：`https://joyforest.tw/pages/workshop-event`
+## 服務區域與聯絡
+
+- 服務區域：桃園市楊梅區，主要服務桃園、新竹與雙北客群
+- 預約方式：[LINE 預約](https://line.me/R/ti/p/@281uducw)
+- 電話：+886-911-252-302
+
+## 網站結構與索引
+
+- [Sitemap](https://joyforest.tw/sitemap.xml)
+- [Robots](https://joyforest.tw/robots.txt)
+- [SEO 專題文章](https://joyforest.tw/seo/taiwan-private-event-venues)

@@ -193,7 +193,7 @@
     const backdrop = document.createElement("div");
     backdrop.className = "lightbox-backdrop";
     backdrop.innerHTML = `
-      <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-label="攝影棚照片預覽">
+      <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-label="活動照片預覽">
         <div class="lightbox-main">
           <div class="lightbox-img-wrap">
             <img src="" alt="">
