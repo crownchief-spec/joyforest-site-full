@@ -67,7 +67,8 @@ function head({ title, description, canonical, image, schema, depth = "../" }) {
   <meta name="twitter:image" content="${esc(abs(image))}" />
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#2e4b3f" />
-  <link rel="stylesheet" href="${depth}assets/css/style.css?v=20261014-stories" />
+  <link rel="stylesheet" href="${depth}assets/css/style.css?v=20261031-stories" />
+  <link rel="stylesheet" href="/assets/css/contact-priority.css?v=20261024" />
   <link rel="icon" href="${depth}favicon.ico" sizes="any" />
   <link rel="icon" type="image/svg+xml" href="${depth}assets/images/favicon.svg" />
   <link rel="apple-touch-icon" href="${depth}apple-touch-icon.png" />
@@ -117,6 +118,11 @@ function tagsHtml(tags) {
   return tags.map(tag => `<a class="activity-story-tag" href="${tagUrl(tag)}">${esc(tag)}</a>`).join("");
 }
 
+function hashtagsHtml(story) {
+  const tags = [...new Set([...story.tags, "森林故事", "揪好森", "桃園楊梅"])].slice(0, Math.max(5, Math.min(10, story.tags.length)));
+  return `<section class="activity-story-section activity-story-keywords" aria-label="文章關鍵字"><h2>延伸搜尋關鍵字</h2><div class="activity-story-tags">${tags.map(tag => `<a class="activity-story-tag" href="${tagUrl(tag)}">#${esc(tag.replace(/\s+/g, ""))}</a>`).join("")}</div></section>`;
+}
+
 function cardHtml(story) {
   return `<article class="activity-story-card" data-tags="${esc(story.tags.join("|"))}">
     <a class="activity-story-card__image" href="/stories/${esc(story.slug)}/">
@@ -158,7 +164,9 @@ function articleSchema(story) {
 
 function buildArticle(story) {
   const pageTitle = `${story.title}｜森林故事｜Joyforest 揪好森`;
-  const media = story.media.length ? `<section class="activity-story-section" aria-labelledby="media-title"><h2 id="media-title">照片與影片裡的活動故事</h2><div class="activity-story-media-list">${story.media.map(mediaHtml).join("\n")}</div></section>` : "";
+  const gallery = story.media.length >= 20 && story.media.every(item => item.type === "image");
+  const media = story.media.length ? `<section class="activity-story-section" aria-labelledby="media-title"><h2 id="media-title">照片與影片裡的活動故事</h2><div class="activity-story-media-list${gallery ? " activity-story-media-list--gallery" : ""}">${story.media.map(mediaHtml).join("\n")}</div></section>` : "";
+  const sections = (story.sections || []).map(([heading, text]) => `<section class="activity-story-section"><h2>${esc(heading)}</h2><p>${esc(text)}</p></section>`).join("\n");
   return `${head({title: pageTitle, description: story.description, canonical: `https://joyforest.tw/stories/${story.slug}/`, image: story.cover.src, schema: articleSchema(story), depth: "../../"})}
 <body data-base="../../">
   <div id="site-header"></div>
@@ -179,9 +187,11 @@ function buildArticle(story) {
       <div class="container activity-story-content">
 ${collaborators(story)}
         <section class="activity-story-section"><h2>這次在森林裡做了什麼？</h2><p>${esc(story.intro)}</p></section>
+${sections}
 ${media}
         <section class="activity-story-section activity-story-fit"><h2>適合怎樣的活動？</h2><p>${esc(story.fit)}</p><div class="activity-story-tags">${tagsHtml(story.tags)}</div></section>
         <section class="activity-story-cta"><div><p class="kicker">PLAN YOUR EVENT</p><h2>把這個故事變成你的活動靈感</h2><p>告訴我們日期、人數與想安排的內容，我們會依活動需求協助確認場地使用方式。</p></div><div class="actions"><a class="btn primary" href="${esc(story.servicePath)}">${esc(story.serviceLabel)}</a><a class="btn ghost" href="/pages/book">加入 Line 詢問</a></div></section>
+${hashtagsHtml(story)}
       </div>
     </article>
     <section class="section activity-related" aria-labelledby="related-title"><div class="container"><p class="kicker">MORE STORIES</p><h2 id="related-title">繼續看森林故事</h2><div class="activity-story-grid">${relatedCards(story)}</div></div></section>
@@ -195,6 +205,7 @@ ${media}
 
 const storyTagSet = new Set(stories.flatMap(story => story.tags));
 const preferredFilterTags = [
+  "寵物攝影", "寵物寫真", "毛小孩寫真", "家庭寫真", "家庭照", "棚拍", "外拍", "森林外拍", "白背景棚拍", "三代同堂", "生日攝影",
   "寵物友善",
   "親子活動",
   "好友聚會",

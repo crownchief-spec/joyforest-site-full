@@ -1,8 +1,1496 @@
 {
   "schemaVersion": 1,
   "sitePurpose": "Joyforest 活動、攝影與聚會版森林故事",
-  "updatedDate": "2026-10-15",
+  "updatedDate": "2026-10-31",
   "stories": [
+    {
+      "caseId": "20261029-photo-01",
+      "slug": "family-white-dog-forest-photo-day",
+      "publishedDate": "2026-10-31",
+      "shootDate": "2026-10-29",
+      "title": "全家福裡一定要有牠｜白狗狗、孩子與森林家庭寫真",
+      "description": "小女孩、家人與白狗狗沿著森林木棧道和草地拍攝，從親子、祖孫合照到毛孩獨照，留下全家一起參與的自然外拍故事。",
+      "intro": "這組作品於 2026-10-29 在桃園楊梅揪好森拍攝。這次拍攝最醒目的主角，是穿著紫色衣服的小女孩，以及陪在身邊的白狗狗。爸爸、媽媽和長輩輪流靠近，一張家庭照裡同時出現親子、祖孫和寵物的關係。毛孩沒有被留在鏡頭之外，而是從一開始就有自己的位置。",
+      "sections": [
+        [
+          "走上木棧道，親子外拍開始有了速度",
+          "走到圓頂外觀前，爸爸讓孩子坐上肩膀，家人沿著木棧道一起移動。白色圍籬、坡道與樹林形成層層背景，讓照片不只有人物，也保留了森林場地的樣子。孩子張開手臂、回頭大笑的瞬間，把家庭寫真從靜態合照變成了一段小小的冒險。"
+        ],
+        [
+          "草地上輪流當主角，毛孩也有自己的篇幅",
+          "白狗狗在草地上走向鏡頭，也和家人坐在一起；女孩在大人的肩上玩耍，媽媽與長輩則留下幾張靠近彼此的合照。拍攝裡有完整家庭照，也有寵物獨照、親子與祖孫的不同組合。讓每位成員輪流成為主角，整篇故事才有足夠的變化。"
+        ],
+        [
+          "在戶外餐桌旁收尾，留下自然的笑容",
+          "後半段的照片來到木色餐桌與暖色燈串前，白狗狗把前腳放在桌邊，家人在牠身旁笑著互動。這種坐下來聊天的節奏，適合為森林外拍收尾。想安排有長輩、孩子與寵物的家庭寫真，可以先討論移動動線與休息需求，再以草地、木棧道和餐桌串起拍攝內容。"
+        ]
+      ],
+      "fit": "適合以照片記錄家庭相聚、親子互動與成長紀念；可依參與成員、寵物和拍攝主題，討論攝影場景及活動動線。",
+      "tags": [
+        "家庭寫真",
+        "家庭照",
+        "親子寫真",
+        "寵物攝影",
+        "寵物寫真",
+        "毛小孩寫真",
+        "森林外拍",
+        "桃園攝影",
+        "楊梅攝影",
+        "寵物友善"
+      ],
+      "collaborators": [],
+      "servicePath": "/pages/pet-photography",
+      "serviceLabel": "查看寵物寫真服務",
+      "cover": {
+        "src": "/assets/media/stories/family-white-dog-forest-photo-day/forest-story-cover.webp",
+        "alt": "女孩、家人與白狗狗在森林草地留下不同組合的家庭照",
+        "width": 1200,
+        "height": 900
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/white-dog-dome-portrait-15.webp",
+          "alt": "白狗狗在圓頂外觀前留下寵物獨照與互動畫面",
+          "caption": "白狗狗在圓頂外觀前留下寵物獨照與互動畫面",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/white-dog-dome-portrait-16.webp",
+          "alt": "白狗狗在圓頂外觀前留下寵物獨照與互動畫面",
+          "caption": "白狗狗在圓頂外觀前留下寵物獨照與互動畫面",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/white-dog-dome-portrait-17.webp",
+          "alt": "白狗狗在圓頂外觀前留下寵物獨照與互動畫面",
+          "caption": "白狗狗在圓頂外觀前留下寵物獨照與互動畫面",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/family-dog-boardwalk-18.webp",
+          "alt": "家人和白狗狗在森林木棧道旁坐下，留下親子與毛孩合照",
+          "caption": "家人和白狗狗在森林木棧道旁坐下，留下親子與毛孩合照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/family-dog-boardwalk-19.webp",
+          "alt": "家人和白狗狗在森林木棧道旁坐下，留下親子與毛孩合照",
+          "caption": "家人和白狗狗在森林木棧道旁坐下，留下親子與毛孩合照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/father-daughter-shoulder-20.webp",
+          "alt": "爸爸讓女孩坐在肩上，家人在森林步道旁一起笑著互動",
+          "caption": "爸爸讓女孩坐在肩上，家人在森林步道旁一起笑著互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/father-daughter-shoulder-21.webp",
+          "alt": "爸爸讓女孩坐在肩上，家人在森林步道旁一起笑著互動",
+          "caption": "爸爸讓女孩坐在肩上，家人在森林步道旁一起笑著互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/father-daughter-shoulder-22.webp",
+          "alt": "爸爸讓女孩坐在肩上，家人在森林步道旁一起笑著互動",
+          "caption": "爸爸讓女孩坐在肩上，家人在森林步道旁一起笑著互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/father-daughter-shoulder-23.webp",
+          "alt": "爸爸讓女孩坐在肩上，家人在森林步道旁一起笑著互動",
+          "caption": "爸爸讓女孩坐在肩上，家人在森林步道旁一起笑著互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/grandmother-dog-boardwalk-24.webp",
+          "alt": "長輩與白狗狗在圓頂旁的木棧道上合照",
+          "caption": "長輩與白狗狗在圓頂旁的木棧道上合照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/parents-daughter-lawn-25.webp",
+          "alt": "爸媽陪女孩在森林草地玩耍，留下自然親子寫真",
+          "caption": "爸媽陪女孩在森林草地玩耍，留下自然親子寫真",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/parents-daughter-lawn-26.webp",
+          "alt": "爸媽陪女孩在森林草地玩耍，留下自然親子寫真",
+          "caption": "爸媽陪女孩在森林草地玩耍，留下自然親子寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/parents-daughter-lawn-27.webp",
+          "alt": "爸媽陪女孩在森林草地玩耍，留下自然親子寫真",
+          "caption": "爸媽陪女孩在森林草地玩耍，留下自然親子寫真",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/white-dog-running-lawn-28.webp",
+          "alt": "白狗狗朝鏡頭走來，後方是森林裡的戶外料理區",
+          "caption": "白狗狗朝鏡頭走來，後方是森林裡的戶外料理區",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/grandmother-dog-lawn-29.webp",
+          "alt": "長輩陪白狗狗在綠色草地上散步與休息",
+          "caption": "長輩陪白狗狗在綠色草地上散步與休息",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/grandmother-dog-lawn-30.webp",
+          "alt": "長輩陪白狗狗在綠色草地上散步與休息",
+          "caption": "長輩陪白狗狗在綠色草地上散步與休息",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/grandmother-dog-lawn-31.webp",
+          "alt": "長輩陪白狗狗在綠色草地上散步與休息",
+          "caption": "長輩陪白狗狗在綠色草地上散步與休息",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/family-white-dog-lawn-32.webp",
+          "alt": "女孩、家人與白狗狗在森林草地留下不同組合的家庭照",
+          "caption": "女孩、家人與白狗狗在森林草地留下不同組合的家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/family-white-dog-lawn-33.webp",
+          "alt": "女孩、家人與白狗狗在森林草地留下不同組合的家庭照",
+          "caption": "女孩、家人與白狗狗在森林草地留下不同組合的家庭照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/family-white-dog-lawn-34.webp",
+          "alt": "女孩、家人與白狗狗在森林草地留下不同組合的家庭照",
+          "caption": "女孩、家人與白狗狗在森林草地留下不同組合的家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/family-white-dog-lawn-35.webp",
+          "alt": "女孩、家人與白狗狗在森林草地留下不同組合的家庭照",
+          "caption": "女孩、家人與白狗狗在森林草地留下不同組合的家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/family-white-dog-lawn-36.webp",
+          "alt": "女孩、家人與白狗狗在森林草地留下不同組合的家庭照",
+          "caption": "女孩、家人與白狗狗在森林草地留下不同組合的家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/family-white-dog-lawn-37.webp",
+          "alt": "女孩、家人與白狗狗在森林草地留下不同組合的家庭照",
+          "caption": "女孩、家人與白狗狗在森林草地留下不同組合的家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/family-dog-outdoor-table-38.webp",
+          "alt": "白狗狗與家人在戶外木色餐桌旁互動，背景有森林綠意與暖色燈串",
+          "caption": "白狗狗與家人在戶外木色餐桌旁互動，背景有森林綠意與暖色燈串",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/family-dog-outdoor-table-39.webp",
+          "alt": "白狗狗與家人在戶外木色餐桌旁互動，背景有森林綠意與暖色燈串",
+          "caption": "白狗狗與家人在戶外木色餐桌旁互動，背景有森林綠意與暖色燈串",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/family-dog-outdoor-table-40.webp",
+          "alt": "白狗狗與家人在戶外木色餐桌旁互動，背景有森林綠意與暖色燈串",
+          "caption": "白狗狗與家人在戶外木色餐桌旁互動，背景有森林綠意與暖色燈串",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/family-dog-outdoor-table-41.webp",
+          "alt": "白狗狗與家人在戶外木色餐桌旁互動，背景有森林綠意與暖色燈串",
+          "caption": "白狗狗與家人在戶外木色餐桌旁互動，背景有森林綠意與暖色燈串",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/family-dog-outdoor-table-42.webp",
+          "alt": "白狗狗與家人在戶外木色餐桌旁互動，背景有森林綠意與暖色燈串",
+          "caption": "白狗狗與家人在戶外木色餐桌旁互動，背景有森林綠意與暖色燈串",
+          "width": 1200,
+          "height": 689
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/family-dog-outdoor-table-43.webp",
+          "alt": "白狗狗與家人在戶外木色餐桌旁互動，背景有森林綠意與暖色燈串",
+          "caption": "白狗狗與家人在戶外木色餐桌旁互動，背景有森林綠意與暖色燈串",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/family-white-dog-forest-photo-day/parents-shoulder-forest-44.webp",
+          "alt": "爸爸讓媽媽坐在肩上，留下這次森林外拍中活潑的一幕",
+          "caption": "爸爸讓媽媽坐在肩上，留下這次森林外拍中活潑的一幕",
+          "width": 799,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "caseId": "20260809-photo-01",
+      "slug": "rainy-day-white-studio-three-generation-family",
+      "publishedDate": "2026-10-31",
+      "shootDate": "2026-08-09",
+      "title": "雨天也有全家的好表情｜白背景棚拍與三代家庭寫真",
+      "description": "天氣不好，把拍攝留在室內白背景：生日氣球、同款上衣、祖孫互動與兩個小家庭的合照，記錄三代一起笑的家庭寫真。",
+      "intro": "這組作品於 2026-08-09 在桃園楊梅揪好森拍攝。這次拍攝遇上不好的天氣，於是把全家的紀念留在室內攝影棚。白色背景把環境簡化，彩色氣球和家人的表情就更醒目。這組作品沒有戶外場景，卻能從孩子獨照、小家庭互動一路拍到三代合照，讓雨天成為另一種乾淨明亮的拍攝選擇。",
+      "sections": [
+        [
+          "生日氣球，讓孩子有自己的舞台",
+          "數字氣球、生日道具與小皇冠，替孩子的成長留下一個具體記號。趴在地上看鏡頭、抱著氣球、站起來做動作，都是同一張白背景裡不同的故事。棚拍不必只有端正坐姿，讓孩子有空間伸展與玩耍，親子寫真也能拍得很活潑。"
+        ],
+        [
+          "兩個小家庭，各自留下熟悉的靠近",
+          "爸媽把孩子抱在中間，或一起靠近親親；另一個家庭則用高低排列和趴姿，讓每位成員的臉都出現在畫面裡。同款圖案上衣把家人的關係連起來，白背景也讓目光更專注在人物。這些照片從全家福延伸到兩兩互動，兼顧正式紀念與自然情緒。"
+        ],
+        [
+          "祖孫一起笑，三代全家福才有溫度",
+          "長輩坐在孩子身邊，輪流比愛心、靠近臉頰，也有祖孫趴在一起大笑的瞬間。拍三代家庭照時，人多不代表只能排排站：坐姿、前後層次與輕鬆動作，都能讓不同年齡一起參與。照片留下的不只是誰來過，更是大家如何相處。"
+        ],
+        [
+          "白背景棚拍，讓每一年都有可以回看的合照",
+          "這組作品的變化來自人物與互動，而不是頻繁更換場景。孩子的生日、長輩與成年子女的合照，以及全家人的表情，都在同一套背景裡被完整保存。想在桃園楊梅安排親子棚拍或三代家庭寫真，可以先準備配色協調的服裝，說明成員與紀念主題，再依孩子和長輩的節奏安排拍攝。"
+        ]
+      ],
+      "fit": "適合以照片記錄家庭相聚、親子互動與成長紀念；可依參與成員、寵物和拍攝主題，討論攝影場景及活動動線。",
+      "tags": [
+        "家庭寫真",
+        "家庭照",
+        "三代同堂",
+        "親子寫真",
+        "白背景棚拍",
+        "攝影棚",
+        "生日攝影",
+        "桃園攝影",
+        "楊梅攝影"
+      ],
+      "collaborators": [],
+      "servicePath": "/pages/portrait-photography",
+      "serviceLabel": "查看親子與家庭寫真服務",
+      "cover": {
+        "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/forest-story-cover.webp",
+        "alt": "三代家人與彩色氣球一起入鏡，拍攝白背景全家福",
+        "width": 1200,
+        "height": 900
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/children-balloons-white-studio-03.webp",
+          "alt": "孩子們在純白背景前和生日氣球互動",
+          "caption": "孩子們在純白背景前和生日氣球互動",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/children-balloons-white-studio-07.webp",
+          "alt": "孩子們在純白背景前和生日氣球互動",
+          "caption": "孩子們在純白背景前和生日氣球互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/children-balloons-white-studio-09.webp",
+          "alt": "孩子們在純白背景前和生日氣球互動",
+          "caption": "孩子們在純白背景前和生日氣球互動",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/grandparents-children-studio-13.webp",
+          "alt": "長輩陪孩子趴在白色背景前，一起留下輕鬆笑容",
+          "caption": "長輩陪孩子趴在白色背景前，一起留下輕鬆笑容",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/three-generations-balloons-15.webp",
+          "alt": "三代家人與彩色氣球一起入鏡，拍攝白背景全家福",
+          "caption": "三代家人與彩色氣球一起入鏡，拍攝白背景全家福",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/three-generations-balloons-17.webp",
+          "alt": "三代家人與彩色氣球一起入鏡，拍攝白背景全家福",
+          "caption": "三代家人與彩色氣球一起入鏡，拍攝白背景全家福",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/three-generations-balloons-20.webp",
+          "alt": "三代家人與彩色氣球一起入鏡，拍攝白背景全家福",
+          "caption": "三代家人與彩色氣球一起入鏡，拍攝白背景全家福",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/three-generations-balloons-24.webp",
+          "alt": "三代家人與彩色氣球一起入鏡，拍攝白背景全家福",
+          "caption": "三代家人與彩色氣球一起入鏡，拍攝白背景全家福",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/grandparents-heart-portrait-26.webp",
+          "alt": "長輩在攝影棚裡靠近、比愛心，留下兩人的合照",
+          "caption": "長輩在攝影棚裡靠近、比愛心，留下兩人的合照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/grandparents-heart-portrait-27.webp",
+          "alt": "長輩在攝影棚裡靠近、比愛心，留下兩人的合照",
+          "caption": "長輩在攝影棚裡靠近、比愛心，留下兩人的合照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/grandparents-heart-portrait-30.webp",
+          "alt": "長輩在攝影棚裡靠近、比愛心，留下兩人的合照",
+          "caption": "長輩在攝影棚裡靠近、比愛心，留下兩人的合照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/boy-sixth-birthday-31.webp",
+          "alt": "男孩與數字六氣球在純白背景前留下生日紀念",
+          "caption": "男孩與數字六氣球在純白背景前留下生日紀念",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/boy-sixth-birthday-34.webp",
+          "alt": "男孩與數字六氣球在純白背景前留下生日紀念",
+          "caption": "男孩與數字六氣球在純白背景前留下生日紀念",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/parents-boy-birthday-37.webp",
+          "alt": "爸媽陪男孩在生日氣球旁拍攝親子家庭照",
+          "caption": "爸媽陪男孩在生日氣球旁拍攝親子家庭照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/parents-boy-birthday-39.webp",
+          "alt": "爸媽陪男孩在生日氣球旁拍攝親子家庭照",
+          "caption": "爸媽陪男孩在生日氣球旁拍攝親子家庭照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/parents-boy-birthday-43.webp",
+          "alt": "爸媽陪男孩在生日氣球旁拍攝親子家庭照",
+          "caption": "爸媽陪男孩在生日氣球旁拍攝親子家庭照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/parents-boy-birthday-44.webp",
+          "alt": "爸媽陪男孩在生日氣球旁拍攝親子家庭照",
+          "caption": "爸媽陪男孩在生日氣球旁拍攝親子家庭照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/parents-boy-birthday-46.webp",
+          "alt": "爸媽陪男孩在生日氣球旁拍攝親子家庭照",
+          "caption": "爸媽陪男孩在生日氣球旁拍攝親子家庭照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/parents-boy-birthday-49.webp",
+          "alt": "爸媽陪男孩在生日氣球旁拍攝親子家庭照",
+          "caption": "爸媽陪男孩在生日氣球旁拍攝親子家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/parents-boy-birthday-50.webp",
+          "alt": "爸媽陪男孩在生日氣球旁拍攝親子家庭照",
+          "caption": "爸媽陪男孩在生日氣球旁拍攝親子家庭照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/parents-daughters-white-studio-52.webp",
+          "alt": "爸媽與女孩們在白色背景前，以擁抱和高低排列拍攝家庭照",
+          "caption": "爸媽與女孩們在白色背景前，以擁抱和高低排列拍攝家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/parents-daughters-white-studio-56.webp",
+          "alt": "爸媽與女孩們在白色背景前，以擁抱和高低排列拍攝家庭照",
+          "caption": "爸媽與女孩們在白色背景前，以擁抱和高低排列拍攝家庭照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/parents-daughters-white-studio-58.webp",
+          "alt": "爸媽與女孩們在白色背景前，以擁抱和高低排列拍攝家庭照",
+          "caption": "爸媽與女孩們在白色背景前，以擁抱和高低排列拍攝家庭照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/parents-daughters-white-studio-62.webp",
+          "alt": "爸媽與女孩們在白色背景前，以擁抱和高低排列拍攝家庭照",
+          "caption": "爸媽與女孩們在白色背景前，以擁抱和高低排列拍攝家庭照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/parents-daughters-white-studio-65.webp",
+          "alt": "爸媽與女孩們在白色背景前，以擁抱和高低排列拍攝家庭照",
+          "caption": "爸媽與女孩們在白色背景前，以擁抱和高低排列拍攝家庭照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/parents-daughters-white-studio-69.webp",
+          "alt": "爸媽與女孩們在白色背景前，以擁抱和高低排列拍攝家庭照",
+          "caption": "爸媽與女孩們在白色背景前，以擁抱和高低排列拍攝家庭照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/parents-daughters-white-studio-73.webp",
+          "alt": "爸媽與女孩們在白色背景前，以擁抱和高低排列拍攝家庭照",
+          "caption": "爸媽與女孩們在白色背景前，以擁抱和高低排列拍攝家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/girl-white-studio-portrait-75.webp",
+          "alt": "女孩在純白背景前留下自然表情與個人紀念照",
+          "caption": "女孩在純白背景前留下自然表情與個人紀念照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/girl-white-studio-portrait-79.webp",
+          "alt": "女孩在純白背景前留下自然表情與個人紀念照",
+          "caption": "女孩在純白背景前留下自然表情與個人紀念照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/adult-family-white-studio-83.webp",
+          "alt": "長輩與成年家人在白背景前拍攝不同組合的家庭照",
+          "caption": "長輩與成年家人在白背景前拍攝不同組合的家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/adult-family-white-studio-85.webp",
+          "alt": "長輩與成年家人在白背景前拍攝不同組合的家庭照",
+          "caption": "長輩與成年家人在白背景前拍攝不同組合的家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/adult-family-white-studio-88.webp",
+          "alt": "長輩與成年家人在白背景前拍攝不同組合的家庭照",
+          "caption": "長輩與成年家人在白背景前拍攝不同組合的家庭照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/three-generations-family-portrait-89.webp",
+          "alt": "三代家人在純白攝影棚裡靠近合照，留下全家人的笑容",
+          "caption": "三代家人在純白攝影棚裡靠近合照，留下全家人的笑容",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/three-generations-family-portrait-92.webp",
+          "alt": "三代家人在純白攝影棚裡靠近合照，留下全家人的笑容",
+          "caption": "三代家人在純白攝影棚裡靠近合照，留下全家人的笑容",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/three-generations-family-portrait-96.webp",
+          "alt": "三代家人在純白攝影棚裡靠近合照，留下全家人的笑容",
+          "caption": "三代家人在純白攝影棚裡靠近合照，留下全家人的笑容",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/rainy-day-white-studio-three-generation-family/grandmother-daughters-children-103.webp",
+          "alt": "女性家人與孩子們靠近合照，記錄祖孫和親子之間的陪伴",
+          "caption": "女性家人與孩子們靠近合照，記錄祖孫和親子之間的陪伴",
+          "width": 1200,
+          "height": 799
+        }
+      ]
+    },
+    {
+      "caseId": "20251215-photo-01",
+      "slug": "balloon-birthday-forest-family-portraits",
+      "publishedDate": "2026-10-31",
+      "shootDate": "2025-12-15",
+      "title": "把生日過成一段森林記憶｜氣球、兔兔與親子家庭寫真",
+      "description": "藍色親子穿搭、黃綠氣球、森林甜點桌與夜間營火，串起從草地遊戲到生日合照的家庭寫真，也留下媽媽自然的個人形象照。",
+      "intro": "這組作品於 2025-12-15 在桃園楊梅揪好森拍攝。爸爸、媽媽與孩子穿著相近的藍色，在森林餐桌前開始這次拍攝。衣服的色調與草地、木色小屋互相呼應，不用複雜道具，家庭照就有完整的視覺線索。從一起看向桌面，到孩子轉頭望向家人，這些小動作讓親子寫真比制式站姿更有生活感。",
+      "sections": [
+        [
+          "讓氣球帶路，跟著孩子走到草地",
+          "黃綠氣球一出現，畫面立刻變得輕盈。孩子提著氣球向前跑，在木椅上和爸媽靠近，也坐上爸爸肩膀。圓頂外觀、白色風車與森林坡道交替出現在背景裡，讓人看見揪好森不同的外拍位置。拍家庭寫真時，讓孩子有一件可以投入的事，笑容往往就自然出現。"
+        ],
+        [
+          "兔兔與大笑，把人物關係拍進照片",
+          "草地上還出現了兔兔，媽媽靠近觀察，孩子則在旁邊一起互動。這段照片的重點不只是動物，也包括一家人如何分享同一個好奇心。爸爸躺在草坡陪孩子玩、媽媽在一旁笑著看，親子攝影因此有了不同的高度與距離，從全景到表情特寫都能接起來。"
+        ],
+        [
+          "甜點桌旁，有生日，也有媽媽的個人篇章",
+          "小屋餐台、繽紛甜點、生日氣球與數字道具，讓這次拍攝多了慶祝的主題。孩子在甜點桌旁留下紀念照，媽媽也在花草與生日佈景前拍下個人形象照。家庭攝影不必只留下全員大合照，也可以為每個人保留一小段屬於自己的時間。照片中的餐點與佈景是本次拍攝內容，實際活動安排可在預約時另行討論。"
+        ],
+        [
+          "白天的泡泡，接到夜晚的火光",
+          "最後一段故事從大泡泡與草地全景，走向夜間營火和仙女棒。日光下的藍綠色，換成火光照亮臉龐的暖色，家人仍然在同一個畫面裡。這樣的森林攝影可以由生日、親子互動或家庭紀念出發，讓不同時段的光線替照片留下不同的情緒。"
+        ]
+      ],
+      "fit": "適合以照片記錄家庭相聚、親子互動與成長紀念；可依參與成員、寵物和拍攝主題，討論攝影場景及活動動線。",
+      "tags": [
+        "親子寫真",
+        "家庭寫真",
+        "家庭照",
+        "生日攝影",
+        "森林外拍",
+        "個人形象照",
+        "桃園攝影",
+        "楊梅攝影",
+        "營火體驗",
+        "親子活動"
+      ],
+      "collaborators": [],
+      "servicePath": "/pages/portrait-photography",
+      "serviceLabel": "查看親子與家庭寫真服務",
+      "cover": {
+        "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/forest-story-cover.webp",
+        "alt": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+        "width": 1200,
+        "height": 900
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-garden-dessert-table-01.webp",
+          "alt": "藍色親子穿搭的一家人在森林小屋餐台與甜點佈景前互動",
+          "caption": "藍色親子穿搭的一家人在森林小屋餐台與甜點佈景前互動",
+          "width": 1200,
+          "height": 781
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-garden-dessert-table-02.webp",
+          "alt": "藍色親子穿搭的一家人在森林小屋餐台與甜點佈景前互動",
+          "caption": "藍色親子穿搭的一家人在森林小屋餐台與甜點佈景前互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-garden-dessert-table-03.webp",
+          "alt": "藍色親子穿搭的一家人在森林小屋餐台與甜點佈景前互動",
+          "caption": "藍色親子穿搭的一家人在森林小屋餐台與甜點佈景前互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-garden-dessert-table-05.webp",
+          "alt": "藍色親子穿搭的一家人在森林小屋餐台與甜點佈景前互動",
+          "caption": "藍色親子穿搭的一家人在森林小屋餐台與甜點佈景前互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-balloons-forest-07.webp",
+          "alt": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "caption": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "width": 1200,
+          "height": 939
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-balloons-forest-08.webp",
+          "alt": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "caption": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-balloons-forest-10.webp",
+          "alt": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "caption": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-balloons-forest-14.webp",
+          "alt": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "caption": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-balloons-forest-16.webp",
+          "alt": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "caption": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "width": 1200,
+          "height": 932
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-balloons-forest-17.webp",
+          "alt": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "caption": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-garden-dessert-table-18.webp",
+          "alt": "藍色親子穿搭的一家人在森林小屋餐台與甜點佈景前互動",
+          "caption": "藍色親子穿搭的一家人在森林小屋餐台與甜點佈景前互動",
+          "width": 1200,
+          "height": 943
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/birthday-dessert-details-20.webp",
+          "alt": "木色餐台上的甜點與小道具，記錄本次生日拍攝的佈景細節",
+          "caption": "木色餐台上的甜點與小道具，記錄本次生日拍攝的佈景細節",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-rabbit-lawn-23.webp",
+          "alt": "媽媽與孩子在綠色草地上靠近兔兔，留下自然互動",
+          "caption": "媽媽與孩子在綠色草地上靠近兔兔，留下自然互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-rabbit-lawn-26.webp",
+          "alt": "媽媽與孩子在綠色草地上靠近兔兔，留下自然互動",
+          "caption": "媽媽與孩子在綠色草地上靠近兔兔，留下自然互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-rabbit-lawn-27.webp",
+          "alt": "媽媽與孩子在綠色草地上靠近兔兔，留下自然互動",
+          "caption": "媽媽與孩子在綠色草地上靠近兔兔，留下自然互動",
+          "width": 1200,
+          "height": 841
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-rabbit-lawn-28.webp",
+          "alt": "媽媽與孩子在綠色草地上靠近兔兔，留下自然互動",
+          "caption": "媽媽與孩子在綠色草地上靠近兔兔，留下自然互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-balloons-forest-29.webp",
+          "alt": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "caption": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-balloons-forest-32.webp",
+          "alt": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "caption": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-balloons-forest-35.webp",
+          "alt": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "caption": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-balloons-forest-38.webp",
+          "alt": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "caption": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-balloons-forest-39.webp",
+          "alt": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "caption": "一家人帶著黃綠氣球在森林草坡、風車與圓頂外觀前拍攝親子寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-garden-dessert-table-40.webp",
+          "alt": "藍色親子穿搭的一家人在森林小屋餐台與甜點佈景前互動",
+          "caption": "藍色親子穿搭的一家人在森林小屋餐台與甜點佈景前互動",
+          "width": 1200,
+          "height": 850
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-garden-dessert-table-42.webp",
+          "alt": "藍色親子穿搭的一家人在森林小屋餐台與甜點佈景前互動",
+          "caption": "藍色親子穿搭的一家人在森林小屋餐台與甜點佈景前互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/birthday-dessert-details-44.webp",
+          "alt": "木色餐台上的甜點與小道具，記錄本次生日拍攝的佈景細節",
+          "caption": "木色餐台上的甜點與小道具，記錄本次生日拍攝的佈景細節",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/birthday-dessert-details-50.webp",
+          "alt": "木色餐台上的甜點與小道具，記錄本次生日拍攝的佈景細節",
+          "caption": "木色餐台上的甜點與小道具，記錄本次生日拍攝的佈景細節",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/child-birthday-portrait-58.webp",
+          "alt": "孩子在氣球與甜點佈景旁留下生日紀念照",
+          "caption": "孩子在氣球與甜點佈景旁留下生日紀念照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/child-birthday-portrait-60.webp",
+          "alt": "孩子在氣球與甜點佈景旁留下生日紀念照",
+          "caption": "孩子在氣球與甜點佈景旁留下生日紀念照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/birthday-table-balloon-61.webp",
+          "alt": "生日字母氣球與甜點桌構成本次家庭攝影的慶祝場景",
+          "caption": "生日字母氣球與甜點桌構成本次家庭攝影的慶祝場景",
+          "width": 1200,
+          "height": 984
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/birthday-table-balloon-63.webp",
+          "alt": "生日字母氣球與甜點桌構成本次家庭攝影的慶祝場景",
+          "caption": "生日字母氣球與甜點桌構成本次家庭攝影的慶祝場景",
+          "width": 1200,
+          "height": 819
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/mother-birthday-portrait-69.webp",
+          "alt": "媽媽在生日佈景前留下自然的個人形象照",
+          "caption": "媽媽在生日佈景前留下自然的個人形象照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-birthday-celebration-73.webp",
+          "alt": "一家人站在生日甜點桌前，陪孩子留下家庭紀念",
+          "caption": "一家人站在生日甜點桌前，陪孩子留下家庭紀念",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-birthday-celebration-74.webp",
+          "alt": "一家人站在生日甜點桌前，陪孩子留下家庭紀念",
+          "caption": "一家人站在生日甜點桌前，陪孩子留下家庭紀念",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-outdoor-dining-76.webp",
+          "alt": "家人在戶外圓桌與森林小屋前互動合照",
+          "caption": "家人在戶外圓桌與森林小屋前互動合照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-outdoor-dining-79.webp",
+          "alt": "家人在戶外圓桌與森林小屋前互動合照",
+          "caption": "家人在戶外圓桌與森林小屋前互動合照",
+          "width": 1200,
+          "height": 940
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-bubbles-forest-81.webp",
+          "alt": "家人在森林草地玩大泡泡，讓戶外親子攝影充滿動感",
+          "caption": "家人在森林草地玩大泡泡，讓戶外親子攝影充滿動感",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-bubbles-forest-84.webp",
+          "alt": "家人在森林草地玩大泡泡，讓戶外親子攝影充滿動感",
+          "caption": "家人在森林草地玩大泡泡，讓戶外親子攝影充滿動感",
+          "width": 1200,
+          "height": 740
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-campfire-night-93.webp",
+          "alt": "家人在夜間營火與仙女棒的暖光旁一起合照",
+          "caption": "家人在夜間營火與仙女棒的暖光旁一起合照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/balloon-birthday-forest-family-portraits/family-campfire-night-99.webp",
+          "alt": "家人在夜間營火與仙女棒的暖光旁一起合照",
+          "caption": "家人在夜間營火與仙女棒的暖光旁一起合照",
+          "width": 1200,
+          "height": 799
+        }
+      ]
+    },
+    {
+      "caseId": "20251124-photo-01",
+      "slug": "four-dogs-forest-picnic-portraits",
+      "publishedDate": "2026-10-31",
+      "shootDate": "2025-11-24",
+      "title": "四隻狗狗的森林野餐日｜大型犬也能一起入鏡的寵物寫真",
+      "description": "哈士奇、黃金獵犬、伯恩山犬與白色長毛犬一起走進森林草地，從野餐佈景、風車合照到木棧道散步，留下四犬家庭的寵物攝影紀錄。",
+      "intro": "這組作品於 2025-11-24 在桃園楊梅揪好森拍攝。這次的主角不是單獨一隻毛孩，而是四隻外型與個性都不同的狗狗。牠們在野餐毯、小帳篷和植物佈景前坐下，有的正面看鏡頭，有的趴著休息。相同場景裡，毛色、體型與姿勢自然形成層次，也讓多犬家庭照有了豐富的細節。",
+      "sections": [
+        [
+          "先拍各自的樣子，再讓家人加入",
+          "四隻狗狗一起入鏡很有氣勢，分開拍攝時則能看見更細緻的表情。鏡頭留下哈士奇放鬆趴著、黃金獵犬轉頭、伯恩山犬正面凝視，以及白色長毛犬在綠意裡的模樣。主人坐進野餐佈景、抱抱毛孩之後，照片又從寵物獨照變成了共同生活的家庭寫真。"
+        ],
+        [
+          "風車與圓頂，讓森林場景被記住",
+          "草坡上的白色風車和後方圓頂外觀，替合照提供了清楚的地點感。坐在木椅上的兩人、前景趴著的狗狗，以及斜向延伸的草地，把人物與毛孩放進同一個空間。對寵物外拍來說，這種有前後層次的構圖，能同時呈現家人表情與森林環境。"
+        ],
+        [
+          "散步的路上，留下更自由的毛孩寫真",
+          "離開固定佈景，毛孩沿草地與木棧道向前走。低角度的鏡頭讓狗狗成為畫面中心，家人則在旁邊陪伴。這些移動中的畫面未必整齊，卻保留了毛孩真實的步伐與神情；和前面的合照放在一起，故事才有安靜與活潑兩種節奏。"
+        ],
+        [
+          "多犬與大型犬攝影的拍攝靈感",
+          "四犬同框時，可以輪流安排群像、單獨特寫、主人陪伴與散步畫面，讓每隻毛孩都有自己的篇幅。來桃園楊梅拍攝前，先討論各隻寵物的互動習慣、牽繩安排與休息需求，再決定野餐風格或自然森林外拍，讓紀錄貼近這個家庭本來的樣子。"
+        ]
+      ],
+      "fit": "適合以照片記錄家庭相聚、親子互動與成長紀念；可依參與成員、寵物和拍攝主題，討論攝影場景及活動動線。",
+      "tags": [
+        "寵物攝影",
+        "寵物寫真",
+        "毛小孩寫真",
+        "多犬家庭",
+        "大型犬攝影",
+        "森林外拍",
+        "家庭照",
+        "桃園攝影",
+        "楊梅攝影"
+      ],
+      "collaborators": [],
+      "servicePath": "/pages/pet-photography",
+      "serviceLabel": "查看寵物寫真服務",
+      "cover": {
+        "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/forest-story-cover.webp",
+        "alt": "四隻狗狗在森林草地的野餐毯與小帳篷前合照",
+        "width": 1200,
+        "height": 900
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/four-dogs-picnic-01.webp",
+          "alt": "四隻狗狗在森林草地的野餐毯與小帳篷前合照",
+          "caption": "四隻狗狗在森林草地的野餐毯與小帳篷前合照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/four-dogs-picnic-02.webp",
+          "alt": "四隻狗狗在森林草地的野餐毯與小帳篷前合照",
+          "caption": "四隻狗狗在森林草地的野餐毯與小帳篷前合照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/four-dogs-picnic-03.webp",
+          "alt": "四隻狗狗在森林草地的野餐毯與小帳篷前合照",
+          "caption": "四隻狗狗在森林草地的野餐毯與小帳篷前合照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/four-dogs-picnic-04.webp",
+          "alt": "四隻狗狗在森林草地的野餐毯與小帳篷前合照",
+          "caption": "四隻狗狗在森林草地的野餐毯與小帳篷前合照",
+          "width": 1188,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/husky-picnic-portrait-05.webp",
+          "alt": "哈士奇放鬆趴在野餐佈景前",
+          "caption": "哈士奇放鬆趴在野餐佈景前",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/golden-retriever-portrait-06.webp",
+          "alt": "黃金獵犬在草地上轉頭望向鏡頭",
+          "caption": "黃金獵犬在草地上轉頭望向鏡頭",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/white-dog-lawn-07.webp",
+          "alt": "白色長毛犬在森林草地與風車佈景旁活動",
+          "caption": "白色長毛犬在森林草地與風車佈景旁活動",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/four-dogs-picnic-08.webp",
+          "alt": "四隻狗狗在森林草地的野餐毯與小帳篷前合照",
+          "caption": "四隻狗狗在森林草地的野餐毯與小帳篷前合照",
+          "width": 1200,
+          "height": 667
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/bernese-mountain-dog-09.webp",
+          "alt": "伯恩山犬在森林植物與野餐佈景前留下寵物獨照",
+          "caption": "伯恩山犬在森林植物與野餐佈景前留下寵物獨照",
+          "width": 750,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/owner-dogs-picnic-10.webp",
+          "alt": "主人在野餐佈景中陪伴四隻狗狗，拍攝寵物家庭照",
+          "caption": "主人在野餐佈景中陪伴四隻狗狗，拍攝寵物家庭照",
+          "width": 1200,
+          "height": 1065
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/owner-dogs-picnic-11.webp",
+          "alt": "主人在野餐佈景中陪伴四隻狗狗，拍攝寵物家庭照",
+          "caption": "主人在野餐佈景中陪伴四隻狗狗，拍攝寵物家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/owner-dogs-picnic-12.webp",
+          "alt": "主人在野餐佈景中陪伴四隻狗狗，拍攝寵物家庭照",
+          "caption": "主人在野餐佈景中陪伴四隻狗狗，拍攝寵物家庭照",
+          "width": 1023,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/owner-dogs-picnic-13.webp",
+          "alt": "主人在野餐佈景中陪伴四隻狗狗，拍攝寵物家庭照",
+          "caption": "主人在野餐佈景中陪伴四隻狗狗，拍攝寵物家庭照",
+          "width": 1200,
+          "height": 703
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/owner-dogs-picnic-14.webp",
+          "alt": "主人在野餐佈景中陪伴四隻狗狗，拍攝寵物家庭照",
+          "caption": "主人在野餐佈景中陪伴四隻狗狗，拍攝寵物家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/friends-dogs-pinwheels-15.webp",
+          "alt": "家人與狗狗在白色風車、草坡和圓頂外觀前合照",
+          "caption": "家人與狗狗在白色風車、草坡和圓頂外觀前合照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/friends-dogs-pinwheels-16.webp",
+          "alt": "家人與狗狗在白色風車、草坡和圓頂外觀前合照",
+          "caption": "家人與狗狗在白色風車、草坡和圓頂外觀前合照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/friends-dogs-pinwheels-17.webp",
+          "alt": "家人與狗狗在白色風車、草坡和圓頂外觀前合照",
+          "caption": "家人與狗狗在白色風車、草坡和圓頂外觀前合照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/friends-dogs-pinwheels-18.webp",
+          "alt": "家人與狗狗在白色風車、草坡和圓頂外觀前合照",
+          "caption": "家人與狗狗在白色風車、草坡和圓頂外觀前合照",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/friends-dogs-pinwheels-19.webp",
+          "alt": "家人與狗狗在白色風車、草坡和圓頂外觀前合照",
+          "caption": "家人與狗狗在白色風車、草坡和圓頂外觀前合照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/family-four-dogs-forest-20.webp",
+          "alt": "家人與四隻狗狗在森林草坡上一起拍攝家庭寫真",
+          "caption": "家人與四隻狗狗在森林草坡上一起拍攝家庭寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/family-four-dogs-forest-21.webp",
+          "alt": "家人與四隻狗狗在森林草坡上一起拍攝家庭寫真",
+          "caption": "家人與四隻狗狗在森林草坡上一起拍攝家庭寫真",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/family-four-dogs-forest-22.webp",
+          "alt": "家人與四隻狗狗在森林草坡上一起拍攝家庭寫真",
+          "caption": "家人與四隻狗狗在森林草坡上一起拍攝家庭寫真",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/outdoor-table-family-23.webp",
+          "alt": "家人在戶外木色餐桌旁坐下交流",
+          "caption": "家人在戶外木色餐桌旁坐下交流",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/white-dog-lawn-24.webp",
+          "alt": "白色長毛犬在森林草地與風車佈景旁活動",
+          "caption": "白色長毛犬在森林草地與風車佈景旁活動",
+          "width": 701,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/dogs-owner-lawn-walk-25.webp",
+          "alt": "狗狗在主人的陪伴下走過綠色草地",
+          "caption": "狗狗在主人的陪伴下走過綠色草地",
+          "width": 992,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/dogs-owner-lawn-walk-26.webp",
+          "alt": "狗狗在主人的陪伴下走過綠色草地",
+          "caption": "狗狗在主人的陪伴下走過綠色草地",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/dogs-owner-lawn-walk-27.webp",
+          "alt": "狗狗在主人的陪伴下走過綠色草地",
+          "caption": "狗狗在主人的陪伴下走過綠色草地",
+          "width": 1200,
+          "height": 674
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/dogs-owner-lawn-walk-28.webp",
+          "alt": "狗狗在主人的陪伴下走過綠色草地",
+          "caption": "狗狗在主人的陪伴下走過綠色草地",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/four-dogs-forest-picnic-portraits/dogs-boardwalk-walk-29.webp",
+          "alt": "狗狗沿木棧道走向鏡頭，後方是森林與圓頂外觀",
+          "caption": "狗狗沿木棧道走向鏡頭，後方是森林與圓頂外觀",
+          "width": 1200,
+          "height": 799
+        }
+      ]
+    },
+    {
+      "caseId": "20251108-photo-01",
+      "slug": "pets-studio-forest-family-portraits",
+      "publishedDate": "2026-10-31",
+      "shootDate": "2025-11-08",
+      "title": "把毛孩也放進全家福｜貓狗棚拍與森林草地寵物寫真",
+      "description": "從暖色背景棚拍，到白色圍籬旁的草地外拍，記錄博美、吉娃娃與貓咪和家人靠近的模樣，看看桃園楊梅揪好森如何拍出不同個性的毛小孩寫真。",
+      "intro": "這組作品於 2025-11-08 在桃園楊梅揪好森拍攝。暖色背景前，穿著藍色服裝的白色博美坐上小椅子，耳朵、蓬鬆毛髮與吐舌的表情都成了畫面主角；另一邊，吉娃娃換上黃色衣服，在同樣乾淨的背景裡留下俐落輪廓。寵物棚拍的趣味，在於簡化環境之後，每隻毛孩的個性反而更清楚。不必每一張都盯著鏡頭，微微轉頭、看向家人，也是值得留下的寵物寫真。",
+      "sections": [
+        [
+          "靠近毛孩，親子合照就有了故事",
+          "男孩彎下身靠近博美，大人也加入畫面，三雙視線在小小的拍攝範圍裡交會。相較於單獨端坐的照片，這些親子與毛孩一起入鏡的家庭照，多了陪伴的感覺。攝影可以從簡單的坐姿開始，再用摸摸頭、靠近臉頰等動作，記錄家人與寵物熟悉的距離。"
+        ],
+        [
+          "走到森林草地，把棚拍換成外拍",
+          "戶外的光讓白毛更蓬鬆，也讓吉娃娃身上的黃色與綠色草地互相呼應。白色圍籬、圓頂外觀、小帳篷與花草餐桌，構成不同層次的拍攝背景：有低角度的毛孩獨照，也有一家人陪著小狗的自然互動。同一組作品同時保留棚拍的乾淨與外拍的生命力，是這次森林寵物攝影最有變化的地方。"
+        ],
+        [
+          "貓咪的慢節奏，也值得被看見",
+          "鏡頭回到貓咪身上，故事的速度慢了下來。家人把手指圍成愛心，讓白貓從中間看向鏡頭；另一隻長毛貓則在柔和窗光旁留下側臉。寵物攝影不只有奔跑和笑臉，也可以是安靜觀察、輕輕靠近的瞬間。這些照片讓家庭寫真多了一個重要的位置：留給一起生活的毛小孩。"
+        ],
+        [
+          "想安排同樣的寵物寫真，可以怎麼準備？",
+          "在桃園楊梅安排毛小孩寫真，可以事先說明寵物數量、體型與習慣，帶上熟悉的牽繩、提袋或小道具，再討論想拍棚拍、草地外拍，或兩者搭配。讓毛孩先熟悉環境，依牠的反應調整拍攝節奏，比要求每一張都乖乖坐好，更能留下自然的家庭紀念。"
+        ]
+      ],
+      "fit": "適合以照片記錄家庭相聚、親子互動與成長紀念；可依參與成員、寵物和拍攝主題，討論攝影場景及活動動線。",
+      "tags": [
+        "寵物攝影",
+        "寵物寫真",
+        "毛小孩寫真",
+        "家庭寫真",
+        "棚拍",
+        "外拍",
+        "桃園攝影",
+        "楊梅攝影",
+        "寵物友善"
+      ],
+      "collaborators": [],
+      "servicePath": "/pages/pet-photography",
+      "serviceLabel": "查看寵物寫真服務",
+      "cover": {
+        "src": "/assets/media/stories/pets-studio-forest-family-portraits/forest-story-cover.webp",
+        "alt": "白色博美在綠色草地與白色圍籬旁拍攝自然寵物寫真",
+        "width": 1200,
+        "height": 900
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/chihuahua-costume-studio-01.webp",
+          "alt": "穿花色服裝的吉娃娃在暖色背景前拍攝寵物棚拍",
+          "caption": "穿花色服裝的吉娃娃在暖色背景前拍攝寵物棚拍",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/pomeranian-studio-portrait-02.webp",
+          "alt": "白色博美穿著藍色服裝，在乾淨背景前留下蓬鬆毛髮與表情",
+          "caption": "白色博美穿著藍色服裝，在乾淨背景前留下蓬鬆毛髮與表情",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/pomeranian-studio-portrait-03.webp",
+          "alt": "白色博美穿著藍色服裝，在乾淨背景前留下蓬鬆毛髮與表情",
+          "caption": "白色博美穿著藍色服裝，在乾淨背景前留下蓬鬆毛髮與表情",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/boy-family-pomeranian-04.webp",
+          "alt": "男孩與家人靠近白色博美，拍攝親子與毛孩一起入鏡的家庭照",
+          "caption": "男孩與家人靠近白色博美，拍攝親子與毛孩一起入鏡的家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/boy-family-pomeranian-05.webp",
+          "alt": "男孩與家人靠近白色博美，拍攝親子與毛孩一起入鏡的家庭照",
+          "caption": "男孩與家人靠近白色博美，拍攝親子與毛孩一起入鏡的家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/boy-family-pomeranian-06.webp",
+          "alt": "男孩與家人靠近白色博美，拍攝親子與毛孩一起入鏡的家庭照",
+          "caption": "男孩與家人靠近白色博美，拍攝親子與毛孩一起入鏡的家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/boy-family-pomeranian-07.webp",
+          "alt": "男孩與家人靠近白色博美，拍攝親子與毛孩一起入鏡的家庭照",
+          "caption": "男孩與家人靠近白色博美，拍攝親子與毛孩一起入鏡的家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/pomeranian-forest-lawn-08.webp",
+          "alt": "白色博美在綠色草地與白色圍籬旁拍攝自然寵物寫真",
+          "caption": "白色博美在綠色草地與白色圍籬旁拍攝自然寵物寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/pomeranian-forest-lawn-09.webp",
+          "alt": "白色博美在綠色草地與白色圍籬旁拍攝自然寵物寫真",
+          "caption": "白色博美在綠色草地與白色圍籬旁拍攝自然寵物寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/chihuahua-forest-picnic-10.webp",
+          "alt": "吉娃娃在草地、小帳篷與花草佈景之間留下森林外拍紀錄",
+          "caption": "吉娃娃在草地、小帳篷與花草佈景之間留下森林外拍紀錄",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/chihuahua-forest-picnic-11.webp",
+          "alt": "吉娃娃在草地、小帳篷與花草佈景之間留下森林外拍紀錄",
+          "caption": "吉娃娃在草地、小帳篷與花草佈景之間留下森林外拍紀錄",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/chihuahua-forest-picnic-12.webp",
+          "alt": "吉娃娃在草地、小帳篷與花草佈景之間留下森林外拍紀錄",
+          "caption": "吉娃娃在草地、小帳篷與花草佈景之間留下森林外拍紀錄",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/chihuahua-forest-picnic-13.webp",
+          "alt": "吉娃娃在草地、小帳篷與花草佈景之間留下森林外拍紀錄",
+          "caption": "吉娃娃在草地、小帳篷與花草佈景之間留下森林外拍紀錄",
+          "width": 1200,
+          "height": 778
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/family-dog-garden-14.webp",
+          "alt": "家人在戶外花草場景裡陪伴小狗，留下親子互動",
+          "caption": "家人在戶外花草場景裡陪伴小狗，留下親子互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/family-dog-garden-15.webp",
+          "alt": "家人在戶外花草場景裡陪伴小狗，留下親子互動",
+          "caption": "家人在戶外花草場景裡陪伴小狗，留下親子互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/chihuahua-forest-picnic-16.webp",
+          "alt": "吉娃娃在草地、小帳篷與花草佈景之間留下森林外拍紀錄",
+          "caption": "吉娃娃在草地、小帳篷與花草佈景之間留下森林外拍紀錄",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/family-cats-portrait-21.webp",
+          "alt": "家人與貓咪靠近互動，記錄寵物也參與的家庭寫真",
+          "caption": "家人與貓咪靠近互動，記錄寵物也參與的家庭寫真",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/white-cat-heart-hands-22.webp",
+          "alt": "雙手圍成愛心，白貓從手指中間望向鏡頭",
+          "caption": "雙手圍成愛心，白貓從手指中間望向鏡頭",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/longhair-cat-window-23.webp",
+          "alt": "長毛貓在柔和窗光旁留下側臉特寫",
+          "caption": "長毛貓在柔和窗光旁留下側臉特寫",
+          "width": 799,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/family-cats-portrait-24.webp",
+          "alt": "家人與貓咪靠近互動，記錄寵物也參與的家庭寫真",
+          "caption": "家人與貓咪靠近互動，記錄寵物也參與的家庭寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/cat-carrier-family-25.webp",
+          "alt": "貓咪坐在外出提袋裡，成為這次毛小孩攝影的一段紀念",
+          "caption": "貓咪坐在外出提袋裡，成為這次毛小孩攝影的一段紀念",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/pets-studio-forest-family-portraits/cat-carrier-family-26.webp",
+          "alt": "貓咪坐在外出提袋裡，成為這次毛小孩攝影的一段紀念",
+          "caption": "貓咪坐在外出提袋裡，成為這次毛小孩攝影的一段紀念",
+          "width": 1200,
+          "height": 799
+        }
+      ]
+    },
     {
       "caseId": "event-20261008-01",
       "slug": "friends-pets-hotpot-forest-party",
@@ -11,13 +1499,39 @@
       "description": "朋友與毛孩圍坐戶外餐桌，一邊吃火鍋、烤肉，一邊享受森林燈光與自在聊天的聚會節奏。",
       "intro": "這場聚會把朋友、毛孩、火鍋與烤肉集中在同一個夜晚。戶外餐桌旁有足夠空間讓毛孩待在主人身邊，大家可以慢慢吃、慢慢聊，也能拍下夜間燈光與森林背景中的合照。",
       "fit": "適合毛孩生日、寵物同好聚會、好友晚餐與 20 人內的小型森林包場。",
-      "tags": ["寵物友善", "好友聚會", "烤肉 BBQ", "戶外料理", "夜間燈光"],
-      "collaborators": [{"handle": "@evenwang.0521", "url": "https://www.instagram.com/evenwang.0521/"}],
+      "tags": [
+        "寵物友善",
+        "好友聚會",
+        "烤肉 BBQ",
+        "戶外料理",
+        "夜間燈光"
+      ],
+      "collaborators": [
+        {
+          "handle": "@evenwang.0521",
+          "url": "https://www.instagram.com/evenwang.0521/"
+        }
+      ],
       "servicePath": "/pages/pet-party",
       "serviceLabel": "查看寵物派對場地",
-      "cover": {"src": "/assets/media/stories/friends-pets-hotpot-forest-party/cover-v2.webp", "alt": "朋友與多隻博美犬圍坐戶外餐桌，搭配毛孩互動畫面", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/friends-pets-hotpot-forest-party/cover-v2.webp",
+        "alt": "朋友與多隻博美犬圍坐戶外餐桌，搭配毛孩互動畫面",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "video", "title": "朋友與毛孩的戶外火鍋烤肉聚會", "poster": "/assets/media/stories/friends-pets-hotpot-forest-party/cover.webp", "webm": "/assets/media/stories/friends-pets-hotpot-forest-party/friends-pets-hotpot-bbq.webm", "mp4": "/assets/media/stories/friends-pets-hotpot-forest-party/friends-pets-hotpot-bbq.mp4", "width": 675, "height": 1200, "visualSummary": "畫面從朋友和毛孩合照開始，接著帶到火鍋蒸氣、烤網食物、被抱在懷裡的博美犬與夜間樹林。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與聚會環境聲為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"}
+        {
+          "type": "video",
+          "title": "朋友與毛孩的戶外火鍋烤肉聚會",
+          "poster": "/assets/media/stories/friends-pets-hotpot-forest-party/cover.webp",
+          "webm": "/assets/media/stories/friends-pets-hotpot-forest-party/friends-pets-hotpot-bbq.webm",
+          "mp4": "/assets/media/stories/friends-pets-hotpot-forest-party/friends-pets-hotpot-bbq.mp4",
+          "width": 675,
+          "height": 1200,
+          "visualSummary": "畫面從朋友和毛孩合照開始，接著帶到火鍋蒸氣、烤網食物、被抱在懷裡的博美犬與夜間樹林。",
+          "audioSummary": "已抽取音訊並檢查；內容以背景音樂與聚會環境聲為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"
+        }
       ]
     },
     {
@@ -28,14 +1542,50 @@
       "description": "四隻博美在私人草地、坡道與森林木棧道自在探索，呈現多犬家庭需要的戶外活動範圍。",
       "intro": "四隻不同個性的博美一起來到森林場地，從草地一路跑到木棧道。寬闊動線讓毛孩可以分散探索，主人也能在視線範圍內陪伴、拍照與記錄每一隻狗狗的反應。",
       "fit": "適合多犬家庭、寵物社團、毛孩生日與需要草地活動空間的小型聚會。",
-      "tags": ["寵物友善", "多犬家庭", "草地活動", "森林步道", "寵物攝影"],
-      "collaborators": [{"handle": "@cookie_coffee_pom", "url": "https://www.instagram.com/cookie_coffee_pom/"}],
+      "tags": [
+        "寵物友善",
+        "多犬家庭",
+        "草地活動",
+        "森林步道",
+        "寵物攝影"
+      ],
+      "collaborators": [
+        {
+          "handle": "@cookie_coffee_pom",
+          "url": "https://www.instagram.com/cookie_coffee_pom/"
+        }
+      ],
       "servicePath": "/pages/pet-party-photography",
       "serviceLabel": "查看寵物派對攝影",
-      "cover": {"src": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/cover-v2.webp", "alt": "情境主圖：四隻博美犬在森林草地與白色圓頂旁奔跑", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/cover-v2.webp",
+        "alt": "情境主圖：四隻博美犬在森林草地與白色圓頂旁奔跑",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "video", "title": "博美犬探索森林草地", "poster": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/cover.webp", "webm": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-lawn-play.webm", "mp4": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-lawn-play.mp4", "width": 675, "height": 1200, "visualSummary": "鏡頭跟著毛孩從圓頂帳篷外走向草地與坡道，記錄多隻狗狗分散活動的狀態。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與環境聲為主，沒有可可靠轉寫的人物口述。"},
-        {"type": "video", "title": "博美犬沿森林木棧道散步", "poster": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-forest-boardwalk-poster.webp", "webm": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-forest-boardwalk.webm", "mp4": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-forest-boardwalk.mp4", "width": 675, "height": 1200, "visualSummary": "白色與黑色博美犬在木棧道上跑向鏡頭，低角度畫面保留毛孩散步時的速度與表情。", "audioSummary": "可聽見主人呼喚 Cookie 過來，並笑說毛孩慢半拍，保留多犬家庭互動的自然聲音。"}
+        {
+          "type": "video",
+          "title": "博美犬探索森林草地",
+          "poster": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/cover.webp",
+          "webm": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-lawn-play.webm",
+          "mp4": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-lawn-play.mp4",
+          "width": 675,
+          "height": 1200,
+          "visualSummary": "鏡頭跟著毛孩從圓頂帳篷外走向草地與坡道，記錄多隻狗狗分散活動的狀態。",
+          "audioSummary": "已抽取音訊並檢查；內容以背景音樂與環境聲為主，沒有可可靠轉寫的人物口述。"
+        },
+        {
+          "type": "video",
+          "title": "博美犬沿森林木棧道散步",
+          "poster": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-forest-boardwalk-poster.webp",
+          "webm": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-forest-boardwalk.webm",
+          "mp4": "/assets/media/stories/four-pomeranians-forest-lawn-playdate/pomeranians-forest-boardwalk.mp4",
+          "width": 675,
+          "height": 1200,
+          "visualSummary": "白色與黑色博美犬在木棧道上跑向鏡頭，低角度畫面保留毛孩散步時的速度與表情。",
+          "audioSummary": "可聽見主人呼喚 Cookie 過來，並笑說毛孩慢半拍，保留多犬家庭互動的自然聲音。"
+        }
       ]
     },
     {
@@ -46,11 +1596,27 @@
       "description": "女孩穿白色洋裝抱著狗狗，在森林花牆與戶外餐桌旁留下自然又有辨識度的合照。",
       "intro": "綠色花牆、粉色小花與白色洋裝形成柔和層次，狗狗也自然加入畫面。這組分享證明寵物寫真不一定需要複雜佈景，只要有舒服的戶外光線與能讓毛孩安心停留的空間，就能留下好看的共同紀錄。",
       "fit": "適合寵物寫真、毛孩生日、個人形象照與主人和毛孩的紀念拍攝。",
-      "tags": ["寵物友善", "寵物攝影", "女孩寫真", "森林花牆", "戶外攝影"],
-      "collaborators": [{"handle": "@soullychang", "url": "https://www.instagram.com/soullychang/"}],
+      "tags": [
+        "寵物友善",
+        "寵物攝影",
+        "女孩寫真",
+        "森林花牆",
+        "戶外攝影"
+      ],
+      "collaborators": [
+        {
+          "handle": "@soullychang",
+          "url": "https://www.instagram.com/soullychang/"
+        }
+      ],
       "servicePath": "/pages/pet-photography",
       "serviceLabel": "查看寵物寫真服務",
-      "cover": {"src": "/assets/media/stories/woman-dog-forest-portrait/cover-v2.webp", "alt": "穿白色洋裝的女孩抱著棕色狗狗坐在森林花牆前", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/woman-dog-forest-portrait/cover-v2.webp",
+        "alt": "穿白色洋裝的女孩抱著棕色狗狗坐在森林花牆前",
+        "width": 1200,
+        "height": 900
+      },
       "media": []
     },
     {
@@ -61,13 +1627,39 @@
       "description": "在森林燈串下準備烤肉，把中秋節的儀式感放進戶外料理與慢慢聊天的夜晚。",
       "intro": "畫面把夜間燈串、烤網上的肉品與炭火拍得很完整。無論是一個人享受安靜節奏，或和家人朋友一起聚餐，戶外烤肉都能成為中秋活動最直接的核心。",
       "fit": "適合中秋聚餐、情侶約會、好友烤肉與森林夜間活動。",
-      "tags": ["烤肉 BBQ", "中秋聚會", "戶外料理", "夜間燈光", "森林活動"],
-      "collaborators": [{"handle": "@liao0908", "url": "https://www.instagram.com/liao0908/"}],
+      "tags": [
+        "烤肉 BBQ",
+        "中秋聚會",
+        "戶外料理",
+        "夜間燈光",
+        "森林活動"
+      ],
+      "collaborators": [
+        {
+          "handle": "@liao0908",
+          "url": "https://www.instagram.com/liao0908/"
+        }
+      ],
       "servicePath": "/pages/private-event",
       "serviceLabel": "查看森林活動包場",
-      "cover": {"src": "/assets/media/stories/mid-autumn-forest-bbq-gathering/cover-v2.webp", "alt": "中秋夜在森林燈串下使用美式烤肉爐料理肉品與玉米", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/mid-autumn-forest-bbq-gathering/cover-v2.webp",
+        "alt": "中秋夜在森林燈串下使用美式烤肉爐料理肉品與玉米",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "video", "title": "中秋夜在森林場地烤肉", "poster": "/assets/media/stories/mid-autumn-forest-bbq-gathering/cover.webp", "webm": "/assets/media/stories/mid-autumn-forest-bbq-gathering/mid-autumn-forest-bbq.webm", "mp4": "/assets/media/stories/mid-autumn-forest-bbq-gathering/mid-autumn-forest-bbq.mp4", "width": 675, "height": 1200, "visualSummary": "影片記錄夜間自拍、戶外燈串、烤網食物與炭火，呈現中秋烤肉的現場節奏。", "audioSummary": "現場可聽見一句協助煎食材的簡短對話，對應戶外料理的真實互動。"}
+        {
+          "type": "video",
+          "title": "中秋夜在森林場地烤肉",
+          "poster": "/assets/media/stories/mid-autumn-forest-bbq-gathering/cover.webp",
+          "webm": "/assets/media/stories/mid-autumn-forest-bbq-gathering/mid-autumn-forest-bbq.webm",
+          "mp4": "/assets/media/stories/mid-autumn-forest-bbq-gathering/mid-autumn-forest-bbq.mp4",
+          "width": 675,
+          "height": 1200,
+          "visualSummary": "影片記錄夜間自拍、戶外燈串、烤網食物與炭火，呈現中秋烤肉的現場節奏。",
+          "audioSummary": "現場可聽見一句協助煎食材的簡短對話，對應戶外料理的真實互動。"
+        }
       ]
     },
     {
@@ -78,35 +1670,245 @@
       "description": "一群好友先拍團體照、一起看投影電影，再動手完成早餐點心，讓聚會有看、有吃也有共同參與。",
       "intro": "這段分享把三件最容易讓朋友聚在一起的事放在同一支影片：團體合照、投影電影與手作餐點。活動不必排得很滿，只要保留共同完成一件事的時間，就能讓每個人自然加入。",
       "fit": "適合生日派對、閨蜜聚會、電影主題活動與好友料理體驗。",
-      "tags": ["好友聚會", "戶外電影", "手作料理", "團體包場", "投影活動"],
-      "collaborators": [{"handle": "@luce_429", "url": "https://www.instagram.com/luce_429/"}],
+      "tags": [
+        "好友聚會",
+        "戶外電影",
+        "手作料理",
+        "團體包場",
+        "投影活動"
+      ],
+      "collaborators": [
+        {
+          "handle": "@luce_429",
+          "url": "https://www.instagram.com/luce_429/"
+        }
+      ],
       "servicePath": "/pages/forest-night-experience",
       "serviceLabel": "查看夜間森林體驗",
-      "cover": {"src": "/assets/media/stories/friends-movie-night-breakfast-party/cover-v2.webp", "alt": "好友團體照、投影電影與手作早餐組成的活動拼貼", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/friends-movie-night-breakfast-party/cover-v2.webp",
+        "alt": "好友團體照、投影電影與手作早餐組成的活動拼貼",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "video", "title": "好友合照、投影電影與手作早餐", "poster": "/assets/media/stories/friends-movie-night-breakfast-party/cover.webp", "webm": "/assets/media/stories/friends-movie-night-breakfast-party/friends-movie-breakfast.webm", "mp4": "/assets/media/stories/friends-movie-night-breakfast-party/friends-movie-breakfast.mp4", "width": 540, "height": 960, "visualSummary": "直式影片依序出現好友團體照、投影畫面與一盤剛完成的早餐點心。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"}
+        {
+          "type": "video",
+          "title": "好友合照、投影電影與手作早餐",
+          "poster": "/assets/media/stories/friends-movie-night-breakfast-party/cover.webp",
+          "webm": "/assets/media/stories/friends-movie-night-breakfast-party/friends-movie-breakfast.webm",
+          "mp4": "/assets/media/stories/friends-movie-night-breakfast-party/friends-movie-breakfast.mp4",
+          "width": 540,
+          "height": 960,
+          "visualSummary": "直式影片依序出現好友團體照、投影畫面與一盤剛完成的早餐點心。",
+          "audioSummary": "已抽取音訊並檢查；內容以背景音樂為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"
+        }
       ]
     },
     {
       "caseId": "event-20260823-01",
       "slug": "two-families-forest-activity-day",
       "publishedDate": "2026-08-23",
-      "title": "兩個家庭的森林活動日｜草地泡泡、營火與親子寫真",
-      "description": "兄弟各自帶著家庭來到森林場地，孩子玩泡泡、體驗營火，大人則在草地留下自然的家庭合照。",
-      "intro": "兩個小家庭一起活動的好處，是孩子很快就有玩伴，大人也能互相陪伴與照顧。這組照片只保留草地、泡泡、營火與親子攝影內容，呈現一場從白天玩到夜色亮起的家庭活動。",
-      "fit": "適合親子日、兄弟姊妹家庭聚會、草地遊戲與家庭攝影。",
-      "tags": ["親子活動", "家庭聚會", "草地泡泡", "營火體驗", "家庭攝影"],
+      "shootDate": "2026-05-09",
+      "title": "兩個家庭的森林相聚｜從自然家庭照到草地泡泡親子寫真",
+      "description": "兩個家庭在森林草地吹泡泡、陪孩子跑跳，從圓頂外觀前的全家福到營火互動，留下充滿笑容的桃園楊梅親子外拍紀錄。",
+      "intro": "這組作品於 2026-05-09 在桃園楊梅揪好森拍攝。走到戶外之後，泡泡、綠色坡地與白色圍籬，讓畫面有了新的層次。孩子專心吹泡泡，也會抬頭追著泡泡跑；大人牽起孩子的手、坐在草地陪聊，親子寫真就在這些動作之間完成。桃園楊梅的森林外拍不必每張都很正式，遊戲本身就能成為敘事。",
+      "sections": [
+        [
+          "圓頂與營火，把相聚放進森林裡",
+          "除了人物，照片也保留了圓頂外觀、戶外料理區與燈串等環境線索。大人在旁陪伴的營火畫面，和白天的泡泡照形成不同的光線與氣氛。拍攝時有遠景交代場地，也有近景看見笑容，這份家庭紀錄才不只是換背景的合照。"
+        ],
+        [
+          "父母陪著跑跳，比口令更容易留住笑容",
+          "爸爸讓孩子坐上肩膀，或牽著孩子的手跨出一步，媽媽則在旁邊加入互動。鏡頭在遠景與近景之間切換，既保留森林場景，也看得到每個人當下的笑容。同一場相聚中，每個小家庭都能輪流完成自己的親子照，再回到一起遊戲的節奏。"
+        ],
+        [
+          "讓森林外拍適合不同年齡的家人",
+          "兩個家庭一起拍照，可以從孩子喜歡的泡泡遊戲開始，接著安排草地合照、肩上互動與營火紀錄。桃園楊梅揪好森的森林攝影場景，適合把正式家庭照和自然活動放在同一份作品裡。預約前說明人數、年齡和想拍的組合，就能更清楚安排活動與拍攝段落。"
+        ]
+      ],
+      "fit": "適合以照片記錄家庭相聚、親子互動與成長紀念；可依參與成員、寵物和拍攝主題，討論攝影場景及活動動線。",
+      "tags": [
+        "親子寫真",
+        "家庭寫真",
+        "家庭照",
+        "親子攝影",
+        "森林外拍",
+        "桃園攝影",
+        "楊梅攝影",
+        "草地泡泡",
+        "營火體驗"
+      ],
       "collaborators": [],
-      "servicePath": "/pages/family-party",
-      "serviceLabel": "查看家庭聚會場地",
-      "cover": {"src": "/assets/media/stories/two-families-forest-activity-day/cover-v2.webp", "alt": "親子家庭在森林草地玩泡泡、互動並參與營火活動", "width": 1200, "height": 900},
+      "servicePath": "/pages/portrait-photography",
+      "serviceLabel": "查看親子與家庭寫真服務",
+      "cover": {
+        "src": "/assets/media/stories/two-families-forest-activity-day/forest-story-cover.webp",
+        "alt": "爸媽牽著兒子走過森林草地，拍下自然家庭照",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "image", "src": "/assets/media/stories/two-families-forest-activity-day/children-sharing-bubbles.webp", "alt": "男孩與女孩在草地上分享泡泡玩具", "width": 1200, "height": 799, "caption": "孩子在草地分享泡泡玩具，也自然學習等待與合作。"},
-        {"type": "image", "src": "/assets/media/stories/two-families-forest-activity-day/child-campfire-activity.webp", "alt": "男孩在大人陪伴下參與森林營火活動", "width": 1200, "height": 799, "caption": "大人陪在旁邊，讓孩子安全認識火光與夜間活動。"},
-        {"type": "image", "src": "/assets/media/stories/two-families-forest-activity-day/parents-daughter-lawn-play.webp", "alt": "爸爸媽媽在草地上一起抱起女兒", "width": 1200, "height": 799, "caption": "一起玩耍的瞬間，就是最自然的親子寫真。"},
-        {"type": "image", "src": "/assets/media/stories/two-families-forest-activity-day/family-laughing-on-lawn.webp", "alt": "一家三口在森林草地上相視大笑", "width": 1200, "height": 799, "caption": "不必刻意排隊站好，真實笑容就能說完整故事。"},
-        {"type": "image", "src": "/assets/media/stories/two-families-forest-activity-day/father-son-laughing.webp", "alt": "爸爸抱著兒子在草地上一起大笑", "width": 1200, "height": 799, "caption": "父子互動成為家庭活動裡最有溫度的畫面。"},
-        {"type": "image", "src": "/assets/media/stories/two-families-forest-activity-day/parents-swinging-son.webp", "alt": "爸爸媽媽牽著兒子的手在草地玩飛高高", "width": 1200, "height": 799, "caption": "寬闊草地讓全家能自在跑動與玩耍。"}
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/children-bubbles-lawn-23.webp",
+          "alt": "孩子在森林草地上吹泡泡，留下專注與開心的表情",
+          "caption": "孩子在森林草地上吹泡泡，留下專注與開心的表情",
+          "width": 1200,
+          "height": 990
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/children-bubbles-lawn-24.webp",
+          "alt": "孩子在森林草地上吹泡泡，留下專注與開心的表情",
+          "caption": "孩子在森林草地上吹泡泡，留下專注與開心的表情",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/children-bubbles-lawn-25.webp",
+          "alt": "孩子在森林草地上吹泡泡，留下專注與開心的表情",
+          "caption": "孩子在森林草地上吹泡泡，留下專注與開心的表情",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/children-bubbles-lawn-26.webp",
+          "alt": "孩子在森林草地上吹泡泡，留下專注與開心的表情",
+          "caption": "孩子在森林草地上吹泡泡，留下專注與開心的表情",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/parents-daughter-lawn-27.webp",
+          "alt": "爸爸媽媽牽著女兒在草地上玩耍，後方是白色圓頂外觀",
+          "caption": "爸爸媽媽牽著女兒在草地上玩耍，後方是白色圓頂外觀",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/parents-daughter-lawn-28.webp",
+          "alt": "爸爸媽媽牽著女兒在草地上玩耍，後方是白色圓頂外觀",
+          "caption": "爸爸媽媽牽著女兒在草地上玩耍，後方是白色圓頂外觀",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/parents-daughter-lawn-29.webp",
+          "alt": "爸爸媽媽牽著女兒在草地上玩耍，後方是白色圓頂外觀",
+          "caption": "爸爸媽媽牽著女兒在草地上玩耍，後方是白色圓頂外觀",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/family-daughter-shoulder-30.webp",
+          "alt": "女孩坐在爸爸肩上，媽媽在旁邊一起加入親子互動",
+          "caption": "女孩坐在爸爸肩上，媽媽在旁邊一起加入親子互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/family-daughter-shoulder-31.webp",
+          "alt": "女孩坐在爸爸肩上，媽媽在旁邊一起加入親子互動",
+          "caption": "女孩坐在爸爸肩上，媽媽在旁邊一起加入親子互動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/parents-son-lawn-32.webp",
+          "alt": "爸爸媽媽坐在草地上陪兒子聊天大笑",
+          "caption": "爸爸媽媽坐在草地上陪兒子聊天大笑",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/parents-son-lawn-33.webp",
+          "alt": "爸爸媽媽坐在草地上陪兒子聊天大笑",
+          "caption": "爸爸媽媽坐在草地上陪兒子聊天大笑",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/parents-son-lawn-34.webp",
+          "alt": "爸爸媽媽坐在草地上陪兒子聊天大笑",
+          "caption": "爸爸媽媽坐在草地上陪兒子聊天大笑",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/father-son-play-35.webp",
+          "alt": "爸爸抱起兒子在草地上玩飛高高，留下動態親子寫真",
+          "caption": "爸爸抱起兒子在草地上玩飛高高，留下動態親子寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/father-son-play-36.webp",
+          "alt": "爸爸抱起兒子在草地上玩飛高高，留下動態親子寫真",
+          "caption": "爸爸抱起兒子在草地上玩飛高高，留下動態親子寫真",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/family-lawn-walking-37.webp",
+          "alt": "爸媽牽著兒子走過森林草地，拍下自然家庭照",
+          "caption": "爸媽牽著兒子走過森林草地，拍下自然家庭照",
+          "width": 800,
+          "height": 1200
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/family-lawn-walking-38.webp",
+          "alt": "爸媽牽著兒子走過森林草地，拍下自然家庭照",
+          "caption": "爸媽牽著兒子走過森林草地，拍下自然家庭照",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/children-bubbles-sharing.webp",
+          "alt": "孩子們在森林草地吹泡泡，拍下兩人一起參與的親子活動",
+          "caption": "孩子們在森林草地吹泡泡，拍下兩人一起參與的親子活動",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/father-child-campfire.webp",
+          "alt": "爸爸陪孩子在戶外營火旁互動，留下森林活動的紀錄",
+          "caption": "爸爸陪孩子在戶外營火旁互動，留下森林活動的紀錄",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/girl-lawn-portrait.webp",
+          "alt": "女孩在綠色草地上專心觀察，留下自然的人像特寫",
+          "caption": "女孩在綠色草地上專心觀察，留下自然的人像特寫",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/two-families-forest-activity-day/father-son-forest-play.webp",
+          "alt": "爸爸抱起兒子在草地上玩耍，記錄開心大笑的瞬間",
+          "caption": "爸爸抱起兒子在草地上玩耍，記錄開心大笑的瞬間",
+          "width": 1200,
+          "height": 799
+        }
       ]
     },
     {
@@ -117,17 +1919,63 @@
       "description": "一家人在森林、泡泡與草地之間自然互動，讓親子全家福不只是一張排好姿勢的合照。",
       "intro": "戶外攝影最珍貴的，是孩子可以走、跑、追泡泡，攝影師則在互動中捕捉全家的表情。森林、草地與圓頂建築形成有層次的背景，也讓正式合照和生活感畫面能在同一場拍攝完成。",
       "fit": "適合親子全家福、週歲紀錄、家庭週年照與戶外生活感寫真。",
-      "tags": ["家庭攝影", "親子寫真", "戶外攝影", "森林場景", "草地活動"],
+      "tags": [
+        "家庭攝影",
+        "親子寫真",
+        "戶外攝影",
+        "森林場景",
+        "草地活動"
+      ],
       "collaborators": [],
       "servicePath": "/pages/portrait-photography",
       "serviceLabel": "查看親子寫真服務",
-      "cover": {"src": "/assets/media/stories/forest-family-photography-session/cover-v2.webp", "alt": "一家人在森林草地玩泡泡並拍攝自然親子全家福", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/forest-family-photography-session/cover-v2.webp",
+        "alt": "一家人在森林草地玩泡泡並拍攝自然親子全家福",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "image", "src": "/assets/media/stories/forest-family-photography-session/family-forest-portrait.webp", "alt": "一家人在綠色森林背景前自然互動", "width": 1067, "height": 1600, "caption": "森林綠意讓人物膚色與白色服裝更突出。"},
-        {"type": "image", "src": "/assets/media/stories/forest-family-photography-session/family-bubble-play.webp", "alt": "親子家庭在草地上玩泡泡並拍攝生活感照片", "width": 1200, "height": 800, "caption": "泡泡讓孩子自然移動，也帶出更多真實表情。"},
-        {"type": "image", "src": "/assets/media/stories/forest-family-photography-session/parent-child-forest-portrait.webp", "alt": "父母陪孩子在森林草地拍攝親子照", "width": 800, "height": 1200, "caption": "以陪伴和互動取代僵硬站姿。"},
-        {"type": "image", "src": "/assets/media/stories/forest-family-photography-session/family-lawn-portrait.webp", "alt": "一家人在草地留下明亮自然的全家福", "width": 800, "height": 1200, "caption": "草地提供充足距離，適合全身與動態構圖。"},
-        {"type": "image", "src": "/assets/media/stories/forest-family-photography-session/family-natural-moment.webp", "alt": "家庭成員在森林場景中自然相視微笑", "width": 800, "height": 1200, "caption": "最有記憶點的照片，常常發生在正式合照之外。"}
+        {
+          "type": "image",
+          "src": "/assets/media/stories/forest-family-photography-session/family-forest-portrait.webp",
+          "alt": "一家人在綠色森林背景前自然互動",
+          "width": 1067,
+          "height": 1600,
+          "caption": "森林綠意讓人物膚色與白色服裝更突出。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/forest-family-photography-session/family-bubble-play.webp",
+          "alt": "親子家庭在草地上玩泡泡並拍攝生活感照片",
+          "width": 1200,
+          "height": 800,
+          "caption": "泡泡讓孩子自然移動，也帶出更多真實表情。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/forest-family-photography-session/parent-child-forest-portrait.webp",
+          "alt": "父母陪孩子在森林草地拍攝親子照",
+          "width": 800,
+          "height": 1200,
+          "caption": "以陪伴和互動取代僵硬站姿。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/forest-family-photography-session/family-lawn-portrait.webp",
+          "alt": "一家人在草地留下明亮自然的全家福",
+          "width": 800,
+          "height": 1200,
+          "caption": "草地提供充足距離，適合全身與動態構圖。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/forest-family-photography-session/family-natural-moment.webp",
+          "alt": "家庭成員在森林場景中自然相視微笑",
+          "width": 800,
+          "height": 1200,
+          "caption": "最有記憶點的照片，常常發生在正式合照之外。"
+        }
       ]
     },
     {
@@ -138,16 +1986,55 @@
       "description": "以純白背景完成乾淨的家庭合照，再到戶外草地捕捉孩子跑向鏡頭的動態瞬間。",
       "intro": "純白背景能把注意力留給人物、服裝與表情，適合製作耐看的家庭合照；拍完正式畫面後，再到草地讓孩子自由活動，整組作品就同時擁有簡潔與自然兩種節奏。",
       "fit": "適合家庭形象照、親子全家福、成長紀錄與需要正式照片的家庭。",
-      "tags": ["家庭攝影", "純白棚拍", "親子寫真", "草地攝影", "成長紀錄"],
+      "tags": [
+        "家庭攝影",
+        "純白棚拍",
+        "親子寫真",
+        "草地攝影",
+        "成長紀錄"
+      ],
       "collaborators": [],
       "servicePath": "/pages/photography-studio",
       "serviceLabel": "查看攝影場地與棚拍",
-      "cover": {"src": "/assets/media/stories/white-backdrop-family-photography/cover-v2.webp", "alt": "親子家庭拍攝純白背景全家福與草地動態寫真", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/white-backdrop-family-photography/cover-v2.webp",
+        "alt": "親子家庭拍攝純白背景全家福與草地動態寫真",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "image", "src": "/assets/media/stories/white-backdrop-family-photography/family-standing-portrait.webp", "alt": "一家三口站在純白背景前拍攝全身家庭照", "width": 800, "height": 1200, "caption": "同色系服裝讓畫面簡潔又有整體感。"},
-        {"type": "image", "src": "/assets/media/stories/white-backdrop-family-photography/family-seated-portrait.webp", "alt": "爸爸媽媽與孩子坐在純白背景前自然互動", "width": 1200, "height": 800, "caption": "坐姿互動讓正式棚拍保留家庭的生活感。"},
-        {"type": "image", "src": "/assets/media/stories/white-backdrop-family-photography/family-running-lawn.webp", "alt": "孩子跑在草地前方，父母在後方微笑陪伴", "width": 800, "height": 1200, "caption": "從棚拍切換到草地，孩子能展現更自由的動作。"},
-        {"type": "image", "src": "/assets/media/stories/white-backdrop-family-photography/family-stacked-portrait.webp", "alt": "一家三口以高低層次排列拍攝純白背景家庭照", "width": 800, "height": 1200, "caption": "有趣的高低排列，讓全家福更輕鬆活潑。"}
+        {
+          "type": "image",
+          "src": "/assets/media/stories/white-backdrop-family-photography/family-standing-portrait.webp",
+          "alt": "一家三口站在純白背景前拍攝全身家庭照",
+          "width": 800,
+          "height": 1200,
+          "caption": "同色系服裝讓畫面簡潔又有整體感。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/white-backdrop-family-photography/family-seated-portrait.webp",
+          "alt": "爸爸媽媽與孩子坐在純白背景前自然互動",
+          "width": 1200,
+          "height": 800,
+          "caption": "坐姿互動讓正式棚拍保留家庭的生活感。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/white-backdrop-family-photography/family-running-lawn.webp",
+          "alt": "孩子跑在草地前方，父母在後方微笑陪伴",
+          "width": 800,
+          "height": 1200,
+          "caption": "從棚拍切換到草地，孩子能展現更自由的動作。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/white-backdrop-family-photography/family-stacked-portrait.webp",
+          "alt": "一家三口以高低層次排列拍攝純白背景家庭照",
+          "width": 800,
+          "height": 1200,
+          "caption": "有趣的高低排列，讓全家福更輕鬆活潑。"
+        }
       ]
     },
     {
@@ -158,20 +2045,88 @@
       "description": "英語教室團隊把攝影課、森林尋寶、拼字遊戲、泡泡、烤肉與夜間活動串成一整天。",
       "intro": "這場活動不是把教室原封不動搬到戶外，而是把觀察、表達、合作與英文運用重新設計成孩子願意主動參與的遊戲。從攝影課、森林尋寶到草地拼字，再一路延伸到泡泡、烤肉與夜間投影，主辦人可以在同一場地連續切換活動。",
       "fit": "適合公司員工日、補習班戶外課、親子團隊活動、品牌工作坊與小型企業包場。",
-      "tags": ["企業包場", "團隊活動", "親子活動", "戶外電影", "烤肉 BBQ", "攝影課程"],
+      "tags": [
+        "企業包場",
+        "團隊活動",
+        "親子活動",
+        "戶外電影",
+        "烤肉 BBQ",
+        "攝影課程"
+      ],
       "collaborators": [],
       "servicePath": "/pages/workshop-event",
       "serviceLabel": "查看工作坊與團體活動",
-      "cover": {"src": "/assets/media/stories/xinyue-forest-team-building-event/cover-v2.webp", "alt": "孩子在森林草地玩泡泡、參與戶外料理與投影活動", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/xinyue-forest-team-building-event/cover-v2.webp",
+        "alt": "孩子在森林草地玩泡泡、參與戶外料理與投影活動",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/children-photography-workshop.webp", "alt": "孩子與老師進行攝影觀察課程", "width": 1200, "height": 799, "caption": "先從觀察與取景開始，讓孩子用影像表達自己看到的事物。"},
-        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/forest-english-treasure-hunt.webp", "alt": "孩子拿著任務單在森林步道尋找英文線索", "width": 1200, "height": 799, "caption": "把英文線索放進環境，森林就成為可探索的教室。"},
-        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/outdoor-word-game.webp", "alt": "孩子在戶外圓桌使用字卡進行英文拼字遊戲", "width": 1200, "height": 799, "caption": "尋寶結束後，把線索帶回桌面完成拼字與討論。"},
-        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/outdoor-projector-learning.webp", "alt": "孩子站在草地戶外投影幕前進行學習活動", "width": 1200, "height": 799, "caption": "戶外投影能支援成果分享、教學與電影活動。"},
-        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/children-bubble-play.webp", "alt": "孩子們在森林草地上追逐泡泡", "width": 1200, "height": 799, "caption": "團體課程結束後，草地立刻切換成自由遊戲空間。"},
-        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/team-barbecue-dinner.webp", "alt": "團隊成員在戶外料理區準備烤肉晚餐", "width": 1200, "height": 799, "caption": "一起準備晚餐，也讓團隊交流自然發生。"},
-        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/children-night-activity.webp", "alt": "孩子們在戶外投影幕前參與夜間活動", "width": 1200, "height": 799, "caption": "投影、火光與燈串讓活動能順暢延伸到晚上。"},
-        {"type": "image", "src": "/assets/media/stories/xinyue-forest-team-building-event/team-campfire-activity.webp", "alt": "大人和孩子一起參與森林營火活動", "width": 1200, "height": 799, "caption": "共同完成的小事，最容易變成團隊記憶。"}
+        {
+          "type": "image",
+          "src": "/assets/media/stories/xinyue-forest-team-building-event/children-photography-workshop.webp",
+          "alt": "孩子與老師進行攝影觀察課程",
+          "width": 1200,
+          "height": 799,
+          "caption": "先從觀察與取景開始，讓孩子用影像表達自己看到的事物。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/xinyue-forest-team-building-event/forest-english-treasure-hunt.webp",
+          "alt": "孩子拿著任務單在森林步道尋找英文線索",
+          "width": 1200,
+          "height": 799,
+          "caption": "把英文線索放進環境，森林就成為可探索的教室。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/xinyue-forest-team-building-event/outdoor-word-game.webp",
+          "alt": "孩子在戶外圓桌使用字卡進行英文拼字遊戲",
+          "width": 1200,
+          "height": 799,
+          "caption": "尋寶結束後，把線索帶回桌面完成拼字與討論。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/xinyue-forest-team-building-event/outdoor-projector-learning.webp",
+          "alt": "孩子站在草地戶外投影幕前進行學習活動",
+          "width": 1200,
+          "height": 799,
+          "caption": "戶外投影能支援成果分享、教學與電影活動。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/xinyue-forest-team-building-event/children-bubble-play.webp",
+          "alt": "孩子們在森林草地上追逐泡泡",
+          "width": 1200,
+          "height": 799,
+          "caption": "團體課程結束後，草地立刻切換成自由遊戲空間。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/xinyue-forest-team-building-event/team-barbecue-dinner.webp",
+          "alt": "團隊成員在戶外料理區準備烤肉晚餐",
+          "width": 1200,
+          "height": 799,
+          "caption": "一起準備晚餐，也讓團隊交流自然發生。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/xinyue-forest-team-building-event/children-night-activity.webp",
+          "alt": "孩子們在戶外投影幕前參與夜間活動",
+          "width": 1200,
+          "height": 799,
+          "caption": "投影、火光與燈串讓活動能順暢延伸到晚上。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/xinyue-forest-team-building-event/team-campfire-activity.webp",
+          "alt": "大人和孩子一起參與森林營火活動",
+          "width": 1200,
+          "height": 799,
+          "caption": "共同完成的小事，最容易變成團隊記憶。"
+        }
       ]
     },
     {
@@ -182,13 +2137,39 @@
       "description": "親子家庭從手作與草地活動一路玩到營火、戶外投影與夜間合照。",
       "intro": "白天先安排能讓孩子動手參與的內容，晚上再以營火與戶外投影收尾。大人能坐在旁邊聊天，孩子則有火光、電影與共同活動可以投入，讓不同年齡都找到舒服的參與方式。",
       "fit": "適合親子手作、家庭日、營火晚會與戶外電影主題活動。",
-      "tags": ["親子活動", "親子手作", "營火體驗", "戶外電影", "家庭包場"],
-      "collaborators": [{"handle": "@ashlens_story_station", "url": "https://www.instagram.com/ashlens_story_station/"}],
+      "tags": [
+        "親子活動",
+        "親子手作",
+        "營火體驗",
+        "戶外電影",
+        "家庭包場"
+      ],
+      "collaborators": [
+        {
+          "handle": "@ashlens_story_station",
+          "url": "https://www.instagram.com/ashlens_story_station/"
+        }
+      ],
       "servicePath": "/pages/family-party",
       "serviceLabel": "查看家庭聚會場地",
-      "cover": {"src": "/assets/media/stories/family-craft-campfire-movie-night/cover-v2.webp", "alt": "親子家庭圍著營火並觀看戶外投影的夜間活動拼貼", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/family-craft-campfire-movie-night/cover-v2.webp",
+        "alt": "親子家庭圍著營火並觀看戶外投影的夜間活動拼貼",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "video", "title": "親子家庭的營火與戶外電影夜", "poster": "/assets/media/stories/family-craft-campfire-movie-night/cover.webp", "webm": "/assets/media/stories/family-craft-campfire-movie-night/family-campfire-movie.webm", "mp4": "/assets/media/stories/family-craft-campfire-movie-night/family-campfire-movie.mp4", "width": 540, "height": 960, "visualSummary": "夜間拼貼可見營火、親子圍坐與戶外投影畫面，活動在火光與合照中收尾。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與環境聲為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"}
+        {
+          "type": "video",
+          "title": "親子家庭的營火與戶外電影夜",
+          "poster": "/assets/media/stories/family-craft-campfire-movie-night/cover.webp",
+          "webm": "/assets/media/stories/family-craft-campfire-movie-night/family-campfire-movie.webm",
+          "mp4": "/assets/media/stories/family-craft-campfire-movie-night/family-campfire-movie.mp4",
+          "width": 540,
+          "height": 960,
+          "visualSummary": "夜間拼貼可見營火、親子圍坐與戶外投影畫面，活動在火光與合照中收尾。",
+          "audioSummary": "已抽取音訊並檢查；內容以背景音樂與環境聲為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"
+        }
       ]
     },
     {
@@ -199,13 +2180,39 @@
       "description": "攝影師架設純白背景並利用自然光，拍攝親子互動、家庭合照與孩子的動態表情。",
       "intro": "可調整的室內活動空間能直接架設白色背景、燈架與拍攝器材。自然光提供柔和基礎，攝影師再透過動作引導，讓家人在正式合照之外，也留下孩子跑動與彼此靠近的真實畫面。",
       "fit": "適合親子攝影、家庭形象照、週歲紀錄與小型棚拍企劃。",
-      "tags": ["自然光攝影棚", "親子攝影", "場地租借", "家庭寫真", "純白背景"],
-      "collaborators": [{"handle": "@jimphotooo", "url": "https://www.instagram.com/jimphotooo/"}],
+      "tags": [
+        "自然光攝影棚",
+        "親子攝影",
+        "場地租借",
+        "家庭寫真",
+        "純白背景"
+      ],
+      "collaborators": [
+        {
+          "handle": "@jimphotooo",
+          "url": "https://www.instagram.com/jimphotooo/"
+        }
+      ],
       "servicePath": "/pages/photography-studio",
       "serviceLabel": "查看森林攝影場地出租",
-      "cover": {"src": "/assets/media/stories/dome-family-photo-studio/cover-v2.webp", "alt": "媽媽與兩個孩子在純白背景前拍攝親子互動照", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/dome-family-photo-studio/cover-v2.webp",
+        "alt": "媽媽與兩個孩子在純白背景前拍攝親子互動照",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "video", "title": "圓頂空間裡的自然光親子攝影", "poster": "/assets/media/stories/dome-family-photo-studio/cover.webp", "webm": "/assets/media/stories/dome-family-photo-studio/dome-family-photography.webm", "mp4": "/assets/media/stories/dome-family-photo-studio/dome-family-photography.mp4", "width": 675, "height": 1200, "visualSummary": "影片先拍攝影器材與白色背景，再呈現媽媽和孩子互動及完成後的家庭合照。", "audioSummary": "可聽見攝影師引導家人調整腳步、頭部靠近與互動動作，呈現實際拍攝過程。"}
+        {
+          "type": "video",
+          "title": "圓頂空間裡的自然光親子攝影",
+          "poster": "/assets/media/stories/dome-family-photo-studio/cover.webp",
+          "webm": "/assets/media/stories/dome-family-photo-studio/dome-family-photography.webm",
+          "mp4": "/assets/media/stories/dome-family-photo-studio/dome-family-photography.mp4",
+          "width": 675,
+          "height": 1200,
+          "visualSummary": "影片先拍攝影器材與白色背景，再呈現媽媽和孩子互動及完成後的家庭合照。",
+          "audioSummary": "可聽見攝影師引導家人調整腳步、頭部靠近與互動動作，呈現實際拍攝過程。"
+        }
       ]
     },
     {
@@ -216,15 +2223,55 @@
       "description": "好友先看投影電影，再到夜間草地玩仙女棒與長曝光光繪，留下有燈光也有互動的派對紀錄。",
       "intro": "投影大畫面、暖色小燈與戶外火光先建立電影夜氣氛，接著大家走到草地用仙女棒完成光繪合照。活動從靜態觀影切換到共同創作，讓每個人都有參與感。",
       "fit": "適合生日派對、閨蜜聚會、求婚後派對、電影主題活動與夜間攝影。",
-      "tags": ["好友聚會", "戶外電影", "光繪攝影", "夜間燈光", "生日派對"],
-      "collaborators": [{"handle": "@kitty1010ki", "url": "https://www.instagram.com/kitty1010ki/"}],
+      "tags": [
+        "好友聚會",
+        "戶外電影",
+        "光繪攝影",
+        "夜間燈光",
+        "生日派對"
+      ],
+      "collaborators": [
+        {
+          "handle": "@kitty1010ki",
+          "url": "https://www.instagram.com/kitty1010ki/"
+        }
+      ],
       "servicePath": "/pages/forest-night-experience",
       "serviceLabel": "查看夜間森林體驗",
-      "cover": {"src": "/assets/media/stories/friends-movie-light-painting-party/cover-v2.webp", "alt": "好友以仙女棒完成光繪合照並參與戶外電影活動", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/friends-movie-light-painting-party/cover-v2.webp",
+        "alt": "好友以仙女棒完成光繪合照並參與戶外電影活動",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "video", "title": "好友投影電影與火光派對", "poster": "/assets/media/stories/friends-movie-light-painting-party/cover.webp", "webm": "/assets/media/stories/friends-movie-light-painting-party/friends-projector-movie.webm", "mp4": "/assets/media/stories/friends-movie-light-painting-party/friends-projector-movie.mp4", "width": 675, "height": 1200, "visualSummary": "影片記錄關燈看投影的情境，投影大畫面、暖色燈與現場火光構成夜間聚會焦點。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂或電影環境聲為主，沒有可可靠整理的長段口述。"},
-        {"type": "image", "src": "/assets/media/stories/friends-movie-light-painting-party/friends-light-painting.webp", "alt": "好友在夜間草地以長曝光留下仙女棒光繪", "width": 675, "height": 1200, "caption": "橘色光線把人物與夜間森林連成一張派對合照。"},
-        {"type": "image", "src": "/assets/media/stories/friends-movie-light-painting-party/sparkler-light-painting-collage.webp", "alt": "多張朋友手持仙女棒的夜間光繪照片拼貼", "width": 675, "height": 1200, "caption": "不同光繪圖案組成一套可反覆回看的活動紀念。"}
+        {
+          "type": "video",
+          "title": "好友投影電影與火光派對",
+          "poster": "/assets/media/stories/friends-movie-light-painting-party/cover.webp",
+          "webm": "/assets/media/stories/friends-movie-light-painting-party/friends-projector-movie.webm",
+          "mp4": "/assets/media/stories/friends-movie-light-painting-party/friends-projector-movie.mp4",
+          "width": 675,
+          "height": 1200,
+          "visualSummary": "影片記錄關燈看投影的情境，投影大畫面、暖色燈與現場火光構成夜間聚會焦點。",
+          "audioSummary": "已抽取音訊並檢查；內容以背景音樂或電影環境聲為主，沒有可可靠整理的長段口述。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/friends-movie-light-painting-party/friends-light-painting.webp",
+          "alt": "好友在夜間草地以長曝光留下仙女棒光繪",
+          "width": 675,
+          "height": 1200,
+          "caption": "橘色光線把人物與夜間森林連成一張派對合照。"
+        },
+        {
+          "type": "image",
+          "src": "/assets/media/stories/friends-movie-light-painting-party/sparkler-light-painting-collage.webp",
+          "alt": "多張朋友手持仙女棒的夜間光繪照片拼貼",
+          "width": 675,
+          "height": 1200,
+          "caption": "不同光繪圖案組成一套可反覆回看的活動紀念。"
+        }
       ]
     },
     {
@@ -235,13 +2282,43 @@
       "description": "一把木吉他、兩張露營椅與一片草地，把午後變成情侶自己的自然系音樂約會。",
       "intro": "男生彈奏木吉他，女生跟著唱歌，背景只有森林、草地與自然光。這種活動不需要大型舞台，卻能讓音樂、聊天與拍攝都保持輕鬆，適合紀念日或兩人約會。",
       "fit": "適合情侶約會、小型音樂活動、求婚暖場與草地人像拍攝。",
-      "tags": ["情侶約會", "草地彈唱", "音樂活動", "戶外攝影", "私人草地"],
-      "collaborators": [{"handle": "@yulun_1.1.17", "url": "https://www.instagram.com/yulun_1.1.17/"}, {"handle": "@jimmy801026", "url": "https://www.instagram.com/jimmy801026/"}],
+      "tags": [
+        "情侶約會",
+        "草地彈唱",
+        "音樂活動",
+        "戶外攝影",
+        "私人草地"
+      ],
+      "collaborators": [
+        {
+          "handle": "@yulun_1.1.17",
+          "url": "https://www.instagram.com/yulun_1.1.17/"
+        },
+        {
+          "handle": "@jimmy801026",
+          "url": "https://www.instagram.com/jimmy801026/"
+        }
+      ],
       "servicePath": "/pages/private-event",
       "serviceLabel": "查看森林活動包場",
-      "cover": {"src": "/assets/media/stories/couple-acoustic-lawn-date/cover-v2.webp", "alt": "情侶在白色圓頂旁的草地彈吉他唱歌", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/couple-acoustic-lawn-date/cover-v2.webp",
+        "alt": "情侶在白色圓頂旁的草地彈吉他唱歌",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "video", "title": "情侶坐在草地彈吉他唱歌", "poster": "/assets/media/stories/couple-acoustic-lawn-date/cover.webp", "webm": "/assets/media/stories/couple-acoustic-lawn-date/couple-acoustic-lawn.webm", "mp4": "/assets/media/stories/couple-acoustic-lawn-date/couple-acoustic-lawn.mp4", "width": 675, "height": 1200, "visualSummary": "影片完整保留男生彈吉他、女生坐在草地跟唱的午後場景。", "audioSummary": "可聽見現場木吉他與男女彈唱；為避免刊載完整歌曲歌詞，文章只整理草地彈唱與情侶約會情境。"}
+        {
+          "type": "video",
+          "title": "情侶坐在草地彈吉他唱歌",
+          "poster": "/assets/media/stories/couple-acoustic-lawn-date/cover.webp",
+          "webm": "/assets/media/stories/couple-acoustic-lawn-date/couple-acoustic-lawn.webm",
+          "mp4": "/assets/media/stories/couple-acoustic-lawn-date/couple-acoustic-lawn.mp4",
+          "width": 675,
+          "height": 1200,
+          "visualSummary": "影片完整保留男生彈吉他、女生坐在草地跟唱的午後場景。",
+          "audioSummary": "可聽見現場木吉他與男女彈唱；為避免刊載完整歌曲歌詞，文章只整理草地彈唱與情侶約會情境。"
+        }
       ]
     },
     {
@@ -252,13 +2329,39 @@
       "description": "情侶在森林草地與戶外料理區慢慢準備烤肉，享受不被大型人潮打斷的兩人約會。",
       "intro": "鏡頭從天空與樹梢帶到草地自拍，再拍下同行伴侶操作烤肉設備。兩個人也能安排完整的戶外料理活動，把吃飯、聊天、拍照與森林散步放在同一個午後。",
       "fit": "適合情侶約會、紀念日烤肉、兩人聚餐與自然系人像拍攝。",
-      "tags": ["情侶約會", "烤肉 BBQ", "戶外料理", "私人草地", "森林攝影"],
-      "collaborators": [{"handle": "@qienn1116", "url": "https://www.instagram.com/qienn1116/"}],
+      "tags": [
+        "情侶約會",
+        "烤肉 BBQ",
+        "戶外料理",
+        "私人草地",
+        "森林攝影"
+      ],
+      "collaborators": [
+        {
+          "handle": "@qienn1116",
+          "url": "https://www.instagram.com/qienn1116/"
+        }
+      ],
       "servicePath": "/pages/private-event",
       "serviceLabel": "查看森林活動包場",
-      "cover": {"src": "/assets/media/stories/couple-forest-bbq-date/cover-v2.webp", "alt": "情境主圖：情侶在森林草地與白色圓頂旁準備烤肉", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/couple-forest-bbq-date/cover-v2.webp",
+        "alt": "情境主圖：情侶在森林草地與白色圓頂旁準備烤肉",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "video", "title": "情侶在森林草地準備烤肉", "poster": "/assets/media/stories/couple-forest-bbq-date/cover.webp", "webm": "/assets/media/stories/couple-forest-bbq-date/couple-forest-bbq.webm", "mp4": "/assets/media/stories/couple-forest-bbq-date/couple-forest-bbq.mp4", "width": 675, "height": 1200, "visualSummary": "影片先拍天空與樹林，再帶到女孩自拍、草地與正在準備烤肉的同行伴侶。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與環境聲為主，沒有可可靠轉寫的人物口述。"}
+        {
+          "type": "video",
+          "title": "情侶在森林草地準備烤肉",
+          "poster": "/assets/media/stories/couple-forest-bbq-date/cover.webp",
+          "webm": "/assets/media/stories/couple-forest-bbq-date/couple-forest-bbq.webm",
+          "mp4": "/assets/media/stories/couple-forest-bbq-date/couple-forest-bbq.mp4",
+          "width": 675,
+          "height": 1200,
+          "visualSummary": "影片先拍天空與樹林，再帶到女孩自拍、草地與正在準備烤肉的同行伴侶。",
+          "audioSummary": "已抽取音訊並檢查；內容以背景音樂與環境聲為主，沒有可可靠轉寫的人物口述。"
+        }
       ]
     },
     {
@@ -269,13 +2372,39 @@
       "description": "女孩在綠色草地、芒草與圓頂建築前自然走動，完成不用另外搭景的森林系個人寫真。",
       "intro": "戶外草地提供足夠距離讓人物走動、轉身與對鏡頭互動，背景同時保留樹林、芒草與白色圓頂建築。好友聚會裡安排一段短短拍攝時間，就能讓每個人帶回有辨識度的照片。",
       "fit": "適合閨蜜聚會、生日人像、個人寫真與活動側拍。",
-      "tags": ["女孩寫真", "好友聚會", "戶外攝影", "草地活動", "森林場景"],
-      "collaborators": [{"handle": "@moon_t96", "url": "https://www.instagram.com/moon_t96/"}],
+      "tags": [
+        "女孩寫真",
+        "好友聚會",
+        "戶外攝影",
+        "草地活動",
+        "森林場景"
+      ],
+      "collaborators": [
+        {
+          "handle": "@moon_t96",
+          "url": "https://www.instagram.com/moon_t96/"
+        }
+      ],
       "servicePath": "/pages/portrait-photography",
       "serviceLabel": "查看人像寫真服務",
-      "cover": {"src": "/assets/media/stories/girls-forest-portrait-party/cover-v2.webp", "alt": "女孩在綠色草地與白色圓頂建築前拍攝個人寫真", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/girls-forest-portrait-party/cover-v2.webp",
+        "alt": "女孩在綠色草地與白色圓頂建築前拍攝個人寫真",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "video", "title": "女孩在森林草地拍攝自然人像", "poster": "/assets/media/stories/girls-forest-portrait-party/cover.webp", "webm": "/assets/media/stories/girls-forest-portrait-party/woman-forest-lawn-portrait.webm", "mp4": "/assets/media/stories/girls-forest-portrait-party/woman-forest-lawn-portrait.mp4", "width": 675, "height": 1200, "visualSummary": "女孩在草地自然走動、轉身並對鏡頭打招呼，森林與白色圓頂建築形成乾淨背景。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"}
+        {
+          "type": "video",
+          "title": "女孩在森林草地拍攝自然人像",
+          "poster": "/assets/media/stories/girls-forest-portrait-party/cover.webp",
+          "webm": "/assets/media/stories/girls-forest-portrait-party/woman-forest-lawn-portrait.webm",
+          "mp4": "/assets/media/stories/girls-forest-portrait-party/woman-forest-lawn-portrait.mp4",
+          "width": 675,
+          "height": 1200,
+          "visualSummary": "女孩在草地自然走動、轉身並對鏡頭打招呼，森林與白色圓頂建築形成乾淨背景。",
+          "audioSummary": "已抽取音訊並檢查；內容以背景音樂為主，沒有可可靠轉寫的人物口述，因此未引用歌曲歌詞。"
+        }
       ]
     },
     {
@@ -286,13 +2415,39 @@
       "description": "朋友和數隻毛孩在森林草地散步、追逐與互動，留下人與寵物都能自在參與的聚會紀錄。",
       "intro": "私人草地讓朋友可以聊天、丟球、陪毛孩奔跑，也讓不同體型與個性的狗狗保有自己的活動距離。聚會核心不是把毛孩放在一旁，而是讓牠們真正加入共同活動。",
       "fit": "適合寵物同好會、毛孩生日、好友家庭日與戶外團體遊戲。",
-      "tags": ["寵物友善", "好友聚會", "草地活動", "毛孩包場", "戶外遊戲"],
-      "collaborators": [{"handle": "@yiching8526", "url": "https://www.instagram.com/yiching8526/"}],
+      "tags": [
+        "寵物友善",
+        "好友聚會",
+        "草地活動",
+        "毛孩包場",
+        "戶外遊戲"
+      ],
+      "collaborators": [
+        {
+          "handle": "@yiching8526",
+          "url": "https://www.instagram.com/yiching8526/"
+        }
+      ],
       "servicePath": "/pages/pet-party",
       "serviceLabel": "查看寵物派對場地",
-      "cover": {"src": "/assets/media/stories/friends-pets-lawn-gathering/cover-v2.webp", "alt": "朋友與毛孩在森林草地追逐並進行團體遊戲", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/friends-pets-lawn-gathering/cover-v2.webp",
+        "alt": "朋友與毛孩在森林草地追逐並進行團體遊戲",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "video", "title": "朋友與毛孩在森林草地一起活動", "poster": "/assets/media/stories/friends-pets-lawn-gathering/cover.webp", "webm": "/assets/media/stories/friends-pets-lawn-gathering/friends-pets-lawn-play.webm", "mp4": "/assets/media/stories/friends-pets-lawn-gathering/friends-pets-lawn-play.mp4", "width": 675, "height": 1200, "visualSummary": "朋友們和毛孩在草地散步、追逐、丟球與互動，活動範圍清楚又寬敞。", "audioSummary": "已抽取音訊並檢查；內容以背景音樂與戶外環境聲為主，沒有可可靠轉寫的人物口述。"}
+        {
+          "type": "video",
+          "title": "朋友與毛孩在森林草地一起活動",
+          "poster": "/assets/media/stories/friends-pets-lawn-gathering/cover.webp",
+          "webm": "/assets/media/stories/friends-pets-lawn-gathering/friends-pets-lawn-play.webm",
+          "mp4": "/assets/media/stories/friends-pets-lawn-gathering/friends-pets-lawn-play.mp4",
+          "width": 675,
+          "height": 1200,
+          "visualSummary": "朋友們和毛孩在草地散步、追逐、丟球與互動，活動範圍清楚又寬敞。",
+          "audioSummary": "已抽取音訊並檢查；內容以背景音樂與戶外環境聲為主，沒有可可靠轉寫的人物口述。"
+        }
       ]
     },
     {
@@ -303,11 +2458,22 @@
       "description": "大型美式烤肉爐在森林草地完成組裝，提供團體烤肉、家庭聚餐與活動料理更多彈性。",
       "intro": "聚會好不好用，往往取決於料理設備是否能支援多人同時準備食物。這台大型美式烤肉爐具備寬烤網與側邊平台，適合團體分工、連續烤製與現場上桌。",
       "fit": "適合好友烤肉、家庭聚餐、生日派對與需要戶外料理設備的包場活動。",
-      "tags": ["烤肉 BBQ", "戶外料理", "美式烤肉爐", "森林聚餐", "設備升級"],
+      "tags": [
+        "烤肉 BBQ",
+        "戶外料理",
+        "美式烤肉爐",
+        "森林聚餐",
+        "設備升級"
+      ],
       "collaborators": [],
       "servicePath": "/pages/private-event",
       "serviceLabel": "查看森林活動包場",
-      "cover": {"src": "/assets/media/stories/forest-bbq-equipment-story/cover-v2.webp", "alt": "全新美式烤肉爐與白色圓頂森林場地的設備主圖", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/forest-bbq-equipment-story/cover-v2.webp",
+        "alt": "全新美式烤肉爐與白色圓頂森林場地的設備主圖",
+        "width": 1200,
+        "height": 900
+      },
       "media": []
     },
     {
@@ -318,13 +2484,39 @@
       "description": "跟著家庭成員沿木棧道走進森林草地，實際感受活動區、坡道與不同空間之間的距離。",
       "intro": "大型家庭活動最在意的，不只是畫面好不好看，也包括長輩、孩子與多人移動時是否容易理解動線。這段影片沿著木棧道、草地與坡道前進，讓第一次來的人先看懂戶外活動區的高低差與分區方式。",
       "fit": "適合家庭包場、親子活動、多人聚會與活動前的場地評估。",
-      "tags": ["家庭包場", "場地導覽", "森林步道", "私人草地", "親子活動"],
-      "collaborators": [{"handle": "@kelly311430", "url": "https://www.instagram.com/kelly311430/"}],
+      "tags": [
+        "家庭包場",
+        "場地導覽",
+        "森林步道",
+        "私人草地",
+        "親子活動"
+      ],
+      "collaborators": [
+        {
+          "handle": "@kelly311430",
+          "url": "https://www.instagram.com/kelly311430/"
+        }
+      ],
       "servicePath": "/pages/private-event",
       "serviceLabel": "查看森林活動包場",
-      "cover": {"src": "/assets/media/stories/family-forest-venue-walk/cover-v2.webp", "alt": "森林草地、坡道、白色圓頂建築與木棧道的場地導覽", "width": 1200, "height": 900},
+      "cover": {
+        "src": "/assets/media/stories/family-forest-venue-walk/cover-v2.webp",
+        "alt": "森林草地、坡道、白色圓頂建築與木棧道的場地導覽",
+        "width": 1200,
+        "height": 900
+      },
       "media": [
-        {"type": "video", "title": "一家人走訪森林草地與活動動線", "poster": "/assets/media/stories/family-forest-venue-walk/cover.webp", "webm": "/assets/media/stories/family-forest-venue-walk/family-forest-venue-walk.webm", "mp4": "/assets/media/stories/family-forest-venue-walk/family-forest-venue-walk.mp4", "width": 675, "height": 1200, "visualSummary": "鏡頭以步行方式帶過木棧道、草地、樹蔭、坡道與圓頂建築，呈現活動區之間的距離。", "audioSummary": "原始影片沒有音軌；本篇以畫面字幕與森林場地動線描述補足。"}
+        {
+          "type": "video",
+          "title": "一家人走訪森林草地與活動動線",
+          "poster": "/assets/media/stories/family-forest-venue-walk/cover.webp",
+          "webm": "/assets/media/stories/family-forest-venue-walk/family-forest-venue-walk.webm",
+          "mp4": "/assets/media/stories/family-forest-venue-walk/family-forest-venue-walk.mp4",
+          "width": 675,
+          "height": 1200,
+          "visualSummary": "鏡頭以步行方式帶過木棧道、草地、樹蔭、坡道與圓頂建築，呈現活動區之間的距離。",
+          "audioSummary": "原始影片沒有音軌；本篇以畫面字幕與森林場地動線描述補足。"
+        }
       ]
     }
   ]

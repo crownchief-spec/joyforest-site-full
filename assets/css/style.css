@@ -1107,3 +1107,44 @@ input:not([type="checkbox"]):not([type="radio"]):focus,select:focus,textarea:foc
 @media(prefers-reduced-motion:reduce){
   .card,.service-grid-9 .service-card-entry,.related-service-card,.menu>a::after,.dropdown>button::after{transition:none}
 }
+/* Photo-led stories keep every full photograph visible in a compact gallery. */
+.activity-stories-hero,.activity-story-hero{padding:56px 0;background:linear-gradient(135deg,#e8e6da,#f5eee1)}
+.activity-stories-hero h1,.activity-story-hero h1{font-size:clamp(2rem,4.3vw,3.5rem);line-height:1.3;margin:16px 0 24px}
+.activity-stories-hero p,.activity-story-deck{max-width:72ch;line-height:1.85;color:var(--muted)}
+.activity-stories-summary,.activity-story-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.activity-stories-summary span,.activity-story-tag{display:inline-block;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.8);font-size:.82rem;line-height:1.45;text-decoration:none}
+.activity-story-tag:hover,.activity-story-tag.is-active{background:#4e5748;color:#fff}
+.activity-story-hero__grid{display:grid;grid-template-columns:1.15fr 1fr;gap:40px;align-items:center}
+.activity-story-cover{margin:0;overflow:hidden;border-radius:24px}
+.activity-story-cover img{display:block;width:100%;height:auto}
+.activity-story-breadcrumb{display:flex;gap:12px;font-size:.85rem;color:var(--muted);margin-bottom:24px}
+.activity-story-content{max-width:1000px;padding-block:30px 64px}
+.activity-story-section{margin:36px 0}
+.activity-story-section h2{font-size:clamp(1.4rem,2.5vw,2rem);line-height:1.45}
+.activity-story-section p{line-height:1.95;max-width:76ch}
+.activity-story-credit,.activity-story-fit,.activity-story-cta{padding:24px;border:1px solid var(--line);border-radius:20px;background:#f4eee4;margin-block:32px}
+.activity-story-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.activity-story-card{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:var(--shadow)}
+.activity-story-card[hidden]{display:none!important}
+.activity-story-card__image{display:block;aspect-ratio:4/3;overflow:hidden}
+.activity-story-card__image img{width:100%;height:100%;object-fit:cover;display:block}
+.activity-story-card__body{padding:20px}
+.activity-story-card__body h2{font-size:1.12rem;line-height:1.6;margin:12px 0}
+.activity-story-card__body h2 a{text-decoration:none}
+.activity-story-card__body p{font-size:.9rem;line-height:1.8;color:var(--muted)}
+.activity-story-card__meta,.activity-story-list-heading{display:flex;justify-content:space-between;gap:16px;align-items:center}
+.activity-story-card__meta{font-size:.72rem;color:var(--muted)}
+.activity-story-card__body .activity-story-tag{font-size:.7rem;padding:5px 8px}
+.activity-story-media{margin:24px 0}
+.activity-story-media img{display:block;width:100%;height:auto;border-radius:16px}
+.activity-story-media video{display:block;width:min(100%,460px);height:auto;margin:auto;max-height:85vh;background:#111;border-radius:16px}
+.activity-story-media figcaption{font-size:.85rem;line-height:1.8;margin-top:10px;color:var(--muted)}
+.activity-story-media figcaption span{display:block}
+.activity-story-transcript{padding:16px;background:#f2eee5;border-radius:14px;font-size:.9rem}
+@media(max-width:900px){.activity-story-hero__grid{grid-template-columns:1fr}.activity-story-cover{max-width:700px}.activity-story-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.activity-story-grid{grid-template-columns:1fr}.activity-stories-hero,.activity-story-hero{padding:36px 0}.activity-story-list-heading{align-items:start;flex-direction:column}}
+.activity-story-media-list--gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}
+.activity-story-media-list--gallery .activity-story-media{margin:0;min-width:0}
+.activity-story-media-list--gallery img{display:block;width:100%;height:auto;object-fit:contain}
+.activity-story-keywords{border-top:1px solid var(--line);padding-top:24px}
+@media(max-width:640px){.activity-story-media-list--gallery{grid-template-columns:1fr;gap:28px}}
